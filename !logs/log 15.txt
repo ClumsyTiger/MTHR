@@ -1,0 +1,1055 @@
+
+C:\eclipse-cpp-luna-SR1-win32\eclipse>set PathName="C:\Users\OS1\workspace\Proje
+kat\BCC"
+
+C:\eclipse-cpp-luna-SR1-win32\eclipse>cd "C:\Users\OS1\workspace\Projekat\BCC"
+
+C:\Users\OS1\workspace\Projekat\BCC>Projekat.exe
+        _   __                          _
+       | | / /                         | |
+       | |/ /   ___  _ __  _ __    ___ | |
+       |    \  / _ \| '__|| '_ \  / _ \| |
+       | |\  \|  __/| |   | | | ||  __/| |
+       \_| \_/ \___||_|   |_| |_| \___||_|
+
+
+=================================================================
+
+New thread:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:196f sw:0200
+bp:0f90 sp:0000
+cs:1371 ss:17d7 ds:167d es:0000
+
+quant: 40
+state: running
+----------------------------------
+
+New thread:
+======Thread<I>===================
+run:   1371<<4 + 001e
+stack: 19cd<<4 + 0004 [100]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:001e sw:7002
+bp:00a8 sp:00a8
+cs:1371 ss:19cd ds:167d es:0000
+
+quant: 1
+state: ready
+----------------------------------
+
+======Scheduler===================
+<M>
+----------------------------------
+
+======Types=======================
+1B signed char
+2B signed int
+4B signed long
+4B signed long long
+
+1B unsigned char
+2B unsigned int
+4B unsigned long
+4B unsigned long long
+
+4B float
+8B double
+
+4B void *
+----------------------------------
+
+======Interrupt=Table=============
+D   0: 0583<<4 + 0162 - divide error
+D   1: 0070<<4 + 018b - single step
+D   2: 0393<<4 + 0016 - non-maskable
+D   3: 0070<<4 + 018b - breakpoint
+D   4: 0070<<4 + 018b - overflow
+R   5: 020a<<4 + 06cc
+R   6: 020a<<4 + 0753
+R   7: 020a<<4 + 03ff
+R   8: 09bf<<4 + 000c - timer
+R   9: 020a<<4 + 040a - keyboard
+
+R  10: 0393<<4 + 003a
+R  11: 0393<<4 + 0054
+R  12: 0393<<4 + 006e
+R  13: 0393<<4 + 0088
+R  14: 0393<<4 + 00a2
+R  15: 020a<<4 + 03ff
+R  16: 020a<<4 + 08bd
+R  17: 020a<<4 + 09e2
+R  18: 020a<<4 + 09e8
+R  19: 020a<<4 + 045d
+
+R  20: 020a<<4 + 09ee
+R  21: 02dd<<4 + 020d
+R  22: 020a<<4 + 0a00
+R  23: 020a<<4 + 058b
+R  24: 020a<<4 + 0c4a
+R  25: 020a<<4 + 0c50
+R  26: 020a<<4 + 0c5b
+R  27: 020a<<4 + 06c0
+R  28: 020a<<4 + 06c0
+R  29: f000<<4 + f0a4
+
+R  30: 020a<<4 + 0537
+R  31: c000<<4 + 133a
+A  32: 00a7<<4 + 1072
+A  33: 00a7<<4 + 107c
+A  34: 0411<<4 + 01de
+A  35: 0411<<4 + 014b
+A  36: 0411<<4 + 0156
+A  37: 00a7<<4 + 1086
+A  38: 00a7<<4 + 1090
+A  39: 00a7<<4 + 109a
+
+A  40: 00a7<<4 + 10b8
+A  41: 0070<<4 + 0254
+A  42: cc7b<<4 + 04e2
+A  43: 00a7<<4 + 10b8
+A  44: 00a7<<4 + 10b8
+A  45: 00a7<<4 + 10b8
+A  46: 0411<<4 + 0140
+A  47: d493<<4 + 0960
+A  48: a710<<4 + aeea
+A  49: f000<<4 + 0d00
+
+A  50: 00a7<<4 + 10b8
+A  51: e802<<4 + 23c4
+A  52: 00a7<<4 + 10b8
+A  53: 00a7<<4 + 10b8
+A  54: 00a7<<4 + 10b8
+A  55: 00a7<<4 + 10b8
+A  56: 00a7<<4 + 10b8
+A  57: 00a7<<4 + 10b8
+A  58: 00a7<<4 + 10b8
+A  59: 00a7<<4 + 10b8
+
+A  60: 00a7<<4 + 10b8
+A  61: 00a7<<4 + 10b8
+A  62: 00a7<<4 + 10b8
+A  63: 00a7<<4 + 10b8
+A  64: 020a<<4 + 048a
+A  65: 020a<<4 + 03ff
+A  66: 020a<<4 + 09b4
+A  67: c000<<4 + 2667
+A  68: f000<<4 + 0d66
+A  69: f000<<4 + 0d66
+
+A  70: f000<<4 + 0d66
+A  71: f000<<4 + 0d66
+A  72: f000<<4 + 0d66
+A  73: f000<<4 + 0d66
+A  74: f000<<4 + 0d66
+A  75: f000<<4 + 0d66
+A  76: f000<<4 + 0d66
+A  77: f000<<4 + 0d66
+A  78: f000<<4 + 0d66
+A  79: f000<<4 + 0d66
+
+A  80: f000<<4 + 0d66
+A  81: f000<<4 + 0d66
+A  82: f000<<4 + 0d66
+A  83: f000<<4 + 0d66
+A  84: f000<<4 + 0d66
+A  85: f000<<4 + 0d66
+A  86: f000<<4 + 0d66
+A  87: f000<<4 + 0d66
+A  88: f000<<4 + 0d66
+A  89: f000<<4 + 0d66
+
+A  90: f000<<4 + 0d66
+A  91: f000<<4 + 0d66
+A  92: cc7b<<4 + 0528
+A  93: f000<<4 + 0d66
+A  94: f000<<4 + 0d66
+A  95: f000<<4 + 0d66
+A  96: 020a<<4 + 0759 - old timer
+A  97:
+A  98:
+A  99:
+
+D-dedicated R-reserved A-available
+----------------------------------
+
+New thread:
+======Thread<2>===================
+run:   14d4<<4 + 0225
+stack: 1a3f<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0225 sw:7206
+bp:1fe0 sp:1fe0
+cs:14d4 ss:1a3f ds:167d es:0000
+
+quant: 20
+state: start
+----------------------------------
+
+New thread:
+======Thread<3>===================
+run:   14d4<<4 + 0225
+stack: 1c98<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0225 sw:7206
+bp:1fe0 sp:1fe0
+cs:14d4 ss:1c98 ds:167d es:0000
+
+quant: 20
+state: start
+----------------------------------
+
+New thread:
+======Thread<4>===================
+run:   14d4<<4 + 0225
+stack: 1ef1<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0225 sw:7206
+bp:1fe0 sp:1fe0
+cs:14d4 ss:1ef1 ds:167d es:0000
+
+quant: 20
+state: start
+----------------------------------
+
+MAIN# 0
+
+
+
+=====================================context(1)====== M  to M
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+
+globally blocked:
+scheduler: <M> 4 3 2
+activecnt: 5
+-------------------------------------------------------
+MAIN# 1
+MAIN# 2
+MAIN# 3
+MAIN# 4
+
+
+
+=====================================context(41)====== M  to M
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+
+globally blocked:
+scheduler: <M> 4 3 2
+activecnt: 5
+-------------------------------------------------------
+MAIN# 5
+MAIN# 6
+MAIN# 7
+MAIN# 8
+MAIN# 9
+
+
+
+=====================================context(81)====== M  to M
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+
+globally blocked:
+scheduler: <M> 4 3 2
+activecnt: 5
+-------------------------------------------------------
+MAIN# 10
+MAIN# 11
+MAIN# 12
+MAIN# 13
+
+
+
+=====================================context(121)====== M  to M
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+
+globally blocked:
+scheduler: <M> 4 3 2
+activecnt: 5
+-------------------------------------------------------
+MAIN# 14
+MAIN# 15
+MAIN# 16
+MAIN# 17
+MAIN# 18
+
+
+
+=====================================context(161)====== M  to M
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+
+globally blocked:
+scheduler: <M> 4 3 2
+activecnt: 5
+-------------------------------------------------------
+MAIN# 19
+MAIN# 20
+MAIN# 21
+MAIN# 22
+
+
+
+=====================================context(201)====== M  to M
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+
+globally blocked:
+scheduler: <M> 4 3 2
+activecnt: 5
+-------------------------------------------------------
+MAIN# 23
+MAIN# 24
+
+
+
+=====================================context(222)====== M  to T4
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0470
+pc:02fa sw:7246
+bp:0f30 sp:0f30
+cs:0c6c ss:17d7 ds:1659 es:16fc
+
+quant: 40
+state: blocked
+blocked on: 4 lockcnt: 5
+----------------------------------
+
+Sledeci kontekst:
+======Thread<4>===================
+run:   14d4<<4 + 0225
+stack: 1ef1<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0225 sw:7206
+bp:1fe0 sp:1fe0
+cs:14d4 ss:1ef1 ds:167d es:0000
+
+quant: 20
+state: running until 242 (time: 223)
+----------------------------------
+
+globally blocked:
+scheduler: <4> 3 2
+activecnt: 5
+-------------------------------------------------------
+New event:
+======Event<9>====================
+kevent[9]: 9
+oldivt[9]: 020a<<4 + 040a
+regivt[9]: 094a<<4 + 01ad - set
+owner: 4
+event semaphore: 7
+----------------------------------
+
+
+
+
+=====================================context(223)====== T4 to T3
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<4>===================
+run:   14d4<<4 + 0225
+stack: 1ef1<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02fa sw:7046
+bp:1f82 sp:1f82
+cs:0c6c ss:1ef1 ds:1659 es:16fc
+
+quant: 20
+state: blocked
+blocked on: 7 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+run:   14d4<<4 + 0225
+stack: 1c98<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0225 sw:7206
+bp:1fe0 sp:1fe0
+cs:14d4 ss:1c98 ds:167d es:0000
+
+quant: 20
+state: running until 243 (time: 223)
+----------------------------------
+
+globally blocked:
+scheduler: <3> 2
+activecnt: 5
+-------------------------------------------------------
+
+
+
+=====================================context(223)====== T3 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<3>===================
+run:   14d4<<4 + 0225
+stack: 1c98<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02fa sw:7216
+bp:1f8e sp:1f8e
+cs:0c6c ss:1c98 ds:1659 es:16fc
+
+quant: 20
+state: blocked until 243 (time: 223)
+blocked on: 2 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   14d4<<4 + 0225
+stack: 1a3f<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0225 sw:7206
+bp:1fe0 sp:1fe0
+cs:14d4 ss:1a3f ds:167d es:0000
+
+quant: 20
+state: running until 243 (time: 224)
+----------------------------------
+
+globally blocked: 3
+scheduler: <2>
+activecnt: 5
+-------------------------------------------------------
+RUN2# Hello World!
+
+
+
+=====================================context(224)====== T2 to M
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+run:   14d4<<4 + 0225
+stack: 1a3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:1a38 dx:0000 si:0000 di:0000
+pc:1554 sw:7002
+bp:1fca sp:1fca
+cs:1371 ss:1a3f ds:1699 es:16fc
+
+quant: 20
+state: finished
+----------------------------------
+
+Sledeci kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0470
+pc:02fa sw:7246
+bp:0f30 sp:0f30
+cs:0c6c ss:17d7 ds:1659 es:16fc
+
+quant: 40
+state: running until 264 (time: 224)
+----------------------------------
+
+globally blocked: 3
+scheduler: <M>
+activecnt: 4
+-------------------------------------------------------
+
+
+
+=====================================context(224)====== M  to I
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0470
+pc:02fa sw:7246
+bp:0f30 sp:0f30
+cs:0c6c ss:17d7 ds:1659 es:16fc
+
+quant: 40
+state: blocked
+blocked on: 5 lockcnt: 5
+----------------------------------
+
+Sledeci kontekst:
+======Thread<I>===================
+run:   1371<<4 + 001e
+stack: 19cd<<4 + 0004 [100]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:001e sw:7002
+bp:00a8 sp:00a8
+cs:1371 ss:19cd ds:167d es:0000
+
+quant: 1
+state: running until 225 (time: 225)
+----------------------------------
+
+globally blocked: 3
+scheduler: <I>
+activecnt: 4
+-------------------------------------------------------
+
+
+
+=====================================context(225)====== I  to I
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+
+globally blocked: 3
+scheduler: <I>
+activecnt: 4
+-------------------------------------------------------
+IDLE# 0
+IDLE# 1
+
+
+
+=====================================context(226)====== I  to I
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+
+globally blocked: 3
+scheduler: <I>
+activecnt: 4
+-------------------------------------------------------
+IDLE# 2
+
+
+
+=====================================context(227)====== I  to I
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+
+globally blocked: 3
+scheduler: <I>
+activecnt: 4
+-------------------------------------------------------
+IDLE# 3
+
+
+
+=====================================context(228)====== I  to I
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+
+globally blocked: 3
+scheduler: <I>
+activecnt: 4
+-------------------------------------------------------
+IDLE# 4
+
+
+
+=====================================context(229)====== I  to I
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+
+globally blocked: 3
+scheduler: <I>
+activecnt: 4
+-------------------------------------------------------
+IDLE# 5
+
+
+
+=====================================context(230)====== I  to I
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+
+globally blocked: 3
+scheduler: <I>
+activecnt: 4
+-------------------------------------------------------
+IDLE# 6
+
+
+
+=====================================context(231)====== I  to I
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+
+globally blocked: 3
+scheduler: <I>
+activecnt: 4
+-------------------------------------------------------
+IDLE# 7
+
+
+
+=====================================context(232)====== I  to I
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+
+globally blocked: 3
+scheduler: <I>
+activecnt: 4
+-------------------------------------------------------
+IDLE# 8
+
+
+
+=====================================context(233)====== I  to I
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+
+globally blocked: 3
+scheduler: <I>
+activecnt: 4
+-------------------------------------------------------
+IDLE# 9
+
+
+
+=====================================context(234)====== I  to I
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+
+globally blocked: 3
+scheduler: <I>
+activecnt: 4
+-------------------------------------------------------
+IDLE# 10
+
+
+
+=====================================context(235)====== I  to I
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+
+globally blocked: 3
+scheduler: <I>
+activecnt: 4
+-------------------------------------------------------
+IDLE# 11
+
+
+
+=====================================context(236)====== I  to I
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+
+globally blocked: 3
+scheduler: <I>
+activecnt: 4
+-------------------------------------------------------
+IDLE# 12
+
+
+
+=====================================context(237)====== I  to I
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+
+globally blocked: 3
+scheduler: <I>
+activecnt: 4
+-------------------------------------------------------
+IDLE# 13
+
+
+
+=====================================context(238)====== I  to I
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+
+globally blocked: 3
+scheduler: <I>
+activecnt: 4
+-------------------------------------------------------
+IDLE# 14
+
+
+
+=====================================context(239)====== I  to I
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+
+globally blocked: 3
+scheduler: <I>
+activecnt: 4
+-------------------------------------------------------
+IDLE# 15
+
+
+
+=====================================context(240)====== I  to I
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+
+globally blocked: 3
+scheduler: <I>
+activecnt: 4
+-------------------------------------------------------
+IDLE# 16
+
+
+
+=====================================context(241)====== I  to I
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+
+globally blocked: 3
+scheduler: <I>
+activecnt: 4
+-------------------------------------------------------
+IDLE# 17
+
+
+
+=====================================context(242)====== I  to I
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+
+globally blocked: 3
+scheduler: <I>
+activecnt: 4
+-------------------------------------------------------
+IDLE# 18
+
+
+
+=====================================context(243)====== I  to T3
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<I>===================
+run:   1371<<4 + 001e
+stack: 19cd<<4 + 0004 [100]
+
+ax:0000 bx:0004 cx:178f dx:0000 si:0000 di:0000
+pc:017c sw:7046
+bp:0084 sp:0084
+cs:09bf ss:19cd ds:1575 es:16fc
+
+quant: 1
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+run:   14d4<<4 + 0225
+stack: 1c98<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02fa sw:7216
+bp:1f8e sp:1f8e
+cs:0c6c ss:1c98 ds:1659 es:16fc
+
+quant: 20
+state: running until 263 (time: 244)
+> max block time expired
+----------------------------------
+
+globally blocked:
+scheduler: <3>
+activecnt: 4
+-------------------------------------------------------
+B# 0
+
+
+
+=====================================context(249)====== T3 to I
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<3>===================
+run:   14d4<<4 + 0225
+stack: 1c98<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0001 di:2710
+pc:02fa sw:7216
+bp:1f8e sp:1f8e
+cs:0c6c ss:1c98 ds:1659 es:16fc
+
+quant: 20
+state: blocked until 269 (time: 249)
+blocked on: 2 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<I>===================
+run:   1371<<4 + 001e
+stack: 19cd<<4 + 0004 [100]
+
+ax:0000 bx:0004 cx:178f dx:0000 si:0000 di:0000
+pc:017c sw:7046
+bp:0084 sp:0084
+cs:09bf ss:19cd ds:1575 es:16fc
+
+quant: 1
+state: running until 250 (time: 249)
+----------------------------------
+
+globally blocked: 3
+scheduler: <I>
+activecnt: 4
+-------------------------------------------------------
+IDLE# 19
+
+
+
+=====================================context(250)====== I  to I
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+
+globally blocked: 3
+scheduler: <I>
+activecnt: 4
+-------------------------------------------------------
+IDLE# 20
+
+
+
+=====================================context(251)====== I  to I
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+
+globally blocked: 3
+scheduler: <I>
+activecnt: 4
+-------------------------------------------------------
+IDLE# 21
+
+
+
+=====================================context(252)====== I  to I
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+
+globally blocked: 3
+scheduler: <I>
+activecnt: 4
+-------------------------------------------------------
+IDLE# 22
+
+
+
+=====================================context(253)====== I  to I
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+
+globally blocked: 3
+scheduler: <I>
+activecnt: 4
+-------------------------------------------------------
+IDLE# 23
+
+
+
+=====================================context(254)====== I  to T4
+CALLEDCNT: 1
+CALLEDOLDCNT: 1
+Trenutni kontekst:
+======Thread<I>===================
+run:   1371<<4 + 001e
+stack: 19cd<<4 + 0004 [100]
+
+ax:0000 bx:0004 cx:178f dx:0000 si:0000 di:0000
+pc:017c sw:7046
+bp:0084 sp:0084
+cs:09bf ss:19cd ds:1575 es:16fc
+
+quant: 1
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<4>===================
+run:   14d4<<4 + 0225
+stack: 1ef1<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02fa sw:7046
+bp:1f82 sp:1f82
+cs:0c6c ss:1ef1 ds:1659 es:16fc
+
+quant: 20
+state: running until 274 (time: 255)
+----------------------------------
+
+globally blocked: 3
+scheduler: <4>
+activecnt: 4
+-------------------------------------------------------
+C# 0
+
+
+
+=====================================context(274)====== T4 to T4
+CALLEDCNT: 2
+CALLEDOLDCNT: 2
+
+globally blocked:
+scheduler: <4> 3
+activecnt: 4
+-------------------------------------------------------
+
+
+
+=====================================context(294)====== T4 to T4
+CALLEDCNT: 2
+CALLEDOLDCNT: 2
+
+globally blocked:
+scheduler: <4> 3
+activecnt: 4
+-------------------------------------------------------
+
+
+
+=====================================context(314)====== T4 to T4
+CALLEDCNT: 2
+CALLEDOLDCNT: 2
+
+globally blocked:
+scheduler: <4> 3
+activecnt: 4
+-------------------------------------------------------
+
+
+
+=====================================context(334)====== T4 to T4
+CALLEDCNT: 2
+CALLEDOLDCNT: 2
+
+globally blocked:
+scheduler: <4> 3
+activecnt: 4
+-------------------------------------------------------
+
+
+
+=====================================context(354)====== T4 to T4
+CALLEDCNT: 2
+CALLEDOLDCNT: 2
+
+globally blocked:
+scheduler: <4> 3
+activecnt: 4
+-------------------------------------------------------
+
+
+
+=====================================context(374)====== T4 to T4
+CALLEDCNT: 2
+CALLEDOLDCNT: 2
+
+globally blocked:
+scheduler: <4> 3
+activecnt: 4
+-------------------------------------------------------
+
+
+
+=====================================context(394)====== T4 to T4
+CALLEDCNT: 3
+CALLEDOLDCNT: 3
+
+globally blocked:
+scheduler: <4> 3
+activecnt: 4
+-------------------------------------------------------
+
+
+
+=====================================context(414)====== T4 to T4
+CALLEDCNT: 6
+CALLEDOLDCNT: 6
+
+globally blocked:
+scheduler: <4> 3
+activecnt: 4
+-------------------------------------------------------
+
+
+
+=====================================context(434)====== T4 to T4
+CALLEDCNT: 10
+CALLEDOLDCNT: 10
+
+globally blocked:
+scheduler: <4> 3
+activecnt: 4
+-------------------------------------------------------
+
+
+
+=====================================context(454)====== T4 to T4
+CALLEDCNT: 10
+CALLEDOLDCNT: 10
+
+globally blocked:
+scheduler: <4> 3
+activecnt: 4
+-------------------------------------------------------
+
+
+
+=====================================context(474)====== T4 to T4
+CALLEDCNT: 10
+CALLEDOLDCNT: 10
+
+globally blocked:
+scheduler: <4> 3
+activecnt: 4
+-------------------------------------------------------
+
+
+
+=====================================context(494)====== T4 to T4
+CALLEDCNT: 10
+CALLEDOLDCNT: 10
+
+globally blocked:
+scheduler: <4> 3
+activecnt: 4
+-------------------------------------------------------
+
+
+
+=====================================context(514)====== T4 to T4
+CALLEDCNT: 10
+CALLEDOLDCNT: 10
+
+globally blocked:
+scheduler: <4> 3
+activecnt: 4
+-------------------------------------------------------
+
+
+
+=====================================context(534)====== T4 to T4
+CALLEDCNT: 10
+CALLEDOLDCNT: 10
+
+globally blocked:
+scheduler: <4> 3
+activecnt: 4
+-------------------------------------------------------

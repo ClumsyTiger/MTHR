@@ -1,0 +1,3215 @@
+
+C:\eclipse-cpp-luna-SR1-win32\eclipse>set PathName="C:\Users\OS1\workspace\Proje
+kat\BCC"
+
+C:\eclipse-cpp-luna-SR1-win32\eclipse>cd "C:\Users\OS1\workspace\Projekat\BCC"
+
+C:\Users\OS1\workspace\Projekat\BCC>Projekat.exe
+        _   __                          _
+       | | / /                         | |
+       | |/ /   ___  _ __  _ __    ___ | |
+       |    \  / _ \| '__|| '_ \  / _ \| |
+       | |\  \|  __/| |   | | | ||  __/| |
+       \_| \_/ \___||_|   |_| |_| \___||_|
+
+
+=================================================================
+
+======utility=test================
+count     : 7
+new int(6): 8
+delete    : 7
+----------------------------------
+======utility=test================
+count     : 7
+new int(6): 8
+delete    : 7
+----------------------------------
+AAAAAAAAAAAAAA1
+BBBBBBBBBBBBBBBBBB1
+BBBBBBBBBBBBBBBBBB2
+BBBBBBBBBBBBBBBBBB2.5
+BBBBBBBBBBBBBBBBBB2.75
+BBBBBBBBBBBBBBBBBB2.8125
+BBBBBBBBBBBBBBBBBB2.990
+BBBBBBBBBBBBBBBBBB2.991
+BBBBBBBBBBBBBBBBBB2.992
+BBBBBBBBBBBBBBBBBBX2
+CCCCCCCCCCCCCCCCCCCC1
+CCCCCCCCCCCCCCCCCCCC2
+BBBBBBBBBBBBBBBBBBX2
+CCCCCCCCCCCCCCCCCCCC1
+CCCCCCCCCCCCCCCCCCCC2
+BBBBBBBBBBBBBBBBBBX2
+CCCCCCCCCCCCCCCCCCCC1
+CCCCCCCCCCCCCCCCCCCC2
+BBBBBBBBBBBBBBBBBBX2
+CCCCCCCCCCCCCCCCCCCC1
+CCCCCCCCCCCCCCCCCCCC2
+BBBBBBBBBBBBBBBBBBX2
+CCCCCCCCCCCCCCCCCCCC1
+CCCCCCCCCCCCCCCCCCCC2
+BBBBBBBBBBBBBBBBBBX2
+CCCCCCCCCCCCCCCCCCCC1
+CCCCCCCCCCCCCCCCCCCC2
+BBBBBBBBBBBBBBBBBBX2
+CCCCCCCCCCCCCCCCCCCC1
+CCCCCCCCCCCCCCCCCCCC2
+BBBBBBBBBBBBBBBBBBX2
+CCCCCCCCCCCCCCCCCCCC1
+CCCCCCCCCCCCCCCCCCCC2
+BBBBBBBBBBBBBBBBBBX2
+CCCCCCCCCCCCCCCCCCCC1
+CCCCCCCCCCCCCCCCCCCC2
+BBBBBBBBBBBBBBBBBBX2
+CCCCCCCCCCCCCCCCCCCC1
+CCCCCCCCCCCCCCCCCCCC2
+BBBBBBBBBBBBBBBBBBX2
+CCCCCCCCCCCCCCCCCCCC1
+CCCCCCCCCCCCCCCCCCCC2
+BBBBBBBBBBBBBBBBBBX2
+CCCCCCCCCCCCCCCCCCCC1
+CCCCCCCCCCCCCCCCCCCC2
+BBBBBBBBBBBBBBBBBBX2
+CCCCCCCCCCCCCCCCCCCC1
+CCCCCCCCCCCCCCCCCCCC2
+BBBBBBBBBBBBBBBBBBX2
+CCCCCCCCCCCCCCCCCCCC1
+CCCCCCCCCCCCCCCCCCCC2
+BBBBBBBBBBBBBBBBBBX2
+CCCCCCCCCCCCCCCCCCCC1
+CCCCCCCCCCCCCCCCCCCC2
+BBBBBBBBBBBBBBBBBBX2
+CCCCCCCCCCCCCCCCCCCC1
+CCCCCCCCCCCCCCCCCCCC2
+BBBBBBBBBBBBBBBBBB3
+BBBBBBBBBBBBBBBBBB4
+BBBBBBBBBBBBBBBBBB5
+BBBBBBBBBBBBBBBBBB6
+New thread:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:1a16 sw:0200
+bp:0f90 sp:0000
+cs:13ec ss:187e ds:170b es:0000
+
+quant: 40
+state: running
+----------------------------------
+
+AAAAAAAAAAAAAA2
+BBBBBBBBBBBBBBBBBB1
+BBBBBBBBBBBBBBBBBB2
+BBBBBBBBBBBBBBBBBB2.5
+BBBBBBBBBBBBBBBBBB2.75
+BBBBBBBBBBBBBBBBBB2.8125
+BBBBBBBBBBBBBBBBBB2.990
+BBBBBBBBBBBBBBBBBB2.991
+BBBBBBBBBBBBBBBBBB2.992
+BBBBBBBBBBBBBBBBBBX2
+CCCCCCCCCCCCCCCCCCCC1
+CCCCCCCCCCCCCCCCCCCC2
+BBBBBBBBBBBBBBBBBBX2
+CCCCCCCCCCCCCCCCCCCC1
+CCCCCCCCCCCCCCCCCCCC2
+BBBBBBBBBBBBBBBBBBX2
+CCCCCCCCCCCCCCCCCCCC1
+CCCCCCCCCCCCCCCCCCCC2
+BBBBBBBBBBBBBBBBBBX2
+CCCCCCCCCCCCCCCCCCCC1
+CCCCCCCCCCCCCCCCCCCC2
+BBBBBBBBBBBBBBBBBBX2
+CCCCCCCCCCCCCCCCCCCC1
+CCCCCCCCCCCCCCCCCCCC2
+BBBBBBBBBBBBBBBBBBX2
+CCCCCCCCCCCCCCCCCCCC1
+CCCCCCCCCCCCCCCCCCCC2
+BBBBBBBBBBBBBBBBBBX2
+CCCCCCCCCCCCCCCCCCCC1
+CCCCCCCCCCCCCCCCCCCC2
+BBBBBBBBBBBBBBBBBBX2
+CCCCCCCCCCCCCCCCCCCC1
+CCCCCCCCCCCCCCCCCCCC2
+BBBBBBBBBBBBBBBBBBX2
+CCCCCCCCCCCCCCCCCCCC1
+CCCCCCCCCCCCCCCCCCCC2
+BBBBBBBBBBBBBBBBBBX2
+CCCCCCCCCCCCCCCCCCCC1
+CCCCCCCCCCCCCCCCCCCC2
+BBBBBBBBBBBBBBBBBBX2
+CCCCCCCCCCCCCCCCCCCC1
+CCCCCCCCCCCCCCCCCCCC2
+BBBBBBBBBBBBBBBBBBX2
+CCCCCCCCCCCCCCCCCCCC1
+CCCCCCCCCCCCCCCCCCCC2
+BBBBBBBBBBBBBBBBBBX2
+CCCCCCCCCCCCCCCCCCCC1
+CCCCCCCCCCCCCCCCCCCC2
+BBBBBBBBBBBBBBBBBBX2
+CCCCCCCCCCCCCCCCCCCC1
+CCCCCCCCCCCCCCCCCCCC2
+BBBBBBBBBBBBBBBBBBX2
+CCCCCCCCCCCCCCCCCCCC1
+CCCCCCCCCCCCCCCCCCCC2
+BBBBBBBBBBBBBBBBBBX2
+CCCCCCCCCCCCCCCCCCCC1
+CCCCCCCCCCCCCCCCCCCC2
+BBBBBBBBBBBBBBBBBB3
+BBBBBBBBBBBBBBBBBB4
+BBBBBBBBBBBBBBBBBB5
+BBBBBBBBBBBBBBBBBB6
+New thread:
+======Thread<I>===================
+run:   13ec<<4 + 001f
+stack: 1a74<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:001f sw:7006
+bp:1fe0 sp:1fe0
+cs:13ec ss:1a74 ds:170b es:0000
+
+quant: 1
+state: ready
+----------------------------------
+
+AAAAAAAAAAAAAA3
+======utility=test================
+count     : 94
+new int(6): 95
+delete    : 94
+----------------------------------
+======utility=test================
+count     : 94
+new int(6): 95
+delete    : 94
+----------------------------------
+======Scheduler===================
+<M>
+----------------------------------
+
+======Types=======================
+1B signed char
+2B signed int
+4B signed long
+4B signed long long
+
+1B unsigned char
+2B unsigned int
+4B unsigned long
+4B unsigned long long
+
+4B float
+8B double
+
+4B void *
+----------------------------------
+
+======Interrupt=Table=============
+D   0: 0583<<4 + 0162 - divide error
+D   1: 0070<<4 + 018b - single step
+D   2: 0393<<4 + 0016 - non-maskable
+D   3: 0070<<4 + 018b - breakpoint
+D   4: 0070<<4 + 018b - overflow
+R   5: 020a<<4 + 06cc
+R   6: 020a<<4 + 0753
+R   7: 020a<<4 + 03ff
+R   8: 09c2<<4 + 0004 - timer
+R   9: 020a<<4 + 040a - keyboard
+
+R  10: 0393<<4 + 003a
+R  11: 0393<<4 + 0054
+R  12: 0393<<4 + 006e
+R  13: 0393<<4 + 0088
+R  14: 0393<<4 + 00a2
+R  15: 020a<<4 + 03ff
+R  16: 020a<<4 + 08bd
+R  17: 020a<<4 + 09e2
+R  18: 020a<<4 + 09e8
+R  19: 020a<<4 + 045d
+
+R  20: 020a<<4 + 09ee
+R  21: 02dd<<4 + 020d
+R  22: 020a<<4 + 0a00
+R  23: 020a<<4 + 058b
+R  24: 020a<<4 + 0c4a
+R  25: 020a<<4 + 0c50
+R  26: 020a<<4 + 0c5b
+R  27: 020a<<4 + 06c0
+R  28: 020a<<4 + 06c0
+R  29: f000<<4 + f0a4
+
+R  30: 020a<<4 + 0537
+R  31: c000<<4 + 133a
+A  32: 00a7<<4 + 1072
+A  33: 00a7<<4 + 107c
+A  34: 0411<<4 + 01de
+A  35: 0411<<4 + 014b
+A  36: 0411<<4 + 0156
+A  37: 00a7<<4 + 1086
+A  38: 00a7<<4 + 1090
+A  39: 00a7<<4 + 109a
+
+A  40: 00a7<<4 + 10b8
+A  41: 0070<<4 + 0254
+A  42: cc7b<<4 + 04e2
+A  43: 00a7<<4 + 10b8
+A  44: 00a7<<4 + 10b8
+A  45: 00a7<<4 + 10b8
+A  46: 0411<<4 + 0140
+A  47: d493<<4 + 0960
+A  48: a710<<4 + aeea
+A  49: f000<<4 + 0d00
+
+A  50: 00a7<<4 + 10b8
+A  51: e802<<4 + 23c4
+A  52: 00a7<<4 + 10b8
+A  53: 00a7<<4 + 10b8
+A  54: 00a7<<4 + 10b8
+A  55: 00a7<<4 + 10b8
+A  56: 00a7<<4 + 10b8
+A  57: 00a7<<4 + 10b8
+A  58: 00a7<<4 + 10b8
+A  59: 00a7<<4 + 10b8
+
+A  60: 00a7<<4 + 10b8
+A  61: 00a7<<4 + 10b8
+A  62: 00a7<<4 + 10b8
+A  63: 00a7<<4 + 10b8
+A  64: 020a<<4 + 048a
+A  65: 020a<<4 + 03ff
+A  66: 020a<<4 + 09b4
+A  67: c000<<4 + 2667
+A  68: f000<<4 + 0d66
+A  69: f000<<4 + 0d66
+
+A  70: f000<<4 + 0d66
+A  71: f000<<4 + 0d66
+A  72: f000<<4 + 0d66
+A  73: f000<<4 + 0d66
+A  74: f000<<4 + 0d66
+A  75: f000<<4 + 0d66
+A  76: f000<<4 + 0d66
+A  77: f000<<4 + 0d66
+A  78: f000<<4 + 0d66
+A  79: f000<<4 + 0d66
+
+A  80: f000<<4 + 0d66
+A  81: f000<<4 + 0d66
+A  82: f000<<4 + 0d66
+A  83: f000<<4 + 0d66
+A  84: f000<<4 + 0d66
+A  85: f000<<4 + 0d66
+A  86: f000<<4 + 0d66
+A  87: f000<<4 + 0d66
+A  88: f000<<4 + 0d66
+A  89: f000<<4 + 0d66
+
+A  90: f000<<4 + 0d66
+A  91: f000<<4 + 0d66
+A  92: cc7b<<4 + 0528
+A  93: f000<<4 + 0d66
+A  94: f000<<4 + 0d66
+A  95: f000<<4 + 0d66
+A  96: 020a<<4 + 0759 - old timer
+A  97:
+A  98:
+A  99:
+
+D-dedicated R-reserved A-available
+----------------------------------
+
+BBBBBBBBBBBBBBBBBB1
+BBBBBBBBBBBBBBBBBB2
+BBBBBBBBBBBBBBBBBB2.5
+BBBBBBBBBBBBBBBBBB2.75
+BBBBBBBBBBBBBBBBBB2.8125
+BBBBBBBBBBBBBBBBBB2.990
+BBBBBBBBBBBBBBBBBB2.991
+BBBBBBBBBBBBBBBBBB2.992
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBB3
+BBBBBBBBBBBBBBBBBB4
+BBBBBBBBBBBBBBBBBB5
+BBBBBBBBBBBBBBBBBB6
+New thread:
+======Thread<2>===================
+run:   1560<<4 + 0223
+stack: 1cda<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0223 sw:7206
+bp:1fe0 sp:1fe0
+cs:1560 ss:1cda ds:170b es:0000
+
+quant: 20
+state: start
+----------------------------------
+
+
+
+
+=====================================context(1)====== M  to M
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+BBBBBBBBBBBBBBBBBB1
+BBBBBBBBBBBBBBBBBB2
+BBBBBBBBBBBBBBBBBB2.5
+BBBBBBBBBBBBBBBBBB2.75
+BBBBBBBBBBBBBBBBBB2.8125
+BBBBBBBBBBBBBBBBBB2.990
+BBBBBBBBBBBBBBBBBB2.991
+BBBBBBBBBBBBBBBBBB2.992
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBB3
+BBBBBBBBBBBBBBBBBB4
+BBBBBBBBBBBBBBBBBB5
+BBBBBBBBBBBBBBBBBB6
+New thread:
+======Thread<3>===================
+run:   1560<<4 + 0223
+stack: 1f33<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0223 sw:7206
+bp:1fe0 sp:1fe0
+cs:1560 ss:1f33 ds:170b es:0000
+
+quant: 20
+state: start
+----------------------------------
+
+BBBBBBBBBBBBBBBBBB1
+BBBBBBBBBBBBBBBBBB2
+BBBBBBBBBBBBBBBBBB2.5
+BBBBBBBBBBBBBBBBBB2.75
+BBBBBBBBBBBBBBBBBB2.8125
+BBBBBBBBBBBBBBBBBB2.990
+BBBBBBBBBBBBBBBBBB2.991
+BBBBBBBBBBBBBBBBBB2.992
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBBX1
+CCCCCCCCCCCCCCCCCCCC3
+CCCCCCCCCCCCCCCCCCCC4
+BBBBBBBBBBBBBBBBBB3
+BBBBBBBBBBBBBBBBBB4
+BBBBBBBBBBBBBBBBBB5
+BBBBBBBBBBBBBBBBBB6
+New thread:
+======Thread<4>===================
+run:   1560<<4 + 0223
+stack: 218c<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0223 sw:7206
+bp:1fe0 sp:1fe0
+cs:1560 ss:218c ds:170b es:0000
+
+quant: 20
+state: start
+----------------------------------
+
+MAIN# 0
+MAIN# 1
+MAIN# 2
+MAIN# 3
+MAIN# 4
+
+
+
+=====================================context(41)====== M  to T4
+Trenutni kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:17a3 cx:1a13 dx:0029 si:0000 di:0470
+pc:0191 sw:3046
+bp:0f64 sp:0f64
+cs:09c2 ss:187e ds:1601 es:17a3
+
+quant: 40
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<4>===================
+run:   1560<<4 + 0223
+stack: 218c<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0223 sw:7206
+bp:1fe0 sp:1fe0
+cs:1560 ss:218c ds:170b es:0000
+
+quant: 20
+state: running until 61 (time: 41)
+----------------------------------
+
+Scheduler: <4> 3 2 M
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+======Interrupt=Table=============
+D   0: 0583<<4 + 0162 - divide error
+D   1: 0070<<4 + 018b - single step
+D   2: 0393<<4 + 0016 - non-maskable
+D   3: 0070<<4 + 018b - breakpoint
+D   4: 0070<<4 + 018b - overflow
+R   5: 020a<<4 + 06cc
+R   6: 020a<<4 + 0753
+R   7: 020a<<4 + 03ff
+R   8: 09c2<<4 + 0004 - timer
+R   9: 020a<<4 + 040a - keyboard
+
+R  10: 0393<<4 + 003a
+R  11: 0393<<4 + 0054
+R  12: 0393<<4 + 006e
+R  13: 0393<<4 + 0088
+R  14: 0393<<4 + 00a2
+R  15: 020a<<4 + 03ff
+R  16: 020a<<4 + 08bd
+R  17: 020a<<4 + 09e2
+R  18: 020a<<4 + 09e8
+R  19: 020a<<4 + 045d
+
+R  20: 020a<<4 + 09ee
+R  21: 02dd<<4 + 020d
+R  22: 020a<<4 + 0a00
+R  23: 020a<<4 + 058b
+R  24: 020a<<4 + 0c4a
+R  25: 020a<<4 + 0c50
+R  26: 020a<<4 + 0c5b
+R  27: 020a<<4 + 06c0
+R  28: 020a<<4 + 06c0
+R  29: f000<<4 + f0a4
+
+R  30: 020a<<4 + 0537
+R  31: c000<<4 + 133a
+A  32: 00a7<<4 + 1072
+A  33: 00a7<<4 + 107c
+A  34: 0411<<4 + 01de
+A  35: 0411<<4 + 014b
+A  36: 0411<<4 + 0156
+A  37: 00a7<<4 + 1086
+A  38: 00a7<<4 + 1090
+A  39: 00a7<<4 + 109a
+
+A  40: 00a7<<4 + 10b8
+A  41: 0070<<4 + 0254
+A  42: cc7b<<4 + 04e2
+A  43: 00a7<<4 + 10b8
+A  44: 00a7<<4 + 10b8
+A  45: 00a7<<4 + 10b8
+A  46: 0411<<4 + 0140
+A  47: d493<<4 + 0960
+A  48: a710<<4 + aeea
+A  49: f000<<4 + 0d00
+
+A  50: 00a7<<4 + 10b8
+A  51: e802<<4 + 23c4
+A  52: 00a7<<4 + 10b8
+A  53: 00a7<<4 + 10b8
+A  54: 00a7<<4 + 10b8
+A  55: 00a7<<4 + 10b8
+A  56: 00a7<<4 + 10b8
+A  57: 00a7<<4 + 10b8
+A  58: 00a7<<4 + 10b8
+A  59: 00a7<<4 + 10b8
+
+A  60: 00a7<<4 + 10b8
+A  61: 00a7<<4 + 10b8
+A  62: 00a7<<4 + 10b8
+A  63: 00a7<<4 + 10b8
+A  64: 020a<<4 + 048a
+A  65: 020a<<4 + 03ff
+A  66: 020a<<4 + 09b4
+A  67: c000<<4 + 2667
+A  68: f000<<4 + 0d66
+A  69: f000<<4 + 0d66
+
+A  70: f000<<4 + 0d66
+A  71: f000<<4 + 0d66
+A  72: f000<<4 + 0d66
+A  73: f000<<4 + 0d66
+A  74: f000<<4 + 0d66
+A  75: f000<<4 + 0d66
+A  76: f000<<4 + 0d66
+A  77: f000<<4 + 0d66
+A  78: f000<<4 + 0d66
+A  79: f000<<4 + 0d66
+
+A  80: f000<<4 + 0d66
+A  81: f000<<4 + 0d66
+A  82: f000<<4 + 0d66
+A  83: f000<<4 + 0d66
+A  84: f000<<4 + 0d66
+A  85: f000<<4 + 0d66
+A  86: f000<<4 + 0d66
+A  87: f000<<4 + 0d66
+A  88: f000<<4 + 0d66
+A  89: f000<<4 + 0d66
+
+A  90: f000<<4 + 0d66
+A  91: f000<<4 + 0d66
+A  92: cc7b<<4 + 0528
+A  93: f000<<4 + 0d66
+A  94: f000<<4 + 0d66
+A  95: f000<<4 + 0d66
+A  96: 020a<<4 + 0759 - old timer
+A  97:
+A  98:
+A  99:
+
+D-dedicated R-reserved A-available
+----------------------------------
+New event:
+======Event<9>====================
+kevent[9]: 9
+oldivt[9]: 020a<<4 + 040a
+regivt[9]: 094a<<4 + 01ad - set
+owner: 4
+event semaphore: 7
+----------------------------------
+
+
+
+
+=====================================context(43)====== T4 to T4
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+======Interrupt=Table=============
+D   0: 0583<<4 + 0162 - divide error
+D   1: 0070<<4 + 018b - single step
+D   2: 0393<<4 + 0016 - non-maskable
+D   3: 0070<<4 + 018b - breakpoint
+D   4: 0070<<4 + 018b - overflow
+R   5: 020a<<4 + 06cc
+R   6: 020a<<4 + 0753
+R   7: 020a<<4 + 03ff
+R   8: 09c2<<4 + 0004 - timer
+R   9: 094a<<4 + 01ad - keyboard
+
+R  10: 0393<<4 + 003a
+R  11: 0393<<4 + 0054
+R  12: 0393<<4 + 006e
+R  13: 0393<<4 + 0088
+R  14: 0393<<4 + 00a2
+R  15: 020a<<4 + 03ff
+R  16: 020a<<4 + 08bd
+R  17: 020a<<4 + 09e2
+R  18: 020a<<4 + 09e8
+R  19: 020a<<4 + 045d
+
+R  20: 020a<<4 + 09ee
+R  21: 02dd<<4 + 020d
+R  22: 020a<<4 + 0a00
+R  23: 020a<<4 + 058b
+R  24: 020a<<4 + 0c4a
+R  25: 020a<<4 + 0c50
+R  26: 020a<<4 + 0c5b
+R  27: 020a<<4 + 06c0
+R  28: 020a<<4 + 06c0
+R  29: f000<<4 + f0a4
+
+R  30: 020a<<4 + 0537
+R  31: c000<<4 + 133a
+A  32: 00a7<<4 + 1072
+A  33: 00a7<<4 + 107c
+A  34: 0411<<4 + 01de
+A  35: 0411<<4 + 014b
+A  36: 0411<<4 + 0156
+A  37: 00a7<<4 + 1086
+A  38: 00a7<<4 + 1090
+A  39: 00a7<<4 + 109a
+
+A  40: 00a7<<4 + 10b8
+A  41: 0070<<4 + 0254
+A  42: cc7b<<4 + 04e2
+A  43: 00a7<<4 + 10b8
+A  44: 00a7<<4 + 10b8
+A  45: 00a7<<4 + 10b8
+A  46: 0411<<4 + 0140
+A  47: d493<<4 + 0960
+A  48: a710<<4 + aeea
+A  49: f000<<4 + 0d00
+
+A  50: 00a7<<4 + 10b8
+A  51: e802<<4 + 23c4
+A  52: 00a7<<4 + 10b8
+A  53: 00a7<<4 + 10b8
+A  54: 00a7<<4 + 10b8
+A  55: 00a7<<4 + 10b8
+A  56: 00a7<<4 + 10b8
+A  57: 00a7<<4 + 10b8
+A  58: 00a7<<4 + 10b8
+A  59: 00a7<<4 + 10b8
+
+A  60: 00a7<<4 + 10b8
+A  61: 00a7<<4 + 10b8
+A  62: 00a7<<4 + 10b8
+A  63: 00a7<<4 + 10b8
+A  64: 020a<<4 + 048a
+A  65: 020a<<4 + 03ff
+A  66: 020a<<4 + 09b4
+A  67: c000<<4 + 2667
+A  68: f000<<4 + 0d66
+A  69: f000<<4 + 0d66
+
+A  70: f000<<4 + 0d66
+A  71: f000<<4 + 0d66
+A  72: f000<<4 + 0d66
+A  73: f000<<4 + 0d66
+A  74: f000<<4 + 0d66
+A  75: f000<<4 + 0d66
+A  76: f000<<4 + 0d66
+A  77: f000<<4 + 0d66
+A  78: f000<<4 + 0d66
+A  79: f000<<4 + 0d66
+
+A  80: f000<<4 + 0d66
+A  81: f000<<4 + 0d66
+A  82: f000<<4 + 0d66
+A  83: f000<<4 + 0d66
+A  84: f000<<4 + 0d66
+A  85: f000<<4 + 0d66
+A  86: f000<<4 + 0d66
+A  87: f000<<4 + 0d66
+A  88: f000<<4 + 0d66
+A  89: f000<<4 + 0d66
+
+A  90: f000<<4 + 0d66
+A  91: f000<<4 + 0d66
+A  92: cc7b<<4 + 0528
+A  93: f000<<4 + 0d66
+A  94: f000<<4 + 0d66
+A  95: f000<<4 + 0d66
+A  96: 020a<<4 + 0759 - old timer
+A  97:
+A  98:
+A  99:
+
+D-dedicated R-reserved A-available
+----------------------------------
+
+
+
+=====================================context(64)====== T4 to T3
+Trenutni kontekst:
+======Thread<4>===================
+run:   1560<<4 + 0223
+stack: 218c<<4 + 0004 [4096]
+
+ax:0000 bx:0386 cx:1836 dx:0000 si:0064 di:0064
+pc:0191 sw:3146
+bp:1f54 sp:1f54
+cs:09c2 ss:218c ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+run:   1560<<4 + 0223
+stack: 1f33<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0223 sw:7206
+bp:1fe0 sp:1fe0
+cs:1560 ss:1f33 ds:170b es:0000
+
+quant: 20
+state: running until 84 (time: 67)
+----------------------------------
+
+Scheduler: <3> 2 M 4
+-------------------------------------------------------
+
+
+
+=====================================context(68)====== T3 to T3
+-------------------------------------------------------
+
+
+
+=====================================context(69)====== T3 to T2
+Trenutni kontekst:
+======Thread<3>===================
+run:   1560<<4 + 0223
+stack: 1f33<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:1836 dx:0000 si:0064 di:0064
+pc:0191 sw:3146
+bp:1f78 sp:1f78
+cs:09c2 ss:1f33 ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   1560<<4 + 0223
+stack: 1cda<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0223 sw:7206
+bp:1fe0 sp:1fe0
+cs:1560 ss:1cda ds:170b es:0000
+
+quant: 20
+state: running until 89 (time: 72)
+----------------------------------
+
+Scheduler: <2> M 4 3
+-------------------------------------------------------
+
+
+
+=====================================context(73)====== T2 to T2
+-------------------------------------------------------
+
+
+
+=====================================context(74)====== T2 to M
+Trenutni kontekst:
+======Thread<2>===================
+run:   1560<<4 + 0223
+stack: 1cda<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:1836 dx:0000 si:0064 di:0064
+pc:0191 sw:3146
+bp:1f78 sp:1f78
+cs:09c2 ss:1cda ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:17a3 cx:1a13 dx:0029 si:0000 di:0470
+pc:0191 sw:3046
+bp:0f64 sp:0f64
+cs:09c2 ss:187e ds:1601 es:17a3
+
+quant: 40
+state: running until 114 (time: 77)
+----------------------------------
+
+Scheduler: <M> 4 3 2
+-------------------------------------------------------
+
+
+
+=====================================context(78)====== M  to M
+-------------------------------------------------------
+
+
+
+=====================================context(79)====== M  to T4
+Trenutni kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:0004 cx:1836 dx:0000 si:0064 di:0064
+pc:0191 sw:3146
+bp:0efc sp:0efc
+cs:09c2 ss:187e ds:1601 es:17a3
+
+quant: 40
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<4>===================
+run:   1560<<4 + 0223
+stack: 218c<<4 + 0004 [4096]
+
+ax:0000 bx:0386 cx:1836 dx:0000 si:0064 di:0064
+pc:0191 sw:3146
+bp:1f54 sp:1f54
+cs:09c2 ss:218c ds:1601 es:17a3
+
+quant: 20
+state: running until 99 (time: 82)
+----------------------------------
+
+Scheduler: <4> 3 2 M
+-------------------------------------------------------
+
+
+
+=====================================context(83)====== T4 to T4
+-------------------------------------------------------
+
+
+
+=====================================context(84)====== T4 to T3
+Trenutni kontekst:
+======Thread<4>===================
+run:   1560<<4 + 0223
+stack: 218c<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:1836 dx:0000 si:0064 di:0064
+pc:0191 sw:3146
+bp:1eec sp:1eec
+cs:09c2 ss:218c ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+run:   1560<<4 + 0223
+stack: 1f33<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:1836 dx:0000 si:0064 di:0064
+pc:0191 sw:3146
+bp:1f78 sp:1f78
+cs:09c2 ss:1f33 ds:1601 es:17a3
+
+quant: 20
+state: running until 104 (time: 87)
+----------------------------------
+
+Scheduler: <3> 2 M 4
+-------------------------------------------------------
+
+
+
+=====================================context(88)====== T3 to T3
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(91)====== T3 to T2
+Trenutni kontekst:
+======Thread<3>===================
+run:   1560<<4 + 0223
+stack: 1f33<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:0304 sw:3316
+bp:1f8e sp:1f8e
+cs:0c8c ss:1f33 ds:16ea es:17a3
+
+quant: 20
+state: blocked until 111 (time: 92)
+blocked on: 2 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   1560<<4 + 0223
+stack: 1cda<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:1836 dx:0000 si:0064 di:0064
+pc:0191 sw:3146
+bp:1f78 sp:1f78
+cs:09c2 ss:1cda ds:1601 es:17a3
+
+quant: 20
+state: running until 111 (time: 94)
+----------------------------------
+
+Scheduler: <2> M 4
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(96)====== T2 to M
+Trenutni kontekst:
+======Thread<2>===================
+run:   1560<<4 + 0223
+stack: 1cda<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:0304 sw:3316
+bp:1f8e sp:1f8e
+cs:0c8c ss:1cda ds:16ea es:17a3
+
+quant: 20
+state: blocked until 116 (time: 98)
+blocked on: 3 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:0004 cx:1836 dx:0000 si:0064 di:0064
+pc:0191 sw:3146
+bp:0efc sp:0efc
+cs:09c2 ss:187e ds:1601 es:17a3
+
+quant: 40
+state: running until 136 (time: 100)
+----------------------------------
+
+Scheduler: <M> 4
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+MAIN# 5
+======Semaphore=glist(111)=========
+List< 1>: [H] --> 2 --> [T]
+
+----------------------------------
+======Semaphore=glist(116)=========
+List< 0>: [H] --> --> [T]
+
+----------------------------------
+
+
+
+=====================================context(120)====== M  to M
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(120)====== M  to T2
+Trenutni kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:0004 cx:23e4 dx:0000 si:0005 di:0470
+pc:0191 sw:3046
+bp:0f3e sp:0f3e
+cs:09c2 ss:187e ds:1601 es:17a3
+
+quant: 40
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   1560<<4 + 0223
+stack: 1cda<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:0304 sw:3316
+bp:1f8e sp:1f8e
+cs:0c8c ss:1cda ds:16ea es:17a3
+
+quant: 20
+state: running until 140 (time: 120)
+> max block time expired
+----------------------------------
+
+Scheduler: <2> 3 4 M
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+A# 0
+
+
+
+=====================================context(140)====== T2 to T2
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(160)====== T2 to T3
+Trenutni kontekst:
+======Thread<2>===================
+run:   1560<<4 + 0223
+stack: 1cda<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:00a0 si:0000 di:000e
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1cda ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+run:   1560<<4 + 0223
+stack: 1f33<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:0304 sw:3316
+bp:1f8e sp:1f8e
+cs:0c8c ss:1f33 ds:16ea es:17a3
+
+quant: 20
+state: running until 180 (time: 160)
+> max block time expired
+----------------------------------
+
+Scheduler: <3> 4 M 2
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+B# 0
+
+
+
+=====================================context(180)====== T3 to T3
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(200)====== T3 to T4
+Trenutni kontekst:
+======Thread<3>===================
+run:   1560<<4 + 0223
+stack: 1f33<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:00c8 si:0000 di:000e
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1f33 ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<4>===================
+run:   1560<<4 + 0223
+stack: 218c<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:1836 dx:0000 si:0064 di:0064
+pc:0191 sw:3146
+bp:1eec sp:1eec
+cs:09c2 ss:218c ds:1601 es:17a3
+
+quant: 20
+state: running until 220 (time: 200)
+----------------------------------
+
+Scheduler: <4> M 2 3
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(200)====== T4 to M
+Trenutni kontekst:
+======Thread<4>===================
+run:   1560<<4 + 0223
+stack: 218c<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:0304 sw:3146
+bp:1f82 sp:1f82
+cs:0c8c ss:218c ds:16ea es:17a3
+
+quant: 20
+state: blocked
+blocked on: 7 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:0004 cx:23e4 dx:0000 si:0005 di:0470
+pc:0191 sw:3046
+bp:0f3e sp:0f3e
+cs:09c2 ss:187e ds:1601 es:17a3
+
+quant: 40
+state: running until 240 (time: 203)
+----------------------------------
+
+Scheduler: <M> 2 3
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(204)====== M  to M
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(205)====== M  to T4
+Trenutni kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:0004 cx:23e4 dx:0000 si:0005 di:0470
+pc:0191 sw:3046
+bp:0f3e sp:0f3e
+cs:09c2 ss:187e ds:1601 es:17a3
+
+quant: 40
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<4>===================
+run:   1560<<4 + 0223
+stack: 218c<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:0304 sw:3146
+bp:1f82 sp:1f82
+cs:0c8c ss:218c ds:16ea es:17a3
+
+quant: 20
+state: running until 225 (time: 205)
+----------------------------------
+
+Scheduler: <4> 2 3 M
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+C# 0
+
+
+
+=====================================context(225)====== T4 to T4
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(245)====== T4 to T2
+Trenutni kontekst:
+======Thread<4>===================
+run:   1560<<4 + 0223
+stack: 218c<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:00f5 si:0000 di:0000
+pc:0191 sw:3046
+bp:1f98 sp:1f98
+cs:09c2 ss:218c ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   1560<<4 + 0223
+stack: 1cda<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:00a0 si:0000 di:000e
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1cda ds:1601 es:17a3
+
+quant: 20
+state: running until 265 (time: 245)
+----------------------------------
+
+Scheduler: <2> 3 M 4
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(265)====== T2 to T2
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(285)====== T2 to T3
+Trenutni kontekst:
+======Thread<2>===================
+run:   1560<<4 + 0223
+stack: 1cda<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:011d si:0000 di:001c
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1cda ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+run:   1560<<4 + 0223
+stack: 1f33<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:00c8 si:0000 di:000e
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1f33 ds:1601 es:17a3
+
+quant: 20
+state: running until 305 (time: 285)
+----------------------------------
+
+Scheduler: <3> M 4 2
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(305)====== T3 to T3
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(325)====== T3 to M
+Trenutni kontekst:
+======Thread<3>===================
+run:   1560<<4 + 0223
+stack: 1f33<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:0145 si:0000 di:001c
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1f33 ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:0004 cx:23e4 dx:0000 si:0005 di:0470
+pc:0191 sw:3046
+bp:0f3e sp:0f3e
+cs:09c2 ss:187e ds:1601 es:17a3
+
+quant: 40
+state: running until 365 (time: 325)
+----------------------------------
+
+Scheduler: <M> 4 2 3
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(325)====== M  to M
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(325)====== M  to T4
+Trenutni kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:0004 cx:23e4 dx:0000 si:0005 di:0470
+pc:0191 sw:3046
+bp:0f3e sp:0f3e
+cs:09c2 ss:187e ds:1601 es:17a3
+
+quant: 40
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<4>===================
+run:   1560<<4 + 0223
+stack: 218c<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:00f5 si:0000 di:0000
+pc:0191 sw:3046
+bp:1f98 sp:1f98
+cs:09c2 ss:218c ds:1601 es:17a3
+
+quant: 20
+state: running until 345 (time: 326)
+----------------------------------
+
+Scheduler: <4> 2 3 M
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(345)====== T4 to T4
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(365)====== T4 to T2
+Trenutni kontekst:
+======Thread<4>===================
+run:   1560<<4 + 0223
+stack: 218c<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:016d si:0000 di:0000
+pc:0191 sw:3046
+bp:1f98 sp:1f98
+cs:09c2 ss:218c ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   1560<<4 + 0223
+stack: 1cda<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:011d si:0000 di:001c
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1cda ds:1601 es:17a3
+
+quant: 20
+state: running until 385 (time: 365)
+----------------------------------
+
+Scheduler: <2> 3 M 4
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(385)====== T2 to T2
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(405)====== T2 to T3
+Trenutni kontekst:
+======Thread<2>===================
+run:   1560<<4 + 0223
+stack: 1cda<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:0195 si:0000 di:002a
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1cda ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+run:   1560<<4 + 0223
+stack: 1f33<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:0145 si:0000 di:001c
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1f33 ds:1601 es:17a3
+
+quant: 20
+state: running until 425 (time: 405)
+----------------------------------
+
+Scheduler: <3> M 4 2
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(425)====== T3 to T3
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(445)====== T3 to M
+Trenutni kontekst:
+======Thread<3>===================
+run:   1560<<4 + 0223
+stack: 1f33<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:01bd si:0000 di:002b
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1f33 ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:0004 cx:23e4 dx:0000 si:0005 di:0470
+pc:0191 sw:3046
+bp:0f3e sp:0f3e
+cs:09c2 ss:187e ds:1601 es:17a3
+
+quant: 40
+state: running until 485 (time: 445)
+----------------------------------
+
+Scheduler: <M> 4 2 3
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(445)====== M  to M
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(445)====== M  to T4
+Trenutni kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:0004 cx:23e4 dx:0000 si:0005 di:0470
+pc:0191 sw:3046
+bp:0f3e sp:0f3e
+cs:09c2 ss:187e ds:1601 es:17a3
+
+quant: 40
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<4>===================
+run:   1560<<4 + 0223
+stack: 218c<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:016d si:0000 di:0000
+pc:0191 sw:3046
+bp:1f98 sp:1f98
+cs:09c2 ss:218c ds:1601 es:17a3
+
+quant: 20
+state: running until 465 (time: 446)
+----------------------------------
+
+Scheduler: <4> 2 3 M
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(465)====== T4 to T4
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(485)====== T4 to T2
+Trenutni kontekst:
+======Thread<4>===================
+run:   1560<<4 + 0223
+stack: 218c<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:01e5 si:0000 di:0000
+pc:0191 sw:3046
+bp:1f98 sp:1f98
+cs:09c2 ss:218c ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   1560<<4 + 0223
+stack: 1cda<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:0195 si:0000 di:002a
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1cda ds:1601 es:17a3
+
+quant: 20
+state: running until 505 (time: 485)
+----------------------------------
+
+Scheduler: <2> 3 M 4
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(505)====== T2 to T2
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(525)====== T2 to T3
+Trenutni kontekst:
+======Thread<2>===================
+run:   1560<<4 + 0223
+stack: 1cda<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:020d si:0000 di:0037
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1cda ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+run:   1560<<4 + 0223
+stack: 1f33<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:01bd si:0000 di:002b
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1f33 ds:1601 es:17a3
+
+quant: 20
+state: running until 545 (time: 526)
+----------------------------------
+
+Scheduler: <3> M 4 2
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(545)====== T3 to T3
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(565)====== T3 to M
+Trenutni kontekst:
+======Thread<3>===================
+run:   1560<<4 + 0223
+stack: 1f33<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:0235 si:0000 di:0032
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1f33 ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:0004 cx:23e4 dx:0000 si:0005 di:0470
+pc:0191 sw:3046
+bp:0f3e sp:0f3e
+cs:09c2 ss:187e ds:1601 es:17a3
+
+quant: 40
+state: running until 605 (time: 565)
+----------------------------------
+
+Scheduler: <M> 4 2 3
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(566)====== M  to M
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(566)====== M  to T4
+Trenutni kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:0004 cx:23e4 dx:0000 si:0005 di:0470
+pc:0191 sw:3046
+bp:0f3e sp:0f3e
+cs:09c2 ss:187e ds:1601 es:17a3
+
+quant: 40
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<4>===================
+run:   1560<<4 + 0223
+stack: 218c<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:01e5 si:0000 di:0000
+pc:0191 sw:3046
+bp:1f98 sp:1f98
+cs:09c2 ss:218c ds:1601 es:17a3
+
+quant: 20
+state: running until 586 (time: 567)
+----------------------------------
+
+Scheduler: <4> 2 3 M
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(586)====== T4 to T4
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(606)====== T4 to T2
+Trenutni kontekst:
+======Thread<4>===================
+run:   1560<<4 + 0223
+stack: 218c<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:025e si:0000 di:0000
+pc:0191 sw:3046
+bp:1f98 sp:1f98
+cs:09c2 ss:218c ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   1560<<4 + 0223
+stack: 1cda<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:020d si:0000 di:0037
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1cda ds:1601 es:17a3
+
+quant: 20
+state: running until 626 (time: 606)
+----------------------------------
+
+Scheduler: <2> 3 M 4
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(626)====== T2 to T2
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(646)====== T2 to T3
+Trenutni kontekst:
+======Thread<2>===================
+run:   1560<<4 + 0223
+stack: 1cda<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:0286 si:0000 di:003e
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1cda ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+run:   1560<<4 + 0223
+stack: 1f33<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:0235 si:0000 di:0032
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1f33 ds:1601 es:17a3
+
+quant: 20
+state: running until 666 (time: 646)
+----------------------------------
+
+Scheduler: <3> M 4 2
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(666)====== T3 to T3
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(686)====== T3 to M
+Trenutni kontekst:
+======Thread<3>===================
+run:   1560<<4 + 0223
+stack: 1f33<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:02ae si:0000 di:003a
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1f33 ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:0004 cx:23e4 dx:0000 si:0005 di:0470
+pc:0191 sw:3046
+bp:0f3e sp:0f3e
+cs:09c2 ss:187e ds:1601 es:17a3
+
+quant: 40
+state: running until 726 (time: 686)
+----------------------------------
+
+Scheduler: <M> 4 2 3
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(687)====== M  to M
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(687)====== M  to T4
+Trenutni kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:0004 cx:23e4 dx:0000 si:0005 di:0470
+pc:0191 sw:3046
+bp:0f3e sp:0f3e
+cs:09c2 ss:187e ds:1601 es:17a3
+
+quant: 40
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<4>===================
+run:   1560<<4 + 0223
+stack: 218c<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:025e si:0000 di:0000
+pc:0191 sw:3046
+bp:1f98 sp:1f98
+cs:09c2 ss:218c ds:1601 es:17a3
+
+quant: 20
+state: running until 707 (time: 688)
+----------------------------------
+
+Scheduler: <4> 2 3 M
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(707)====== T4 to T4
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(727)====== T4 to T2
+Trenutni kontekst:
+======Thread<4>===================
+run:   1560<<4 + 0223
+stack: 218c<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:02d7 si:0000 di:0000
+pc:0191 sw:3046
+bp:1f98 sp:1f98
+cs:09c2 ss:218c ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   1560<<4 + 0223
+stack: 1cda<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:0286 si:0000 di:003e
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1cda ds:1601 es:17a3
+
+quant: 20
+state: running until 747 (time: 727)
+----------------------------------
+
+Scheduler: <2> 3 M 4
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(747)====== T2 to T2
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(767)====== T2 to T3
+Trenutni kontekst:
+======Thread<2>===================
+run:   1560<<4 + 0223
+stack: 1cda<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:02ff si:0000 di:0045
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1cda ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+run:   1560<<4 + 0223
+stack: 1f33<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:02ae si:0000 di:003a
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1f33 ds:1601 es:17a3
+
+quant: 20
+state: running until 787 (time: 767)
+----------------------------------
+
+Scheduler: <3> M 4 2
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(787)====== T3 to T3
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(807)====== T3 to M
+Trenutni kontekst:
+======Thread<3>===================
+run:   1560<<4 + 0223
+stack: 1f33<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:0327 si:0000 di:0041
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1f33 ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:0004 cx:23e4 dx:0000 si:0005 di:0470
+pc:0191 sw:3046
+bp:0f3e sp:0f3e
+cs:09c2 ss:187e ds:1601 es:17a3
+
+quant: 40
+state: running until 847 (time: 807)
+----------------------------------
+
+Scheduler: <M> 4 2 3
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(808)====== M  to M
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(808)====== M  to T4
+Trenutni kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:0004 cx:23e4 dx:0000 si:0005 di:0470
+pc:0191 sw:3046
+bp:0f3e sp:0f3e
+cs:09c2 ss:187e ds:1601 es:17a3
+
+quant: 40
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<4>===================
+run:   1560<<4 + 0223
+stack: 218c<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:02d7 si:0000 di:0000
+pc:0191 sw:3046
+bp:1f98 sp:1f98
+cs:09c2 ss:218c ds:1601 es:17a3
+
+quant: 20
+state: running until 828 (time: 809)
+----------------------------------
+
+Scheduler: <4> 2 3 M
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(828)====== T4 to T4
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(848)====== T4 to T2
+Trenutni kontekst:
+======Thread<4>===================
+run:   1560<<4 + 0223
+stack: 218c<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:0350 si:0000 di:0000
+pc:0191 sw:3046
+bp:1f98 sp:1f98
+cs:09c2 ss:218c ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   1560<<4 + 0223
+stack: 1cda<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:02ff si:0000 di:0045
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1cda ds:1601 es:17a3
+
+quant: 20
+state: running until 868 (time: 848)
+----------------------------------
+
+Scheduler: <2> 3 M 4
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(868)====== T2 to T2
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(888)====== T2 to T3
+Trenutni kontekst:
+======Thread<2>===================
+run:   1560<<4 + 0223
+stack: 1cda<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:0378 si:0000 di:0050
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1cda ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+run:   1560<<4 + 0223
+stack: 1f33<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:0327 si:0000 di:0041
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1f33 ds:1601 es:17a3
+
+quant: 20
+state: running until 908 (time: 888)
+----------------------------------
+
+Scheduler: <3> M 4 2
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(908)====== T3 to T3
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(928)====== T3 to M
+Trenutni kontekst:
+======Thread<3>===================
+run:   1560<<4 + 0223
+stack: 1f33<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:03a0 si:0000 di:0049
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1f33 ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:0004 cx:23e4 dx:0000 si:0005 di:0470
+pc:0191 sw:3046
+bp:0f3e sp:0f3e
+cs:09c2 ss:187e ds:1601 es:17a3
+
+quant: 40
+state: running until 968 (time: 928)
+----------------------------------
+
+Scheduler: <M> 4 2 3
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(928)====== M  to M
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(929)====== M  to T4
+Trenutni kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:0004 cx:23e4 dx:0000 si:0005 di:0470
+pc:0191 sw:3046
+bp:0f3e sp:0f3e
+cs:09c2 ss:187e ds:1601 es:17a3
+
+quant: 40
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<4>===================
+run:   1560<<4 + 0223
+stack: 218c<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:0350 si:0000 di:0000
+pc:0191 sw:3046
+bp:1f98 sp:1f98
+cs:09c2 ss:218c ds:1601 es:17a3
+
+quant: 20
+state: running until 949 (time: 929)
+----------------------------------
+
+Scheduler: <4> 2 3 M
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(949)====== T4 to T4
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(969)====== T4 to T2
+Trenutni kontekst:
+======Thread<4>===================
+run:   1560<<4 + 0223
+stack: 218c<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:03c9 si:0000 di:0000
+pc:0191 sw:3046
+bp:1f98 sp:1f98
+cs:09c2 ss:218c ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   1560<<4 + 0223
+stack: 1cda<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:0378 si:0000 di:0050
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1cda ds:1601 es:17a3
+
+quant: 20
+state: running until 989 (time: 969)
+----------------------------------
+
+Scheduler: <2> 3 M 4
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(989)====== T2 to T2
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1009)====== T2 to T3
+Trenutni kontekst:
+======Thread<2>===================
+run:   1560<<4 + 0223
+stack: 1cda<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:03f1 si:0000 di:0058
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1cda ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+run:   1560<<4 + 0223
+stack: 1f33<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:03a0 si:0000 di:0049
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1f33 ds:1601 es:17a3
+
+quant: 20
+state: running until 1029 (time: 1009)
+----------------------------------
+
+Scheduler: <3> M 4 2
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1029)====== T3 to T3
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1049)====== T3 to M
+Trenutni kontekst:
+======Thread<3>===================
+run:   1560<<4 + 0223
+stack: 1f33<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:0419 si:0000 di:0050
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1f33 ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:0004 cx:23e4 dx:0000 si:0005 di:0470
+pc:0191 sw:3046
+bp:0f3e sp:0f3e
+cs:09c2 ss:187e ds:1601 es:17a3
+
+quant: 40
+state: running until 1089 (time: 1049)
+----------------------------------
+
+Scheduler: <M> 4 2 3
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1050)====== M  to M
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1050)====== M  to T4
+Trenutni kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:0004 cx:23e4 dx:0000 si:0005 di:0470
+pc:0191 sw:3046
+bp:0f3e sp:0f3e
+cs:09c2 ss:187e ds:1601 es:17a3
+
+quant: 40
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<4>===================
+run:   1560<<4 + 0223
+stack: 218c<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:03c9 si:0000 di:0000
+pc:0191 sw:3046
+bp:1f98 sp:1f98
+cs:09c2 ss:218c ds:1601 es:17a3
+
+quant: 20
+state: running until 1070 (time: 1051)
+----------------------------------
+
+Scheduler: <4> 2 3 M
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1070)====== T4 to T4
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1090)====== T4 to T2
+Trenutni kontekst:
+======Thread<4>===================
+run:   1560<<4 + 0223
+stack: 218c<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:0442 si:0000 di:0000
+pc:0191 sw:3046
+bp:1f98 sp:1f98
+cs:09c2 ss:218c ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   1560<<4 + 0223
+stack: 1cda<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:03f1 si:0000 di:0058
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1cda ds:1601 es:17a3
+
+quant: 20
+state: running until 1110 (time: 1090)
+----------------------------------
+
+Scheduler: <2> 3 M 4
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1110)====== T2 to T2
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1130)====== T2 to T3
+Trenutni kontekst:
+======Thread<2>===================
+run:   1560<<4 + 0223
+stack: 1cda<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:046a si:0000 di:005f
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1cda ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+run:   1560<<4 + 0223
+stack: 1f33<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:0419 si:0000 di:0050
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1f33 ds:1601 es:17a3
+
+quant: 20
+state: running until 1150 (time: 1130)
+----------------------------------
+
+Scheduler: <3> M 4 2
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1150)====== T3 to T3
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1170)====== T3 to M
+Trenutni kontekst:
+======Thread<3>===================
+run:   1560<<4 + 0223
+stack: 1f33<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:0492 si:0000 di:0056
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1f33 ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:0004 cx:23e4 dx:0000 si:0005 di:0470
+pc:0191 sw:3046
+bp:0f3e sp:0f3e
+cs:09c2 ss:187e ds:1601 es:17a3
+
+quant: 40
+state: running until 1210 (time: 1170)
+----------------------------------
+
+Scheduler: <M> 4 2 3
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1171)====== M  to M
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1171)====== M  to T4
+Trenutni kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:0004 cx:23e4 dx:0000 si:0005 di:0470
+pc:0191 sw:3046
+bp:0f3e sp:0f3e
+cs:09c2 ss:187e ds:1601 es:17a3
+
+quant: 40
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<4>===================
+run:   1560<<4 + 0223
+stack: 218c<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:0442 si:0000 di:0000
+pc:0191 sw:3046
+bp:1f98 sp:1f98
+cs:09c2 ss:218c ds:1601 es:17a3
+
+quant: 20
+state: running until 1191 (time: 1172)
+----------------------------------
+
+Scheduler: <4> 2 3 M
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1191)====== T4 to T4
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1211)====== T4 to T2
+Trenutni kontekst:
+======Thread<4>===================
+run:   1560<<4 + 0223
+stack: 218c<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:04bb si:0000 di:0000
+pc:0191 sw:3046
+bp:1f98 sp:1f98
+cs:09c2 ss:218c ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   1560<<4 + 0223
+stack: 1cda<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:046a si:0000 di:005f
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1cda ds:1601 es:17a3
+
+quant: 20
+state: running until 1231 (time: 1211)
+----------------------------------
+
+Scheduler: <2> 3 M 4
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1231)====== T2 to T2
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1251)====== T2 to T3
+Trenutni kontekst:
+======Thread<2>===================
+run:   1560<<4 + 0223
+stack: 1cda<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:04e3 si:0000 di:0067
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1cda ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+run:   1560<<4 + 0223
+stack: 1f33<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:0492 si:0000 di:0056
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1f33 ds:1601 es:17a3
+
+quant: 20
+state: running until 1271 (time: 1251)
+----------------------------------
+
+Scheduler: <3> M 4 2
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1271)====== T3 to T3
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1291)====== T3 to M
+Trenutni kontekst:
+======Thread<3>===================
+run:   1560<<4 + 0223
+stack: 1f33<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:050b si:0000 di:005e
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1f33 ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:0004 cx:23e4 dx:0000 si:0005 di:0470
+pc:0191 sw:3046
+bp:0f3e sp:0f3e
+cs:09c2 ss:187e ds:1601 es:17a3
+
+quant: 40
+state: running until 1331 (time: 1291)
+----------------------------------
+
+Scheduler: <M> 4 2 3
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1292)====== M  to M
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1292)====== M  to T4
+Trenutni kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:0004 cx:23e4 dx:0000 si:0005 di:0470
+pc:0191 sw:3046
+bp:0f3e sp:0f3e
+cs:09c2 ss:187e ds:1601 es:17a3
+
+quant: 40
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<4>===================
+run:   1560<<4 + 0223
+stack: 218c<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:04bb si:0000 di:0000
+pc:0191 sw:3046
+bp:1f98 sp:1f98
+cs:09c2 ss:218c ds:1601 es:17a3
+
+quant: 20
+state: running until 1312 (time: 1293)
+----------------------------------
+
+Scheduler: <4> 2 3 M
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1312)====== T4 to T4
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1332)====== T4 to T2
+Trenutni kontekst:
+======Thread<4>===================
+run:   1560<<4 + 0223
+stack: 218c<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:0534 si:0000 di:0000
+pc:0191 sw:3046
+bp:1f98 sp:1f98
+cs:09c2 ss:218c ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   1560<<4 + 0223
+stack: 1cda<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:04e3 si:0000 di:0067
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1cda ds:1601 es:17a3
+
+quant: 20
+state: running until 1352 (time: 1332)
+----------------------------------
+
+Scheduler: <2> 3 M 4
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1352)====== T2 to T2
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1372)====== T2 to T3
+Trenutni kontekst:
+======Thread<2>===================
+run:   1560<<4 + 0223
+stack: 1cda<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:055c si:0000 di:006d
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1cda ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+run:   1560<<4 + 0223
+stack: 1f33<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:050b si:0000 di:005e
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1f33 ds:1601 es:17a3
+
+quant: 20
+state: running until 1392 (time: 1372)
+----------------------------------
+
+Scheduler: <3> M 4 2
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1392)====== T3 to T3
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1412)====== T3 to M
+Trenutni kontekst:
+======Thread<3>===================
+run:   1560<<4 + 0223
+stack: 1f33<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:0584 si:0000 di:0066
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1f33 ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:0004 cx:23e4 dx:0000 si:0005 di:0470
+pc:0191 sw:3046
+bp:0f3e sp:0f3e
+cs:09c2 ss:187e ds:1601 es:17a3
+
+quant: 40
+state: running until 1452 (time: 1412)
+----------------------------------
+
+Scheduler: <M> 4 2 3
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1413)====== M  to M
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1413)====== M  to T4
+Trenutni kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:0004 cx:23e4 dx:0000 si:0005 di:0470
+pc:0191 sw:3046
+bp:0f3e sp:0f3e
+cs:09c2 ss:187e ds:1601 es:17a3
+
+quant: 40
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<4>===================
+run:   1560<<4 + 0223
+stack: 218c<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:0534 si:0000 di:0000
+pc:0191 sw:3046
+bp:1f98 sp:1f98
+cs:09c2 ss:218c ds:1601 es:17a3
+
+quant: 20
+state: running until 1433 (time: 1414)
+----------------------------------
+
+Scheduler: <4> 2 3 M
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1433)====== T4 to T4
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1453)====== T4 to T2
+Trenutni kontekst:
+======Thread<4>===================
+run:   1560<<4 + 0223
+stack: 218c<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:05ad si:0000 di:0000
+pc:0191 sw:3046
+bp:1f98 sp:1f98
+cs:09c2 ss:218c ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   1560<<4 + 0223
+stack: 1cda<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:055c si:0000 di:006d
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1cda ds:1601 es:17a3
+
+quant: 20
+state: running until 1473 (time: 1453)
+----------------------------------
+
+Scheduler: <2> 3 M 4
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1473)====== T2 to T2
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1493)====== T2 to T3
+Trenutni kontekst:
+======Thread<2>===================
+run:   1560<<4 + 0223
+stack: 1cda<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:05d5 si:0000 di:0074
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1cda ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+run:   1560<<4 + 0223
+stack: 1f33<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:0584 si:0000 di:0066
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1f33 ds:1601 es:17a3
+
+quant: 20
+state: running until 1513 (time: 1493)
+----------------------------------
+
+Scheduler: <3> M 4 2
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1513)====== T3 to T3
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1533)====== T3 to M
+Trenutni kontekst:
+======Thread<3>===================
+run:   1560<<4 + 0223
+stack: 1f33<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:05fd si:0000 di:006d
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1f33 ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:0004 cx:23e4 dx:0000 si:0005 di:0470
+pc:0191 sw:3046
+bp:0f3e sp:0f3e
+cs:09c2 ss:187e ds:1601 es:17a3
+
+quant: 40
+state: running until 1573 (time: 1533)
+----------------------------------
+
+Scheduler: <M> 4 2 3
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1534)====== M  to M
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1534)====== M  to T4
+Trenutni kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:0004 cx:23e4 dx:0000 si:0005 di:0470
+pc:0191 sw:3046
+bp:0f3e sp:0f3e
+cs:09c2 ss:187e ds:1601 es:17a3
+
+quant: 40
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<4>===================
+run:   1560<<4 + 0223
+stack: 218c<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:05ad si:0000 di:0000
+pc:0191 sw:3046
+bp:1f98 sp:1f98
+cs:09c2 ss:218c ds:1601 es:17a3
+
+quant: 20
+state: running until 1554 (time: 1535)
+----------------------------------
+
+Scheduler: <4> 2 3 M
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1554)====== T4 to T4
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1574)====== T4 to T2
+Trenutni kontekst:
+======Thread<4>===================
+run:   1560<<4 + 0223
+stack: 218c<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:0626 si:0000 di:0000
+pc:0191 sw:3046
+bp:1f98 sp:1f98
+cs:09c2 ss:218c ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   1560<<4 + 0223
+stack: 1cda<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:05d5 si:0000 di:0074
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1cda ds:1601 es:17a3
+
+quant: 20
+state: running until 1594 (time: 1574)
+----------------------------------
+
+Scheduler: <2> 3 M 4
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1594)====== T2 to T2
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1614)====== T2 to T3
+Trenutni kontekst:
+======Thread<2>===================
+run:   1560<<4 + 0223
+stack: 1cda<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:064e si:0000 di:007a
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1cda ds:1601 es:17a3
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+run:   1560<<4 + 0223
+stack: 1f33<<4 + 0004 [4096]
+
+ax:0000 bx:17a3 cx:1a13 dx:05fd si:0000 di:006d
+pc:0191 sw:3046
+bp:1f9a sp:1f9a
+cs:09c2 ss:1f33 ds:1601 es:17a3
+
+quant: 20
+state: running until 1634 (time: 1614)
+----------------------------------
+
+Scheduler: <3> M 4 2
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+=====================================context(1634)====== T3 to T3
+-------------------------------------------------------
+AAAAAAAAAAAAAAAAAAAAAAAAAAAA

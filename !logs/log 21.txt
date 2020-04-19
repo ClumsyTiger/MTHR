@@ -1,0 +1,5712 @@
+
+C:\eclipse-cpp-luna-SR1-win32\eclipse>set PathName="C:\Users\OS1\workspace\Proje
+kat\BCC"
+
+C:\eclipse-cpp-luna-SR1-win32\eclipse>cd "C:\Users\OS1\workspace\Projekat\BCC"
+
+C:\Users\OS1\workspace\Projekat\BCC>Projekat.exe
+        _   __                          _
+       | | / /                         | |
+       | |/ /   ___  _ __  _ __    ___ | |
+       |    \  / _ \| '__|| '_ \  / _ \| |
+       | |\  \|  __/| |   | | | ||  __/| |
+       \_| \_/ \___||_|   |_| |_| \___||_|
+
+
+=================================================================
+
+New thread:
+======Thread<M>===================
+quant: 40
+state: running until 40 (time: 0)
+
+sem4del<0>:
+parent: ?
+
+signals:
+delegate[0]: 1181<<4 + 25b7
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<I>===================
+quant: 1
+state: ready
+
+sem4del<1>:
+parent: ?
+
+signals:
+delegate[0]: 1181<<4 + 25b7
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<2>===================
+quant: 0
+state: start
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1181<<4 + 25b7
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<3>===================
+quant: 1
+state: start
+
+sem4del<8>:
+parent: 0
+
+signals:
+delegate[0]: 1181<<4 + 25b7
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<4>===================
+quant: 1
+state: start
+
+sem4del<10>:
+parent: 0
+
+signals:
+delegate[0]: 1181<<4 + 25b7
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<5>===================
+quant: 1
+state: start
+
+sem4del<12>:
+parent: 0
+
+signals:
+delegate[0]: 1181<<4 + 25b7
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<6>===================
+quant: 1
+state: start
+
+sem4del<14>:
+parent: 0
+
+signals:
+delegate[0]: 1181<<4 + 25b7
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<7>===================
+quant: 1
+state: start
+
+sem4del<16>:
+parent: 0
+
+signals:
+delegate[0]: 1181<<4 + 25b7
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<8>===================
+quant: 2
+state: start
+
+sem4del<18>:
+parent: 0
+
+signals:
+delegate[0]: 1181<<4 + 25b7
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Thread<0> blocked on     Semaphore<8>
+New event:
+======Event<9>====================
+kevent[9]: 9
+oldivt[9]: 020a<<4 + 040a
+regivt[9]: 0a1c<<4 + 001c - set
+owner: thread<8>
+event sem<19>:
+----------------------------------
+
+KeyebordListener started!
+Thread<8> blocked on     Semaphore<19>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+CONSUMER: '4'
+CONSUMER: '3'
+CONSUMER: '2'
+CONSUMER: '1'
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 0
+IDLE# 1
+IDLE# 2
+IDLE# 3
+IDLE# 4
+IDLE# 5
+IDLE# 6
+IDLE# 7
+IDLE# 8
+IDLE# 9
+IDLE# 10
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 11
+IDLE# 12
+IDLE# 13
+IDLE# 14
+IDLE# 15
+IDLE# 16
+IDLE# 17
+IDLE# 18
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 19
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 20
+IDLE# 21
+IDLE# 22
+IDLE# 23
+IDLE# 24
+IDLE# 25
+IDLE# 26
+IDLE# 27
+IDLE# 28
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 29
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 30
+IDLE# 31
+IDLE# 32
+IDLE# 33
+IDLE# 34
+IDLE# 35
+IDLE# 36
+IDLE# 37
+IDLE# 38
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 39
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 40
+IDLE# 41
+IDLE# 42
+IDLE# 43
+IDLE# 44
+IDLE# 45
+IDLE# 46
+IDLE# 47
+IDLE# 48
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 49
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 50
+IDLE# 51
+IDLE# 52
+IDLE# 53
+IDLE# 54
+IDLE# 55
+IDLE# 56
+IDLE# 57
+IDLE# 58
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 59
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 60
+IDLE# 61
+IDLE# 62
+IDLE# 63
+IDLE# 64
+IDLE# 65
+IDLE# 66
+IDLE# 67
+IDLE# 68
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 69
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 70
+IDLE# 71
+IDLE# 72
+IDLE# 73
+IDLE# 74
+IDLE# 75
+IDLE# 76
+IDLE# 77
+IDLE# 78
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<7>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+IDLE# 79
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+IDLE# 80
+IDLE# 81
+IDLE# 82
+IDLE# 83
+Thread<2> unblocked from Semaphore<7>
+CONSUMER: '1'
+CONSUMER: '0'
+CONSUMER: '4'
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 84
+IDLE# 85
+IDLE# 86
+IDLE# 87
+IDLE# 88
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 89
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 90
+IDLE# 91
+IDLE# 92
+IDLE# 93
+IDLE# 94
+IDLE# 95
+IDLE# 96
+IDLE# 97
+IDLE# 98
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 99
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 100
+IDLE# 101
+IDLE# 102
+IDLE# 103
+IDLE# 104
+IDLE# 105
+IDLE# 106
+IDLE# 107
+IDLE# 108
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 109
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 110
+IDLE# 111
+IDLE# 112
+IDLE# 113
+IDLE# 114
+IDLE# 115
+IDLE# 116
+IDLE# 117
+IDLE# 118
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 119
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 120
+IDLE# 121
+IDLE# 122
+IDLE# 123
+IDLE# 124
+IDLE# 125
+IDLE# 126
+IDLE# 127
+IDLE# 128
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 129
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 130
+IDLE# 131
+IDLE# 132
+IDLE# 133
+IDLE# 134
+IDLE# 135
+IDLE# 136
+IDLE# 137
+IDLE# 138
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 139
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 140
+IDLE# 141
+IDLE# 142
+IDLE# 143
+IDLE# 144
+IDLE# 145
+IDLE# 146
+IDLE# 147
+IDLE# 148
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 149
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 150
+IDLE# 151
+IDLE# 152
+IDLE# 153
+IDLE# 154
+IDLE# 155
+IDLE# 156
+IDLE# 157
+IDLE# 158
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<7>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+IDLE# 159
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+IDLE# 160
+IDLE# 161
+IDLE# 162
+IDLE# 163
+Thread<2> unblocked from Semaphore<7>
+CONSUMER: '0'
+CONSUMER: '4'
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 164
+IDLE# 165
+IDLE# 166
+IDLE# 167
+IDLE# 168
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 169
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 170
+IDLE# 171
+IDLE# 172
+IDLE# 173
+IDLE# 174
+IDLE# 175
+IDLE# 176
+IDLE# 177
+IDLE# 178
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 179
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 180
+IDLE# 181
+IDLE# 182
+IDLE# 183
+IDLE# 184
+IDLE# 185
+IDLE# 186
+IDLE# 187
+IDLE# 188
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 189
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 190
+IDLE# 191
+IDLE# 192
+IDLE# 193
+IDLE# 194
+IDLE# 195
+IDLE# 196
+IDLE# 197
+IDLE# 198
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 199
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 200
+IDLE# 201
+IDLE# 202
+IDLE# 203
+IDLE# 204
+IDLE# 205
+IDLE# 206
+IDLE# 207
+IDLE# 208
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 209
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 210
+IDLE# 211
+IDLE# 212
+IDLE# 213
+IDLE# 214
+IDLE# 215
+IDLE# 216
+IDLE# 217
+IDLE# 218
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 219
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 220
+IDLE# 221
+IDLE# 222
+IDLE# 223
+IDLE# 224
+IDLE# 225
+IDLE# 226
+IDLE# 227
+IDLE# 228
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 229
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 230
+IDLE# 231
+IDLE# 232
+IDLE# 233
+IDLE# 234
+IDLE# 235
+IDLE# 236
+IDLE# 237
+IDLE# 238
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<7>
+IDLE# 239
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+IDLE# 240
+IDLE# 241
+IDLE# 242
+IDLE# 243
+Thread<2> unblocked from Semaphore<7>
+CONSUMER: '4'
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 244
+IDLE# 245
+IDLE# 246
+IDLE# 247
+IDLE# 248
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 249
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 250
+IDLE# 251
+IDLE# 252
+IDLE# 253
+IDLE# 254
+IDLE# 255
+IDLE# 256
+IDLE# 257
+IDLE# 258
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 259
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 260
+IDLE# 261
+IDLE# 262
+IDLE# 263
+IDLE# 264
+IDLE# 265
+IDLE# 266
+IDLE# 267
+IDLE# 268
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 269
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 270
+IDLE# 271
+IDLE# 272
+IDLE# 273
+IDLE# 274
+IDLE# 275
+IDLE# 276
+IDLE# 277
+IDLE# 278
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 279
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 280
+IDLE# 281
+IDLE# 282
+IDLE# 283
+IDLE# 284
+IDLE# 285
+IDLE# 286
+IDLE# 287
+IDLE# 288
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 289
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 290
+IDLE# 291
+IDLE# 292
+IDLE# 293
+IDLE# 294
+IDLE# 295
+IDLE# 296
+IDLE# 297
+IDLE# 298
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 299
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 300
+IDLE# 301
+IDLE# 302
+IDLE# 303
+IDLE# 304
+IDLE# 305
+IDLE# 306
+IDLE# 307
+IDLE# 308
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 309
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 310
+IDLE# 311
+IDLE# 312
+IDLE# 313
+IDLE# 314
+IDLE# 315
+IDLE# 316
+IDLE# 317
+IDLE# 318
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 319
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<7>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+IDLE# 320
+IDLE# 321
+IDLE# 322
+IDLE# 323
+IDLE# 324
+Thread<2> unblocked from Semaphore<7>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 325
+IDLE# 326
+IDLE# 327
+IDLE# 328
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 329
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 330
+IDLE# 331
+IDLE# 332
+IDLE# 333
+IDLE# 334
+IDLE# 335
+IDLE# 336
+IDLE# 337
+IDLE# 338
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 339
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 340
+IDLE# 341
+IDLE# 342
+IDLE# 343
+IDLE# 344
+IDLE# 345
+IDLE# 346
+IDLE# 347
+IDLE# 348
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 349
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 350
+IDLE# 351
+IDLE# 352
+IDLE# 353
+IDLE# 354
+IDLE# 355
+IDLE# 356
+IDLE# 357
+IDLE# 358
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 359
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 360
+IDLE# 361
+IDLE# 362
+IDLE# 363
+IDLE# 364
+IDLE# 365
+IDLE# 366
+IDLE# 367
+IDLE# 368
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 369
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 370
+IDLE# 371
+IDLE# 372
+IDLE# 373
+IDLE# 374
+IDLE# 375
+IDLE# 376
+IDLE# 377
+IDLE# 378
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 379
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 380
+IDLE# 381
+IDLE# 382
+IDLE# 383
+IDLE# 384
+IDLE# 385
+IDLE# 386
+IDLE# 387
+IDLE# 388
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 389
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 390
+IDLE# 391
+IDLE# 392
+IDLE# 393
+IDLE# 394
+IDLE# 395
+IDLE# 396
+IDLE# 397
+IDLE# 398
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 399
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<7>
+IDLE# 400
+IDLE# 401
+IDLE# 402
+IDLE# 403
+IDLE# 404
+Thread<2> unblocked from Semaphore<7>
+Thread<2> blocked on     Semaphore<5>
+IDLE# 405
+IDLE# 406
+IDLE# 407
+IDLE# 408
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 409
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 410
+IDLE# 411
+IDLE# 412
+IDLE# 413
+IDLE# 414
+IDLE# 415
+IDLE# 416
+IDLE# 417
+IDLE# 418
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 419
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 420
+IDLE# 421
+IDLE# 422
+IDLE# 423
+IDLE# 424
+IDLE# 425
+IDLE# 426
+IDLE# 427
+IDLE# 428
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 429
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 430
+IDLE# 431
+IDLE# 432
+IDLE# 433
+IDLE# 434
+IDLE# 435
+IDLE# 436
+IDLE# 437
+IDLE# 438
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 439
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 440
+IDLE# 441
+IDLE# 442
+IDLE# 443
+IDLE# 444
+IDLE# 445
+IDLE# 446
+IDLE# 447
+IDLE# 448
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 449
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 450
+IDLE# 451
+IDLE# 452
+IDLE# 453
+IDLE# 454
+IDLE# 455
+IDLE# 456
+IDLE# 457
+IDLE# 458
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 459
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 460
+IDLE# 461
+IDLE# 462
+IDLE# 463
+IDLE# 464
+IDLE# 465
+IDLE# 466
+IDLE# 467
+IDLE# 468
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 469
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 470
+IDLE# 471
+IDLE# 472
+IDLE# 473
+IDLE# 474
+IDLE# 475
+IDLE# 476
+Thread<8> unblocked from Semaphore<19>
+Thread<8> blocked on     Semaphore<19>
+IDLE# 477
+Thread<8> unblocked from Semaphore<19>
+Thread<8> blocked on     Semaphore<19>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 'd'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 478
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 479
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<7>
+IDLE# 480
+IDLE# 481
+IDLE# 482
+IDLE# 483
+IDLE# 484
+Thread<2> unblocked from Semaphore<7>
+Thread<2> blocked on     Semaphore<5>
+IDLE# 485
+IDLE# 486
+IDLE# 487
+IDLE# 488
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 489
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 490
+IDLE# 491
+IDLE# 492
+IDLE# 493
+IDLE# 494
+IDLE# 495
+IDLE# 496
+IDLE# 497
+IDLE# 498
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 499
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 500
+IDLE# 501
+IDLE# 502
+IDLE# 503
+IDLE# 504
+IDLE# 505
+IDLE# 506
+IDLE# 507
+Thread<8> unblocked from Semaphore<19>
+Thread<8> blocked on     Semaphore<19>
+IDLE# 508
+Thread<8> unblocked from Semaphore<19>
+Thread<8> blocked on     Semaphore<19>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 'd'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 509
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 510
+IDLE# 511
+IDLE# 512
+IDLE# 513
+IDLE# 514
+IDLE# 515
+IDLE# 516
+IDLE# 517
+IDLE# 518
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 519
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 520
+IDLE# 521
+IDLE# 522
+IDLE# 523
+IDLE# 524
+IDLE# 525
+IDLE# 526
+IDLE# 527
+IDLE# 528
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 529
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 530
+IDLE# 531
+IDLE# 532
+IDLE# 533
+IDLE# 534
+IDLE# 535
+IDLE# 536
+IDLE# 537
+Thread<8> unblocked from Semaphore<19>
+Thread<8> blocked on     Semaphore<19>
+IDLE# 538
+Thread<8> unblocked from Semaphore<19>
+Thread<8> blocked on     Semaphore<19>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 'f'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 539
+IDLE# 540
+IDLE# 541
+IDLE# 542
+IDLE# 543
+IDLE# 544
+IDLE# 545
+IDLE# 546
+IDLE# 547
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 548
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 549
+IDLE# 550
+IDLE# 551
+IDLE# 552
+IDLE# 553
+IDLE# 554
+IDLE# 555
+IDLE# 556
+IDLE# 557
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 558
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<7>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+IDLE# 559
+IDLE# 560
+IDLE# 561
+IDLE# 562
+IDLE# 563
+Thread<2> unblocked from Semaphore<7>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 564
+IDLE# 565
+IDLE# 566
+IDLE# 567
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 568
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 569
+IDLE# 570
+Thread<8> unblocked from Semaphore<19>
+Thread<8> blocked on     Semaphore<19>
+IDLE# 571
+Thread<8> unblocked from Semaphore<19>
+Thread<8> blocked on     Semaphore<19>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 'e'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 572
+IDLE# 573
+IDLE# 574
+IDLE# 575
+IDLE# 576
+IDLE# 577
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 578
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 579
+IDLE# 580
+IDLE# 581
+IDLE# 582
+IDLE# 583
+IDLE# 584
+IDLE# 585
+IDLE# 586
+IDLE# 587
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 588
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 589
+IDLE# 590
+Thread<8> unblocked from Semaphore<19>
+Thread<8> blocked on     Semaphore<19>
+IDLE# 591
+Thread<8> unblocked from Semaphore<19>
+Thread<8> blocked on     Semaphore<19>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 'd'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 592
+IDLE# 593
+IDLE# 594
+IDLE# 595
+IDLE# 596
+IDLE# 597
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 598
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 599
+IDLE# 600
+IDLE# 601
+IDLE# 602
+IDLE# 603
+IDLE# 604
+IDLE# 605
+IDLE# 606
+Thread<8> unblocked from Semaphore<19>
+Thread<8> blocked on     Semaphore<19>
+IDLE# 607
+Thread<8> unblocked from Semaphore<19>
+Thread<8> blocked on     Semaphore<19>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 'f'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 608
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 609
+IDLE# 610
+IDLE# 611
+IDLE# 612
+IDLE# 613
+IDLE# 614
+IDLE# 615
+IDLE# 616
+IDLE# 617
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 618
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 619
+IDLE# 620
+IDLE# 621
+IDLE# 622
+IDLE# 623
+IDLE# 624
+IDLE# 625
+IDLE# 626
+IDLE# 627
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 628
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 629
+IDLE# 630
+IDLE# 631
+IDLE# 632
+IDLE# 633
+IDLE# 634
+IDLE# 635
+IDLE# 636
+IDLE# 637
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<7>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+IDLE# 638
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+IDLE# 639
+IDLE# 640
+IDLE# 641
+IDLE# 642
+Thread<2> unblocked from Semaphore<7>
+CONSUMER: '0'
+CONSUMER: '4'
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 643
+IDLE# 644
+IDLE# 645
+IDLE# 646
+IDLE# 647
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 648
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 649
+IDLE# 650
+IDLE# 651
+IDLE# 652
+Thread<8> unblocked from Semaphore<19>
+Thread<8> blocked on     Semaphore<19>
+IDLE# 653
+Thread<8> unblocked from Semaphore<19>
+Thread<8> blocked on     Semaphore<19>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 'r'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 654
+IDLE# 655
+IDLE# 656
+IDLE# 657
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 658
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 659
+IDLE# 660
+IDLE# 661
+IDLE# 662
+IDLE# 663
+Thread<8> unblocked from Semaphore<19>
+Thread<8> blocked on     Semaphore<19>
+IDLE# 664
+Thread<8> unblocked from Semaphore<19>
+Thread<8> blocked on     Semaphore<19>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 'g'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 665
+IDLE# 666
+IDLE# 667
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 668
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 669
+IDLE# 670
+IDLE# 671
+IDLE# 672
+IDLE# 673
+Thread<8> unblocked from Semaphore<19>
+Thread<8> blocked on     Semaphore<19>
+IDLE# 674
+Thread<8> unblocked from Semaphore<19>
+Thread<8> blocked on     Semaphore<19>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 'f'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 675
+IDLE# 676
+IDLE# 677
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 678
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 679
+IDLE# 680
+IDLE# 681
+IDLE# 682
+IDLE# 683
+IDLE# 684
+IDLE# 685
+IDLE# 686
+IDLE# 687
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 688
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 689
+Thread<8> unblocked from Semaphore<19>
+Thread<8> blocked on     Semaphore<19>
+IDLE# 690
+Thread<8> unblocked from Semaphore<19>
+Thread<8> blocked on     Semaphore<19>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 'g'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 691
+Thread<8> unblocked from Semaphore<19>
+Thread<8> blocked on     Semaphore<19>
+IDLE# 692
+Thread<8> unblocked from Semaphore<19>
+Thread<8> blocked on     Semaphore<19>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 'g'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 693
+IDLE# 694
+IDLE# 695
+IDLE# 696
+IDLE# 697
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 698
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 699
+IDLE# 700
+IDLE# 701
+IDLE# 702
+IDLE# 703
+IDLE# 704
+IDLE# 705
+IDLE# 706
+IDLE# 707
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<7>
+IDLE# 708
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+IDLE# 709
+IDLE# 710
+IDLE# 711
+IDLE# 712
+Thread<2> unblocked from Semaphore<7>
+CONSUMER: '3'
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 713
+IDLE# 714
+IDLE# 715
+IDLE# 716
+IDLE# 717
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 718
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 719
+IDLE# 720
+IDLE# 721
+Thread<8> unblocked from Semaphore<19>
+Thread<8> blocked on     Semaphore<19>
+IDLE# 722
+Thread<8> unblocked from Semaphore<19>
+Thread<8> blocked on     Semaphore<19>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 'd'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 723
+Thread<8> unblocked from Semaphore<19>
+Thread<8> blocked on     Semaphore<19>
+IDLE# 724
+Thread<8> unblocked from Semaphore<19>
+Thread<8> blocked on     Semaphore<19>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 'd'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 725
+IDLE# 726
+IDLE# 727
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 728
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 729
+IDLE# 730
+IDLE# 731
+IDLE# 732
+IDLE# 733
+IDLE# 734
+IDLE# 735
+IDLE# 736
+Thread<8> unblocked from Semaphore<19>
+Thread<8> blocked on     Semaphore<19>
+IDLE# 737
+Thread<8> unblocked from Semaphore<19>
+Thread<8> blocked on     Semaphore<19>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 'd'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+Thread<8> unblocked from Semaphore<19>
+Thread<8> blocked on     Semaphore<19>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 738
+Thread<8> unblocked from Semaphore<19>
+Thread<8> blocked on     Semaphore<19>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 'd'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+Thread<8> unblocked from Semaphore<19>
+Thread<8> blocked on     Semaphore<19>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 739
+Thread<8> unblocked from Semaphore<19>
+Thread<8> blocked on     Semaphore<19>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 'd'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 740
+IDLE# 741
+IDLE# 742
+IDLE# 743
+IDLE# 744
+IDLE# 745
+IDLE# 746
+IDLE# 747
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 748
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 749
+IDLE# 750
+IDLE# 751
+IDLE# 752
+IDLE# 753
+IDLE# 754
+IDLE# 755
+IDLE# 756
+IDLE# 757
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 758
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 759
+IDLE# 760
+IDLE# 761
+IDLE# 762
+IDLE# 763
+IDLE# 764
+IDLE# 765
+IDLE# 766
+IDLE# 767
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 768
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 769
+IDLE# 770
+IDLE# 771
+IDLE# 772
+IDLE# 773
+IDLE# 774
+IDLE# 775
+IDLE# 776
+IDLE# 777
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 778
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<7>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+IDLE# 779
+IDLE# 780
+IDLE# 781
+IDLE# 782
+IDLE# 783
+Thread<2> unblocked from Semaphore<7>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 784
+IDLE# 785
+IDLE# 786
+IDLE# 787
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 788
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 789
+IDLE# 790
+IDLE# 791
+IDLE# 792
+IDLE# 793
+IDLE# 794
+IDLE# 795
+IDLE# 796
+IDLE# 797
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 798
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 799
+IDLE# 800
+IDLE# 801
+IDLE# 802
+IDLE# 803
+IDLE# 804
+IDLE# 805
+IDLE# 806
+IDLE# 807
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 808
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 809
+IDLE# 810
+IDLE# 811
+IDLE# 812
+IDLE# 813
+IDLE# 814
+IDLE# 815
+IDLE# 816
+IDLE# 817
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 818
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 819
+IDLE# 820
+IDLE# 821
+IDLE# 822
+IDLE# 823
+IDLE# 824
+IDLE# 825
+IDLE# 826
+IDLE# 827
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 828
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 829
+IDLE# 830
+IDLE# 831
+IDLE# 832
+IDLE# 833
+IDLE# 834
+IDLE# 835
+IDLE# 836
+IDLE# 837
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 838
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 839
+IDLE# 840
+IDLE# 841
+IDLE# 842
+IDLE# 843
+IDLE# 844
+IDLE# 845
+IDLE# 846
+IDLE# 847
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 848
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 849
+IDLE# 850
+IDLE# 851
+IDLE# 852
+IDLE# 853
+IDLE# 854
+IDLE# 855
+IDLE# 856
+IDLE# 857
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 858
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<7>
+IDLE# 859
+IDLE# 860
+IDLE# 861
+IDLE# 862
+IDLE# 863
+Thread<2> unblocked from Semaphore<7>
+Thread<2> blocked on     Semaphore<5>
+IDLE# 864
+IDLE# 865
+IDLE# 866
+IDLE# 867
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 868
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 869
+IDLE# 870
+IDLE# 871
+IDLE# 872
+IDLE# 873
+IDLE# 874
+IDLE# 875
+IDLE# 876
+IDLE# 877
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 878
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 879
+IDLE# 880
+IDLE# 881
+IDLE# 882
+IDLE# 883
+IDLE# 884
+IDLE# 885
+IDLE# 886
+IDLE# 887
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 888
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 889
+IDLE# 890
+IDLE# 891
+IDLE# 892
+IDLE# 893
+IDLE# 894
+IDLE# 895
+IDLE# 896
+IDLE# 897
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 898
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 899
+IDLE# 900
+IDLE# 901
+IDLE# 902
+IDLE# 903
+IDLE# 904
+IDLE# 905
+IDLE# 906
+IDLE# 907
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 908
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 909
+IDLE# 910
+IDLE# 911
+IDLE# 912
+IDLE# 913
+IDLE# 914
+IDLE# 915
+IDLE# 916
+IDLE# 917
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 918
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 919
+IDLE# 920
+IDLE# 921
+IDLE# 922
+IDLE# 923
+IDLE# 924
+IDLE# 925
+IDLE# 926
+IDLE# 927
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 928
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 929
+IDLE# 930
+IDLE# 931
+IDLE# 932
+IDLE# 933
+IDLE# 934
+IDLE# 935
+IDLE# 936
+IDLE# 937
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 938
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 939
+IDLE# 940
+IDLE# 941
+IDLE# 942
+IDLE# 943
+IDLE# 944
+IDLE# 945
+IDLE# 946
+IDLE# 947
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<7>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+IDLE# 948
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+IDLE# 949
+IDLE# 950
+IDLE# 951
+IDLE# 952
+Thread<2> unblocked from Semaphore<7>
+CONSUMER: '0'
+CONSUMER: '2'
+CONSUMER: '3'
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 953
+IDLE# 954
+IDLE# 955
+IDLE# 956
+IDLE# 957
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 958
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 959
+IDLE# 960
+IDLE# 961
+IDLE# 962
+IDLE# 963
+IDLE# 964
+IDLE# 965
+IDLE# 966
+IDLE# 967
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 968
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 969
+IDLE# 970
+IDLE# 971
+IDLE# 972
+IDLE# 973
+IDLE# 974
+IDLE# 975
+IDLE# 976
+IDLE# 977
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 978
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 979
+IDLE# 980
+IDLE# 981
+IDLE# 982
+IDLE# 983
+IDLE# 984
+IDLE# 985
+IDLE# 986
+IDLE# 987
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 988
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 989
+IDLE# 990
+IDLE# 991
+IDLE# 992
+IDLE# 993
+IDLE# 994
+IDLE# 995
+IDLE# 996
+IDLE# 997
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 998
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 999
+IDLE# 1000
+IDLE# 1001
+IDLE# 1002
+IDLE# 1003
+IDLE# 1004
+IDLE# 1005
+IDLE# 1006
+IDLE# 1007
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1008
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1009
+IDLE# 1010
+IDLE# 1011
+IDLE# 1012
+IDLE# 1013
+IDLE# 1014
+IDLE# 1015
+IDLE# 1016
+IDLE# 1017
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1018
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1019
+IDLE# 1020
+IDLE# 1021
+IDLE# 1022
+IDLE# 1023
+IDLE# 1024
+IDLE# 1025
+IDLE# 1026
+IDLE# 1027
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<7>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+IDLE# 1028
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+IDLE# 1029
+IDLE# 1030
+IDLE# 1031
+IDLE# 1032
+Thread<2> unblocked from Semaphore<7>
+CONSUMER: '2'
+CONSUMER: '3'
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1033
+IDLE# 1034
+IDLE# 1035
+IDLE# 1036
+IDLE# 1037
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1038
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1039
+IDLE# 1040
+IDLE# 1041
+IDLE# 1042
+IDLE# 1043
+IDLE# 1044
+IDLE# 1045
+IDLE# 1046
+IDLE# 1047
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1048
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1049
+IDLE# 1050
+IDLE# 1051
+IDLE# 1052
+IDLE# 1053
+IDLE# 1054
+IDLE# 1055
+IDLE# 1056
+IDLE# 1057
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1058
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1059
+IDLE# 1060
+IDLE# 1061
+IDLE# 1062
+IDLE# 1063
+IDLE# 1064
+IDLE# 1065
+IDLE# 1066
+IDLE# 1067
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1068
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1069
+IDLE# 1070
+IDLE# 1071
+IDLE# 1072
+IDLE# 1073
+IDLE# 1074
+IDLE# 1075
+IDLE# 1076
+IDLE# 1077
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1078
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1079
+IDLE# 1080
+IDLE# 1081
+IDLE# 1082
+IDLE# 1083
+IDLE# 1084
+IDLE# 1085
+IDLE# 1086
+IDLE# 1087
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1088
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1089
+IDLE# 1090
+IDLE# 1091
+IDLE# 1092
+IDLE# 1093
+IDLE# 1094
+IDLE# 1095
+IDLE# 1096
+IDLE# 1097
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1098
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1099
+IDLE# 1100
+IDLE# 1101
+IDLE# 1102
+IDLE# 1103
+IDLE# 1104
+IDLE# 1105
+IDLE# 1106
+IDLE# 1107
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<7>
+IDLE# 1108
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+IDLE# 1109
+IDLE# 1110
+IDLE# 1111
+IDLE# 1112
+Thread<2> unblocked from Semaphore<7>
+CONSUMER: '3'
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1113
+IDLE# 1114
+IDLE# 1115
+IDLE# 1116
+IDLE# 1117
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1118
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1119
+IDLE# 1120
+IDLE# 1121
+IDLE# 1122
+IDLE# 1123
+IDLE# 1124
+IDLE# 1125
+IDLE# 1126
+IDLE# 1127
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1128
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1129
+IDLE# 1130
+IDLE# 1131
+IDLE# 1132
+IDLE# 1133
+IDLE# 1134
+IDLE# 1135
+IDLE# 1136
+IDLE# 1137
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1138
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1139
+IDLE# 1140
+IDLE# 1141
+IDLE# 1142
+IDLE# 1143
+IDLE# 1144
+IDLE# 1145
+IDLE# 1146
+IDLE# 1147
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1148
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1149
+IDLE# 1150
+IDLE# 1151
+IDLE# 1152
+IDLE# 1153
+IDLE# 1154
+IDLE# 1155
+IDLE# 1156
+IDLE# 1157
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1158
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1159
+IDLE# 1160
+IDLE# 1161
+IDLE# 1162
+IDLE# 1163
+IDLE# 1164
+IDLE# 1165
+IDLE# 1166
+IDLE# 1167
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1168
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1169
+IDLE# 1170
+IDLE# 1171
+IDLE# 1172
+IDLE# 1173
+IDLE# 1174
+IDLE# 1175
+IDLE# 1176
+IDLE# 1177
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1178
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1179
+IDLE# 1180
+IDLE# 1181
+IDLE# 1182
+IDLE# 1183
+IDLE# 1184
+IDLE# 1185
+IDLE# 1186
+IDLE# 1187
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1188
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<7>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+IDLE# 1189
+IDLE# 1190
+IDLE# 1191
+IDLE# 1192
+IDLE# 1193
+Thread<2> unblocked from Semaphore<7>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1194
+IDLE# 1195
+IDLE# 1196
+IDLE# 1197
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1198
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1199
+IDLE# 1200
+IDLE# 1201
+IDLE# 1202
+IDLE# 1203
+IDLE# 1204
+IDLE# 1205
+IDLE# 1206
+IDLE# 1207
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1208
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1209
+IDLE# 1210
+IDLE# 1211
+IDLE# 1212
+IDLE# 1213
+IDLE# 1214
+IDLE# 1215
+IDLE# 1216
+IDLE# 1217
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1218
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1219
+IDLE# 1220
+IDLE# 1221
+IDLE# 1222
+IDLE# 1223
+IDLE# 1224
+IDLE# 1225
+IDLE# 1226
+IDLE# 1227
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1228
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1229
+IDLE# 1230
+IDLE# 1231
+IDLE# 1232
+IDLE# 1233
+IDLE# 1234
+IDLE# 1235
+IDLE# 1236
+IDLE# 1237
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1238
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1239
+IDLE# 1240
+IDLE# 1241
+IDLE# 1242
+IDLE# 1243
+IDLE# 1244
+IDLE# 1245
+IDLE# 1246
+IDLE# 1247
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1248
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1249
+IDLE# 1250
+IDLE# 1251
+IDLE# 1252
+IDLE# 1253
+IDLE# 1254
+IDLE# 1255
+IDLE# 1256
+IDLE# 1257
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1258
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1259
+IDLE# 1260
+IDLE# 1261
+IDLE# 1262
+IDLE# 1263
+IDLE# 1264
+IDLE# 1265
+IDLE# 1266
+IDLE# 1267
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1268
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<7>
+IDLE# 1269
+IDLE# 1270
+IDLE# 1271
+IDLE# 1272
+IDLE# 1273
+Thread<2> unblocked from Semaphore<7>
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1274
+IDLE# 1275
+IDLE# 1276
+IDLE# 1277
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1278
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1279
+IDLE# 1280
+IDLE# 1281
+IDLE# 1282
+IDLE# 1283
+IDLE# 1284
+IDLE# 1285
+IDLE# 1286
+IDLE# 1287
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: '1'
+Thread<4> blocked on     Semaphore<11>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '1'
+Thread<2> blocked on     Semaphore<5>
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: '0'
+Thread<3> blocked on     Semaphore<9>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '0'
+Thread<2> blocked on     Semaphore<5>
+Thread<5> unblocked from Semaphore<13>
+PRODUCER: '2'
+Thread<5> blocked on     Semaphore<13>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '2'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1288
+Thread<6> unblocked from Semaphore<15>
+PRODUCER: '3'
+Thread<6> blocked on     Semaphore<15>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '3'
+Thread<2> blocked on     Semaphore<5>
+Thread<7> unblocked from Semaphore<17>
+PRODUCER: '4'
+Thread<7> blocked on     Semaphore<17>
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '4'
+Thread<2> blocked on     Semaphore<5>
+IDLE# 1289
+IDLE# 1290
+IDLE# 1291
+IDLE# 1292
+IDLE# 1293
+IDLE# 1294
+IDLE# 1295
+IDLE# 1296
+Thread<8> unblocked from Semaphore<19>
+Thread<8> blocked on     Semaphore<19>
+IDLE# 1297
+Thread<8> unblocked from Semaphore<19>
+
+KeyebordListener stopped!
+Deleting event:
+======Event<9>====================
+kevent[9]: 9
+oldivt[9]: 020a<<4 + 040a
+regivt[9]: 0a1c<<4 + 001c - set
+owner: thread<8>
+event sem<19>:
+----------------------------------
+
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: '!'
+
+ESC pressed - empty the buffer!
+
+Happy End
+Thread<5> unblocked from Semaphore<13>
+Thread<3> unblocked from Semaphore<9>
+Thread<0> unblocked from Semaphore<8>
+Deleting thread:
+======Thread<3>===================
+quant: 1
+state: finished
+
+sem4del<8>:
+parent: 0
+
+signals:
+delegate[0]: 1181<<4 + 25b7
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Thread<0> blocked on     Semaphore<10>
+Thread<7> unblocked from Semaphore<17>
+Thread<6> unblocked from Semaphore<15>
+Thread<4> unblocked from Semaphore<11>
+Thread<0> unblocked from Semaphore<10>
+Deleting thread:
+======Thread<4>===================
+quant: 1
+state: finished
+
+sem4del<10>:
+parent: 0
+
+signals:
+delegate[0]: 1181<<4 + 25b7
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Deleting thread:
+======Thread<5>===================
+quant: 1
+state: finished
+
+sem4del<12>:
+parent: 0
+
+signals:
+delegate[0]: 1181<<4 + 25b7
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Deleting thread:
+======Thread<6>===================
+quant: 1
+state: finished
+
+sem4del<14>:
+parent: 0
+
+signals:
+delegate[0]: 1181<<4 + 25b7
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Deleting thread:
+======Thread<7>===================
+quant: 1
+state: finished
+
+sem4del<16>:
+parent: 0
+
+signals:
+delegate[0]: 1181<<4 + 25b7
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Deleting thread:
+======Thread<8>===================
+quant: 2
+state: finished
+
+sem4del<18>:
+parent: 0
+
+signals:
+delegate[0]: 1181<<4 + 25b7
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Deleting thread:
+======Thread<2>===================
+quant: 0
+state: finished
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1181<<4 + 25b7
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+userMain finished!
+Deleting thread:
+======Thread<M>===================
+quant: 40
+state: running until 1341 (time: 1302)
+
+sem4del<0>:
+parent: ?
+
+signals:
+delegate[0]: 1181<<4 + 25b7
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Deleting thread:
+======Thread<I>===================
+quant: 1
+state: ready
+
+sem4del<1>:
+parent: ?
+
+signals:
+delegate[0]: 1181<<4 + 25b7
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+
+     __ _   __                          _
+    / /| | / /                         | |
+   / / | |/ /   ___  _ __  _ __    ___ | |
+  / /  |    \  / _ \| '__|| '_ \  / _ \| |
+ / /   | |\  \|  __/| |   | | | ||  __/| |
+/_/    \_| \_/ \___||_|   |_| |_| \___||_|
+
+
+=================================================================
+
+        _   __                          _
+       | | / /                         | |
+       | |/ /   ___  _ __  _ __    ___ | |
+       |    \  / _ \| '__|| '_ \  / _ \| |
+       | |\  \|  __/| |   | | | ||  __/| |
+       \_| \_/ \___||_|   |_| |_| \___||_|
+
+
+=================================================================
+
+New thread:
+======Thread<M>===================
+quant: 40
+state: running until 40 (time: 0)
+
+sem4del<0>:
+parent: ?
+
+signals:
+delegate[0]: 1181<<4 + 25b7
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<I>===================
+quant: 1
+state: ready
+
+sem4del<1>:
+parent: ?
+
+signals:
+delegate[0]: 1181<<4 + 25b7
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<2>===================
+quant: 0
+state: start
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1181<<4 + 25b7
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<3>===================
+quant: 1
+state: start
+
+sem4del<8>:
+parent: 0
+
+signals:
+delegate[0]: 1181<<4 + 25b7
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<4>===================
+quant: 1
+state: start
+
+sem4del<10>:
+parent: 0
+
+signals:
+delegate[0]: 1181<<4 + 25b7
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<5>===================
+quant: 1
+state: start
+
+sem4del<12>:
+parent: 0
+
+signals:
+delegate[0]: 1181<<4 + 25b7
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<6>===================
+quant: 1
+state: start
+
+sem4del<14>:
+parent: 0
+
+signals:
+delegate[0]: 1181<<4 + 25b7
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<7>===================
+quant: 1
+state: start
+
+sem4del<16>:
+parent: 0
+
+signals:

@@ -1,0 +1,420 @@
+
+C:\eclipse-cpp-luna-SR1-win32\eclipse>set PathName="C:\Users\OS1\workspace\Proje
+kat\BCC"
+
+C:\eclipse-cpp-luna-SR1-win32\eclipse>cd "C:\Users\OS1\workspace\Projekat\BCC"
+
+C:\Users\OS1\workspace\Projekat\BCC>Projekat.exe
+        _   __                          _
+       | | / /                         | |
+       | |/ /   ___  _ __  _ __    ___ | |
+       |    \  / _ \| '__|| '_ \  / _ \| |
+       | |\  \|  __/| |   | | | ||  __/| |
+       \_| \_/ \___||_|   |_| |_| \___||_|
+
+
+=================================================================
+
+New thread:
+======Thread<M>===================
+quant: 40
+state: running until 40 (time: 0)
+
+sem4del<0>:
+parent: ?
+
+signals:
+delegate[0]: 111d<<4 + 25ae
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<I>===================
+quant: 1
+state: ready
+
+sem4del<1>:
+parent: ?
+
+signals:
+delegate[0]: 111d<<4 + 25ae
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+======allocations=================
+allocated so far: 12035
+alive objects: 92
+----------------------------------
+New thread:
+======Thread<2>===================
+quant: 20
+state: start
+
+sem4del<4>:
+parent: 0
+
+signals:
+delegate[0]: 111d<<4 + 25ae
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<3>===================
+quant: 20
+state: start
+
+sem4del<5>:
+parent: 0
+
+signals:
+delegate[0]: 111d<<4 + 25ae
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<4>===================
+quant: 20
+state: start
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 111d<<4 + 25ae
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Thread<0> blocked on     Semaphore<4>
+New event:
+======Event<9>====================
+kevent[9]: 9
+oldivt[9]: 020a<<4 + 040a
+regivt[9]: 09ea<<4 + 0147 - set
+owner: thread<4>
+event sem<7>:
+----------------------------------
+
+C# 0
+Thread<4> blocked on     Semaphore<7>
+B# 0
+B# 1
+B# 2
+B# 3
+B# 4
+A# 0
+A# 1
+A# 2
+A# 3
+A# 4
+A# 5
+A# 6
+Thread<4> unblocked from Semaphore<7>
+C# 1
+Thread<4> blocked on     Semaphore<7>
+A# 7
+A# 8
+A# 9
+A> Happy End
+Thread<0> unblocked from Semaphore<4>
+Deleting thread:
+======Thread<2>===================
+quant: 20
+state: finished
+
+sem4del<4>:
+parent: 0
+
+signals:
+delegate[0]: 111d<<4 + 25ae
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Thread<0> blocked on     Semaphore<5>
+Thread<4> unblocked from Semaphore<7>
+C# 2
+Thread<4> blocked on     Semaphore<7>
+B# 5
+B# 6
+Thread<4> unblocked from Semaphore<7>
+C# 3
+Thread<4> blocked on     Semaphore<7>
+B# 7
+Thread<4> unblocked from Semaphore<7>
+C# 4
+Thread<4> blocked on     Semaphore<7>
+B# 8
+Thread<4> unblocked from Semaphore<7>
+C# 5
+Thread<4> blocked on     Semaphore<7>
+B# 9
+Thread<4> unblocked from Semaphore<7>
+C# 6
+Thread<4> blocked on     Semaphore<7>
+B> Happy End
+Thread<0> unblocked from Semaphore<5>
+Deleting thread:
+======Thread<3>===================
+quant: 20
+state: finished
+
+sem4del<5>:
+parent: 0
+
+signals:
+delegate[0]: 111d<<4 + 25ae
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Thread<0> blocked on     Semaphore<6>
+IDLE# 0
+IDLE# 1
+IDLE# 2
+Thread<4> unblocked from Semaphore<7>
+C# 7
+Thread<4> blocked on     Semaphore<7>
+IDLE# 3
+Thread<4> unblocked from Semaphore<7>
+C# 8
+Thread<4> blocked on     Semaphore<7>
+IDLE# 4
+IDLE# 5
+IDLE# 6
+Thread<4> unblocked from Semaphore<7>
+C# 9
+Thread<4> blocked on     Semaphore<7>
+IDLE# 7
+Thread<4> unblocked from Semaphore<7>
+Deleting event:
+======Event<9>====================
+kevent[9]: 9
+oldivt[9]: 020a<<4 + 040a
+regivt[9]: 09ea<<4 + 0147 - set
+owner: thread<4>
+event sem<7>:
+----------------------------------
+
+C> Happy End
+Thread<0> unblocked from Semaphore<6>
+Deleting thread:
+======Thread<4>===================
+quant: 20
+state: finished
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 111d<<4 + 25ae
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+MAIN> Happy End
+Deleting thread:
+======Thread<M>===================
+quant: 40
+state: running until 124 (time: 84)
+
+sem4del<0>:
+parent: ?
+
+signals:
+delegate[0]: 111d<<4 + 25ae
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Deleting thread:
+======Thread<I>===================
+quant: 1
+state: ready
+
+sem4del<1>:
+parent: ?
+
+signals:
+delegate[0]: 111d<<4 + 25ae
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+
+     __ _   __                          _
+    / /| | / /                         | |
+   / / | |/ /   ___  _ __  _ __    ___ | |
+  / /  |    \  / _ \| '__|| '_ \  / _ \| |
+ / /   | |\  \|  __/| |   | | | ||  __/| |
+/_/    \_| \_/ \___||_|   |_| |_| \___||_|
+
+
+=================================================================
+
+======allocations=================
+allocated so far: 40221
+alive objects: 9
+----------------------------------
+        _   __                          _
+       | | / /                         | |
+       | |/ /   ___  _ __  _ __    ___ | |
+       |    \  / _ \| '__|| '_ \  / _ \| |
+       | |\  \|  __/| |   | | | ||  __/| |
+       \_| \_/ \___||_|   |_| |_| \___||_|
+
+
+=================================================================
+
+New thread:
+======Thread<M>===================
+quant: 40
+state: running until 40 (time: 0)
+
+sem4del<0>:
+parent: ?
+
+signals:
+delegate[0]: 111d<<4 + 25ae
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<I>===================
+quant: 1
+state: ready
+
+sem4del<1>:
+parent: ?
+
+signals:
+delegate[0]: 111d<<4 + 25ae
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+======allocations=================
+allocated so far: 50540
+alive objects: 95
+----------------------------------
+New thread:
+======Thread<2>===================
+quant: 20
+state: start
+
+sem4del<4>:
+parent: 0
+
+signals:
+delegate[0]: 111d<<4 + 25ae
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<3>===================
+quant: 20
+state: start
+
+sem4del<5>:
+parent: 0
+
+signals:
+delegate[0]: 111d<<4 + 25ae
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<4>===================
+quant: 20
+state: start
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 111d<<4 + 25ae
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Thread<0> blocked on     Semaphore<4>
+New event:
+======Event<9>====================
+kevent[9]: 9
+oldivt[9]: 020a<<4 + 040a
+regivt[9]: 09ea<<4 + 0147 - set
+owner: thread<4>
+event sem<7>:
+----------------------------------
+
+C# 0
+Thread<4> blocked on     Semaphore<7>
+B# 0
+B# 1
+B# 2
+A# 0
+A# 1
+A# 2
+A# 3
+A# 4
+A# 5
+B# 3
+B# 4
+B# 5
+B# 6
+A# 6
+A# 7
+A# 8
+A# 9
+A> Happy End
+Thread<0> unblocked from Semaphore<4>
+Deleting thread:
+======Thread<2>===================
+quant: 20
+state: finished
+
+sem4del<4>:
+parent: 0
+
+signals:
+delegate[0]: 111d<<4 + 25ae
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Thread<0> blocked on     Semaphore<5>
+B# 7
+B# 8
+B# 9
+B> Happy End
+Thread<0> unblocked from Semaphore<5>
+Deleting thread:
+======Thread<3>===================
+quant: 20
+state: finished
+
+sem4del<5>:
+parent: 0
+
+signals:
+delegate[0]: 111d<<4 + 25ae
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Thread<0> blocked on     Semaphore<6>
+IDLE# 0
+IDLE# 1
+IDLE# 2
+IDLE# 3
+IDLE# 4
+IDLE# 5
+
+C:\Users\OS1\workspace\Projekat\BCC>

@@ -1,0 +1,5978 @@
+
+C:\eclipse-cpp-luna-SR1-win32\eclipse>set PathName="C:\Users\OS1\workspace\Proje
+kat\BCC"
+
+C:\eclipse-cpp-luna-SR1-win32\eclipse>cd "C:\Users\OS1\workspace\Projekat\BCC"
+
+C:\Users\OS1\workspace\Projekat\BCC>Projekat.exe
+        _   __                          _
+       | | / /                         | |
+       | |/ /   ___  _ __  _ __    ___ | |
+       |    \  / _ \| '__|| '_ \  / _ \| |
+       | |\  \|  __/| |   | | | ||  __/| |
+       \_| \_/ \___||_|   |_| |_| \___||_|
+
+
+=================================================================
+
+New thread:
+======Thread<M>===================
+quant: 40
+state: running until 40 (time: 0)
+
+sem4del<0>:
+parent: ?
+
+signals:
+delegate[0]: 1bf4<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<I>===================
+quant: 1
+state: ready
+
+sem4del<1>:
+parent: ?
+
+signals:
+delegate[0]: 1c66<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<2>===================
+quant: 0
+state: start
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<3>===================
+quant: 1
+state: start
+
+sem4del<8>:
+parent: 0
+
+signals:
+delegate[0]: 2100<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<4>===================
+quant: 1
+state: start
+
+sem4del<10>:
+parent: 0
+
+signals:
+delegate[0]: 2360<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<5>===================
+quant: 1
+state: start
+
+sem4del<12>:
+parent: 0
+
+signals:
+delegate[0]: 25c0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<6>===================
+quant: 1
+state: start
+
+sem4del<14>:
+parent: 0
+
+signals:
+delegate[0]: 2820<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<7>===================
+quant: 1
+state: start
+
+sem4del<16>:
+parent: 0
+
+signals:
+delegate[0]: 2a80<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<8>===================
+quant: 1
+state: start
+
+sem4del<18>:
+parent: 0
+
+signals:
+delegate[0]: 2ce0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<9>===================
+quant: 1
+state: start
+
+sem4del<20>:
+parent: 0
+
+signals:
+delegate[0]: 2f40<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<10>===================
+quant: 1
+state: start
+
+sem4del<22>:
+parent: 0
+
+signals:
+delegate[0]: 31a0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<11>===================
+quant: 1
+state: start
+
+sem4del<24>:
+parent: 0
+
+signals:
+delegate[0]: 3400<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<12>===================
+quant: 1
+state: start
+
+sem4del<26>:
+parent: 0
+
+signals:
+delegate[0]: 3660<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<13>===================
+quant: 1
+state: start
+
+sem4del<28>:
+parent: 0
+
+signals:
+delegate[0]: 38c0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<14>===================
+quant: 1
+state: start
+
+sem4del<30>:
+parent: 0
+
+signals:
+delegate[0]: 3b20<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<15>===================
+quant: 1
+state: start
+
+sem4del<32>:
+parent: 0
+
+signals:
+delegate[0]: 3d80<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<16>===================
+quant: 1
+state: start
+
+sem4del<34>:
+parent: 0
+
+signals:
+delegate[0]: 3fe0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<17>===================
+quant: 1
+state: start
+
+sem4del<36>:
+parent: 0
+
+signals:
+delegate[0]: 4240<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<18>===================
+quant: 1
+state: start
+
+sem4del<38>:
+parent: 0
+
+signals:
+delegate[0]: 44a0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<19>===================
+quant: 1
+state: start
+
+sem4del<40>:
+parent: 0
+
+signals:
+delegate[0]: 4700<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<20>===================
+quant: 1
+state: start
+
+sem4del<42>:
+parent: 0
+
+signals:
+delegate[0]: 4960<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<21>===================
+quant: 1
+state: start
+
+sem4del<44>:
+parent: 0
+
+signals:
+delegate[0]: 4bc0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+New thread:
+======Thread<22>===================
+quant: 2
+state: start
+
+sem4del<46>:
+parent: 0
+
+signals:
+delegate[0]: 4e20<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Thread<0> blocked on Semaphore<8>
+
+
+
+=====================================context(2)====== M  to T22
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<M>===================
+quant: 40
+state: blocked
+
+blocked on: semaph<8> lockcnt: 3
+sem4del<0>:
+parent: ?
+
+signals:
+delegate[0]: 1bf4<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+quant: 2
+state: running until 4 (time: 2)
+
+sem4del<46>:
+parent: 0
+
+signals:
+delegate[0]: 4e20<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+New event:
+======Event<9>====================
+kevent[9]: 9
+oldivt[9]: 020a<<4 + 040a
+regivt[9]: 0a1c<<4 + 001c - set
+owner: thread<22>
+event sem<47>:
+----------------------------------
+
+KeyebordListener started!
+Thread<22> blocked on Semaphore<47>
+
+
+
+=====================================context(2)====== T22 to T21
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+quant: 2
+state: blocked
+
+blocked on: semaph<47> lockcnt: 1
+sem4del<46>:
+parent: 0
+
+signals:
+delegate[0]: 4e20<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<21>===================
+quant: 1
+state: running until 3 (time: 2)
+
+sem4del<44>:
+parent: 0
+
+signals:
+delegate[0]: 4bc0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+
+
+
+=====================================context(3)====== T21 to T20
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<21>===================
+quant: 1
+state: ready
+
+sem4del<44>:
+parent: 0
+
+signals:
+delegate[0]: 4bc0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<20>===================
+quant: 1
+state: running until 4 (time: 3)
+
+sem4del<42>:
+parent: 0
+
+signals:
+delegate[0]: 4960<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+PRODUCER: 17
+Thread<20> blocked on Semaphore<43>
+
+
+
+=====================================context(3)====== T20 to T19
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<20>===================
+quant: 1
+state: blocked until 13 (time: 3)
+
+blocked on: semaph<43> lockcnt: 1
+sem4del<42>:
+parent: 0
+
+signals:
+delegate[0]: 4960<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<19>===================
+quant: 1
+state: running until 4 (time: 3)
+
+sem4del<40>:
+parent: 0
+
+signals:
+delegate[0]: 4700<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 20activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+
+
+
+=====================================context(4)====== T19 to T18
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<19>===================
+quant: 1
+state: ready
+
+sem4del<40>:
+parent: 0
+
+signals:
+delegate[0]: 4700<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<18>===================
+quant: 1
+state: running until 5 (time: 4)
+
+sem4del<38>:
+parent: 0
+
+signals:
+delegate[0]: 44a0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 20activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+PRODUCER: 15
+Thread<18> blocked on Semaphore<39>
+
+
+
+=====================================context(4)====== T18 to T17
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<18>===================
+quant: 1
+state: blocked until 14 (time: 4)
+
+blocked on: semaph<39> lockcnt: 1
+sem4del<38>:
+parent: 0
+
+signals:
+delegate[0]: 44a0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<17>===================
+quant: 1
+state: running until 5 (time: 4)
+
+sem4del<36>:
+parent: 0
+
+signals:
+delegate[0]: 4240<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 20 18activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+
+
+
+=====================================context(5)====== T17 to T16
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<17>===================
+quant: 1
+state: ready
+
+sem4del<36>:
+parent: 0
+
+signals:
+delegate[0]: 4240<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<16>===================
+quant: 1
+state: running until 6 (time: 5)
+
+sem4del<34>:
+parent: 0
+
+signals:
+delegate[0]: 3fe0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 20 18activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+PRODUCER: 13
+Thread<16> blocked on Semaphore<35>
+
+
+
+=====================================context(5)====== T16 to T15
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<16>===================
+quant: 1
+state: blocked until 15 (time: 5)
+
+blocked on: semaph<35> lockcnt: 1
+sem4del<34>:
+parent: 0
+
+signals:
+delegate[0]: 3fe0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<15>===================
+quant: 1
+state: running until 6 (time: 6)
+
+sem4del<32>:
+parent: 0
+
+signals:
+delegate[0]: 3d80<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 20 18 16activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+
+
+
+=====================================context(6)====== T15 to T14
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<15>===================
+quant: 1
+state: ready
+
+sem4del<32>:
+parent: 0
+
+signals:
+delegate[0]: 3d80<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<14>===================
+quant: 1
+state: running until 7 (time: 6)
+
+sem4del<30>:
+parent: 0
+
+signals:
+delegate[0]: 3b20<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 20 18 16activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+PRODUCER: 11
+Thread<14> blocked on Semaphore<31>
+
+
+
+=====================================context(6)====== T14 to T13
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<14>===================
+quant: 1
+state: blocked until 16 (time: 6)
+
+blocked on: semaph<31> lockcnt: 1
+sem4del<30>:
+parent: 0
+
+signals:
+delegate[0]: 3b20<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<13>===================
+quant: 1
+state: running until 7 (time: 6)
+
+sem4del<28>:
+parent: 0
+
+signals:
+delegate[0]: 38c0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 20 18 16 14activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+
+
+
+=====================================context(7)====== T13 to T12
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<13>===================
+quant: 1
+state: ready
+
+sem4del<28>:
+parent: 0
+
+signals:
+delegate[0]: 38c0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<12>===================
+quant: 1
+state: running until 8 (time: 7)
+
+sem4del<26>:
+parent: 0
+
+signals:
+delegate[0]: 3660<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 20 18 16 14activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+PRODUCER: 9
+Thread<12> blocked on Semaphore<27>
+
+
+
+=====================================context(7)====== T12 to T11
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<12>===================
+quant: 1
+state: blocked until 17 (time: 7)
+
+blocked on: semaph<27> lockcnt: 1
+sem4del<26>:
+parent: 0
+
+signals:
+delegate[0]: 3660<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<11>===================
+quant: 1
+state: running until 8 (time: 8)
+
+sem4del<24>:
+parent: 0
+
+signals:
+delegate[0]: 3400<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 20 18 16 14 12activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+
+
+
+=====================================context(8)====== T11 to T10
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<11>===================
+quant: 1
+state: ready
+
+sem4del<24>:
+parent: 0
+
+signals:
+delegate[0]: 3400<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<10>===================
+quant: 1
+state: running until 9 (time: 8)
+
+sem4del<22>:
+parent: 0
+
+signals:
+delegate[0]: 31a0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 20 18 16 14 12activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+PRODUCER: 7
+Thread<10> blocked on Semaphore<23>
+
+
+
+=====================================context(8)====== T10 to T9
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<10>===================
+quant: 1
+state: blocked until 18 (time: 8)
+
+blocked on: semaph<23> lockcnt: 1
+sem4del<22>:
+parent: 0
+
+signals:
+delegate[0]: 31a0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<9>===================
+quant: 1
+state: running until 9 (time: 8)
+
+sem4del<20>:
+parent: 0
+
+signals:
+delegate[0]: 2f40<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 20 18 16 14 12 10activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+
+
+
+=====================================context(9)====== T9 to T8
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<9>===================
+quant: 1
+state: ready
+
+sem4del<20>:
+parent: 0
+
+signals:
+delegate[0]: 2f40<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+quant: 1
+state: running until 10 (time: 9)
+
+sem4del<18>:
+parent: 0
+
+signals:
+delegate[0]: 2ce0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 20 18 16 14 12 10activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+PRODUCER: 5
+Thread<8> blocked on Semaphore<19>
+
+
+
+=====================================context(9)====== T8 to T7
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+quant: 1
+state: blocked until 19 (time: 9)
+
+blocked on: semaph<19> lockcnt: 1
+sem4del<18>:
+parent: 0
+
+signals:
+delegate[0]: 2ce0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<7>===================
+quant: 1
+state: running until 10 (time: 10)
+
+sem4del<16>:
+parent: 0
+
+signals:
+delegate[0]: 2a80<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 20 18 16 14 12 10 8activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+
+
+
+=====================================context(10)====== T7 to T6
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<7>===================
+quant: 1
+state: ready
+
+sem4del<16>:
+parent: 0
+
+signals:
+delegate[0]: 2a80<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<6>===================
+quant: 1
+state: running until 11 (time: 10)
+
+sem4del<14>:
+parent: 0
+
+signals:
+delegate[0]: 2820<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 20 18 16 14 12 10 8activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+PRODUCER: 3
+Thread<6> blocked on Semaphore<15>
+
+
+
+=====================================context(10)====== T6 to T5
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<6>===================
+quant: 1
+state: blocked until 20 (time: 10)
+
+blocked on: semaph<15> lockcnt: 1
+sem4del<14>:
+parent: 0
+
+signals:
+delegate[0]: 2820<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<5>===================
+quant: 1
+state: running until 11 (time: 10)
+
+sem4del<12>:
+parent: 0
+
+signals:
+delegate[0]: 25c0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 20 18 16 14 12 10 8 6activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+
+
+
+=====================================context(11)====== T5 to T4
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<5>===================
+quant: 1
+state: ready
+
+sem4del<12>:
+parent: 0
+
+signals:
+delegate[0]: 25c0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<4>===================
+quant: 1
+state: running until 12 (time: 11)
+
+sem4del<10>:
+parent: 0
+
+signals:
+delegate[0]: 2360<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 20 18 16 14 12 10 8 6activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+PRODUCER: 1
+Thread<4> blocked on Semaphore<11>
+
+
+
+=====================================context(11)====== T4 to T3
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<4>===================
+quant: 1
+state: blocked until 21 (time: 11)
+
+blocked on: semaph<11> lockcnt: 1
+sem4del<10>:
+parent: 0
+
+signals:
+delegate[0]: 2360<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+quant: 1
+state: running until 12 (time: 11)
+
+sem4del<8>: 0
+parent: 0
+
+signals:
+delegate[0]: 2100<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 20 18 16 14 12 10 8 6 4activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+
+
+
+=====================================context(12)====== T3 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<3>===================
+quant: 1
+state: ready
+
+sem4del<8>: 0
+parent: 0
+
+signals:
+delegate[0]: 2100<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 12 (time: 12)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 20 18 16 14 12 10 8 6 4activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+CONSUMER: 17
+CONSUMER: 15
+CONSUMER: 13
+CONSUMER: 11
+CONSUMER: 9
+CONSUMER: 7
+CONSUMER: 5
+CONSUMER: 3
+CONSUMER: 1
+Thread<2> blocked on Semaphore<5>
+
+
+
+=====================================context(12)====== T2 to T21
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked
+
+blocked on: semaph<5> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<21>===================
+quant: 1
+state: running until 13 (time: 12)
+
+sem4del<44>:
+parent: 0
+
+signals:
+delegate[0]: 4bc0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 20 18 16 14 12 10 8 6 4activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+
+
+
+=====================================context(13)====== T21 to T20
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<21>===================
+quant: 1
+state: ready
+
+sem4del<44>:
+parent: 0
+
+signals:
+delegate[0]: 4bc0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<20>===================
+quant: 1
+state: running until 14 (time: 13)
+
+> max block time expired
+sem4del<42>:
+parent: 0
+
+signals:
+delegate[0]: 4960<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 18 16 14 12 10 8 6 4activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<20> unblocked from Semaphore<43>
+PRODUCER: 17
+Thread<20> blocked on Semaphore<43>
+
+
+
+=====================================context(13)====== T20 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<20>===================
+quant: 1
+state: blocked until 23 (time: 13)
+
+blocked on: semaph<43> lockcnt: 1
+sem4del<42>:
+parent: 0
+
+signals:
+delegate[0]: 4960<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 13 (time: 13)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 16 14 12 10 8 6 4 20activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 17
+Thread<2> blocked on Semaphore<5>
+
+
+
+=====================================context(14)====== T2 to T18
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked
+
+blocked on: semaph<5> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<18>===================
+quant: 1
+state: running until 15 (time: 14)
+
+> max block time expired
+sem4del<38>:
+parent: 0
+
+signals:
+delegate[0]: 44a0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 16 14 12 10 8 6 4 20activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<18> unblocked from Semaphore<39>
+PRODUCER: 15
+Thread<18> blocked on Semaphore<39>
+
+
+
+=====================================context(14)====== T18 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<18>===================
+quant: 1
+state: blocked until 24 (time: 14)
+
+blocked on: semaph<39> lockcnt: 1
+sem4del<38>:
+parent: 0
+
+signals:
+delegate[0]: 44a0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 14 (time: 14)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 16 14 12 10 8 6 4 20 18activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 15
+Thread<2> blocked on Semaphore<5>
+
+
+
+=====================================context(14)====== T2 to T19
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked
+
+blocked on: semaph<5> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<19>===================
+quant: 1
+state: running until 15 (time: 15)
+
+sem4del<40>:
+parent: 0
+
+signals:
+delegate[0]: 4700<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 14 12 10 8 6 4 20 18activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+
+
+
+=====================================context(15)====== T19 to T16
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<19>===================
+quant: 1
+state: ready
+
+sem4del<40>:
+parent: 0
+
+signals:
+delegate[0]: 4700<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<16>===================
+quant: 1
+state: running until 16 (time: 15)
+
+> max block time expired
+sem4del<34>:
+parent: 0
+
+signals:
+delegate[0]: 3fe0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 14 12 10 8 6 4 20 18activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<16> unblocked from Semaphore<35>
+PRODUCER: 13
+Thread<16> blocked on Semaphore<35>
+
+
+
+=====================================context(15)====== T16 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<16>===================
+quant: 1
+state: blocked until 25 (time: 15)
+
+blocked on: semaph<35> lockcnt: 1
+sem4del<34>:
+parent: 0
+
+signals:
+delegate[0]: 3fe0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 15 (time: 16)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 12 10 8 6 4 20 18 16activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 13
+Thread<2> blocked on Semaphore<5>
+
+
+
+=====================================context(16)====== T2 to T14
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked
+
+blocked on: semaph<5> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<14>===================
+quant: 1
+state: running until 17 (time: 16)
+
+> max block time expired
+sem4del<30>:
+parent: 0
+
+signals:
+delegate[0]: 3b20<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 12 10 8 6 4 20 18 16activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<14> unblocked from Semaphore<31>
+PRODUCER: 11
+Thread<14> blocked on Semaphore<31>
+
+
+
+=====================================context(16)====== T14 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<14>===================
+quant: 1
+state: blocked until 26 (time: 17)
+
+blocked on: semaph<31> lockcnt: 1
+sem4del<30>:
+parent: 0
+
+signals:
+delegate[0]: 3b20<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 16 (time: 17)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 10 8 6 4 20 18 16 14activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 11
+Thread<2> blocked on Semaphore<5>
+
+
+
+=====================================context(17)====== T2 to T12
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked
+
+blocked on: semaph<5> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<12>===================
+quant: 1
+state: running until 18 (time: 17)
+
+> max block time expired
+sem4del<26>:
+parent: 0
+
+signals:
+delegate[0]: 3660<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 10 8 6 4 20 18 16 14activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<12> unblocked from Semaphore<27>
+PRODUCER: 9
+Thread<12> blocked on Semaphore<27>
+
+
+
+=====================================context(17)====== T12 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<12>===================
+quant: 1
+state: blocked until 27 (time: 17)
+
+blocked on: semaph<27> lockcnt: 1
+sem4del<26>:
+parent: 0
+
+signals:
+delegate[0]: 3660<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 17 (time: 18)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 8 6 4 20 18 16 14 12activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 9
+Thread<2> blocked on Semaphore<5>
+
+
+
+=====================================context(18)====== T2 to T10
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked
+
+blocked on: semaph<5> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<10>===================
+quant: 1
+state: running until 19 (time: 18)
+
+> max block time expired
+sem4del<22>:
+parent: 0
+
+signals:
+delegate[0]: 31a0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 8 6 4 20 18 16 14 12activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<10> unblocked from Semaphore<23>
+
+
+
+=====================================context(19)====== T10 to T8
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<10>===================
+quant: 1
+state: ready
+
+sem4del<22>:
+parent: 0
+
+signals:
+delegate[0]: 31a0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+quant: 1
+state: running until 20 (time: 19)
+
+> max block time expired
+sem4del<18>:
+parent: 0
+
+signals:
+delegate[0]: 2ce0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 6 4 20 18 16 14 12activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<8> unblocked from Semaphore<19>
+PRODUCER: 5
+Thread<8> blocked on Semaphore<19>
+
+
+
+=====================================context(19)====== T8 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+quant: 1
+state: blocked until 29 (time: 19)
+
+blocked on: semaph<19> lockcnt: 1
+sem4del<18>:
+parent: 0
+
+signals:
+delegate[0]: 2ce0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 19 (time: 19)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 6 4 20 18 16 14 12 8activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 5
+Thread<2> blocked on Semaphore<5>
+
+
+
+=====================================context(19)====== T2 to T17
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked
+
+blocked on: semaph<5> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<17>===================
+quant: 1
+state: running until 20 (time: 20)
+
+sem4del<36>:
+parent: 0
+
+signals:
+delegate[0]: 4240<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 4 20 18 16 14 12 8activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+
+
+
+=====================================context(20)====== T17 to T6
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<17>===================
+quant: 1
+state: ready
+
+sem4del<36>:
+parent: 0
+
+signals:
+delegate[0]: 4240<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<6>===================
+quant: 1
+state: running until 21 (time: 20)
+
+> max block time expired
+sem4del<14>:
+parent: 0
+
+signals:
+delegate[0]: 2820<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 20 18 16 14 12 8activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<6> unblocked from Semaphore<15>
+
+
+
+=====================================context(21)====== T6 to T4
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<6>===================
+quant: 1
+state: ready
+
+sem4del<14>:
+parent: 0
+
+signals:
+delegate[0]: 2820<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<4>===================
+quant: 1
+state: running until 22 (time: 21)
+
+> max block time expired
+sem4del<10>:
+parent: 0
+
+signals:
+delegate[0]: 2360<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 20 18 16 14 12 8activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: 1
+Thread<4> blocked on Semaphore<11>
+
+
+
+=====================================context(21)====== T4 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<4>===================
+quant: 1
+state: blocked until 31 (time: 21)
+
+blocked on: semaph<11> lockcnt: 1
+sem4del<10>:
+parent: 0
+
+signals:
+delegate[0]: 2360<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 21 (time: 21)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 20 18 16 14 12 8 4activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 1
+Thread<2> blocked on Semaphore<5>
+
+
+
+=====================================context(22)====== T2 to T15
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked
+
+blocked on: semaph<5> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<15>===================
+quant: 1
+state: running until 23 (time: 22)
+
+sem4del<32>:
+parent: 0
+
+signals:
+delegate[0]: 3d80<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 20 18 16 14 12 8 4activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+PRODUCER: 12
+Thread<15> blocked on Semaphore<33>
+
+
+
+=====================================context(22)====== T15 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<15>===================
+quant: 1
+state: blocked until 32 (time: 22)
+
+blocked on: semaph<33> lockcnt: 1
+sem4del<32>:
+parent: 0
+
+signals:
+delegate[0]: 3d80<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 22 (time: 22)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 18 16 14 12 8 4 15activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 12
+Thread<2> blocked on Semaphore<5>
+
+
+
+=====================================context(23)====== T2 to T20
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked
+
+blocked on: semaph<5> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<20>===================
+quant: 1
+state: running until 24 (time: 23)
+
+> max block time expired
+sem4del<42>:
+parent: 0
+
+signals:
+delegate[0]: 4960<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 18 16 14 12 8 4 15activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<20> unblocked from Semaphore<43>
+PRODUCER: 17
+Thread<20> blocked on Semaphore<43>
+
+
+
+=====================================context(23)====== T20 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<20>===================
+quant: 1
+state: blocked until 33 (time: 23)
+
+blocked on: semaph<43> lockcnt: 1
+sem4del<42>:
+parent: 0
+
+signals:
+delegate[0]: 4960<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 23 (time: 23)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 18 16 14 12 8 4 15 20activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 17
+Thread<2> blocked on Semaphore<5>
+
+
+
+=====================================context(24)====== T2 to T18
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked
+
+blocked on: semaph<5> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<18>===================
+quant: 1
+state: running until 25 (time: 24)
+
+> max block time expired
+sem4del<38>:
+parent: 0
+
+signals:
+delegate[0]: 44a0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 16 14 12 8 4 15 20activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<18> unblocked from Semaphore<39>
+PRODUCER: 15
+Thread<18> blocked on Semaphore<39>
+
+
+
+=====================================context(24)====== T18 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<18>===================
+quant: 1
+state: blocked until 34 (time: 24)
+
+blocked on: semaph<39> lockcnt: 1
+sem4del<38>:
+parent: 0
+
+signals:
+delegate[0]: 44a0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 24 (time: 25)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 14 12 8 4 15 20 18activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 15
+Thread<2> blocked on Semaphore<5>
+
+
+
+=====================================context(25)====== T2 to T16
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked
+
+blocked on: semaph<5> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<16>===================
+quant: 1
+state: running until 26 (time: 25)
+
+> max block time expired
+sem4del<34>:
+parent: 0
+
+signals:
+delegate[0]: 3fe0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 14 12 8 4 15 20 18activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<16> unblocked from Semaphore<35>
+PRODUCER: 13
+Thread<16> blocked on Semaphore<35>
+
+
+
+=====================================context(25)====== T16 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<16>===================
+quant: 1
+state: blocked until 35 (time: 25)
+
+blocked on: semaph<35> lockcnt: 1
+sem4del<34>:
+parent: 0
+
+signals:
+delegate[0]: 3fe0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 25 (time: 25)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 12 8 4 15 20 18 16activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 13
+Thread<2> blocked on Semaphore<5>
+
+
+
+=====================================context(26)====== T2 to T14
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked
+
+blocked on: semaph<5> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<14>===================
+quant: 1
+state: running until 27 (time: 26)
+
+> max block time expired
+sem4del<30>:
+parent: 0
+
+signals:
+delegate[0]: 3b20<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 12 8 4 15 20 18 16activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<14> unblocked from Semaphore<31>
+PRODUCER: 11
+Thread<14> blocked on Semaphore<31>
+
+
+
+=====================================context(26)====== T14 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<14>===================
+quant: 1
+state: blocked until 36 (time: 26)
+
+blocked on: semaph<31> lockcnt: 1
+sem4del<30>:
+parent: 0
+
+signals:
+delegate[0]: 3b20<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 26 (time: 27)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 8 4 15 20 18 16 14activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 11
+Thread<2> blocked on Semaphore<5>
+
+
+
+=====================================context(27)====== T2 to T12
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked
+
+blocked on: semaph<5> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<12>===================
+quant: 1
+state: running until 28 (time: 27)
+
+> max block time expired
+sem4del<26>:
+parent: 0
+
+signals:
+delegate[0]: 3660<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 8 4 15 20 18 16 14activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<12> unblocked from Semaphore<27>
+PRODUCER: 9
+Thread<12> blocked on Semaphore<27>
+
+
+
+=====================================context(27)====== T12 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<12>===================
+quant: 1
+state: blocked until 37 (time: 27)
+
+blocked on: semaph<27> lockcnt: 1
+sem4del<26>:
+parent: 0
+
+signals:
+delegate[0]: 3660<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 27 (time: 27)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 8 4 15 20 18 16 14 12activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 9
+Thread<2> blocked on Semaphore<5>
+
+
+
+=====================================context(28)====== T2 to T13
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked
+
+blocked on: semaph<5> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<13>===================
+quant: 1
+state: running until 29 (time: 28)
+
+sem4del<28>:
+parent: 0
+
+signals:
+delegate[0]: 38c0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 8 4 15 20 18 16 14 12activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+PRODUCER: 10
+Thread<13> blocked on Semaphore<29>
+
+
+
+=====================================context(28)====== T13 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<13>===================
+quant: 1
+state: blocked until 38 (time: 28)
+
+blocked on: semaph<29> lockcnt: 1
+sem4del<28>:
+parent: 0
+
+signals:
+delegate[0]: 38c0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 28 (time: 29)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 4 15 20 18 16 14 12 13activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 10
+Thread<2> blocked on Semaphore<5>
+
+
+
+=====================================context(29)====== T2 to T8
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked
+
+blocked on: semaph<5> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+quant: 1
+state: running until 30 (time: 29)
+
+> max block time expired
+sem4del<18>:
+parent: 0
+
+signals:
+delegate[0]: 2ce0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 4 15 20 18 16 14 12 13activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<8> unblocked from Semaphore<19>
+PRODUCER: 5
+Thread<8> blocked on Semaphore<19>
+
+
+
+=====================================context(29)====== T8 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+quant: 1
+state: blocked until 39 (time: 29)
+
+blocked on: semaph<19> lockcnt: 1
+sem4del<18>:
+parent: 0
+
+signals:
+delegate[0]: 2ce0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 29 (time: 29)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 4 15 20 18 16 14 12 13 8activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 5
+Thread<2> blocked on Semaphore<5>
+
+
+
+=====================================context(30)====== T2 to T11
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked
+
+blocked on: semaph<5> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<11>===================
+quant: 1
+state: running until 31 (time: 30)
+
+sem4del<24>:
+parent: 0
+
+signals:
+delegate[0]: 3400<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 4 15 20 18 16 14 12 13 8activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+PRODUCER: 8
+Thread<11> blocked on Semaphore<25>
+
+
+
+=====================================context(30)====== T11 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<11>===================
+quant: 1
+state: blocked until 40 (time: 30)
+
+blocked on: semaph<25> lockcnt: 1
+sem4del<24>:
+parent: 0
+
+signals:
+delegate[0]: 3400<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 30 (time: 30)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 15 20 18 16 14 12 13 8 11activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 8
+Thread<2> blocked on Semaphore<5>
+
+
+
+=====================================context(31)====== T2 to T4
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked
+
+blocked on: semaph<5> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<4>===================
+quant: 1
+state: running until 32 (time: 31)
+
+> max block time expired
+sem4del<10>:
+parent: 0
+
+signals:
+delegate[0]: 2360<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 15 20 18 16 14 12 13 8 11activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<4> unblocked from Semaphore<11>
+PRODUCER: 1
+Thread<4> blocked on Semaphore<11>
+
+
+
+=====================================context(31)====== T4 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<4>===================
+quant: 1
+state: blocked until 41 (time: 31)
+
+blocked on: semaph<11> lockcnt: 1
+sem4del<10>:
+parent: 0
+
+signals:
+delegate[0]: 2360<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 31 (time: 31)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 15 20 18 16 14 12 13 8 11 4activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 1
+Thread<2> blocked on Semaphore<5>
+
+
+
+=====================================context(31)====== T2 to T9
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked
+
+blocked on: semaph<5> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<9>===================
+quant: 1
+state: running until 32 (time: 32)
+
+sem4del<20>:
+parent: 0
+
+signals:
+delegate[0]: 2f40<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 20 18 16 14 12 13 8 11 4activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+
+
+
+=====================================context(32)====== T9 to T15
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<9>===================
+quant: 1
+state: ready
+
+sem4del<20>:
+parent: 0
+
+signals:
+delegate[0]: 2f40<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<15>===================
+quant: 1
+state: running until 33 (time: 32)
+
+> max block time expired
+sem4del<32>:
+parent: 0
+
+signals:
+delegate[0]: 3d80<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 18 16 14 12 13 8 11 4activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<15> unblocked from Semaphore<33>
+
+
+
+=====================================context(33)====== T15 to T20
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<15>===================
+quant: 1
+state: ready
+
+sem4del<32>:
+parent: 0
+
+signals:
+delegate[0]: 3d80<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<20>===================
+quant: 1
+state: running until 34 (time: 33)
+
+> max block time expired
+sem4del<42>:
+parent: 0
+
+signals:
+delegate[0]: 4960<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 18 16 14 12 13 8 11 4activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<20> unblocked from Semaphore<43>
+PRODUCER: 17
+Thread<20> blocked on Semaphore<43>
+
+
+
+=====================================context(33)====== T20 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<20>===================
+quant: 1
+state: blocked until 43 (time: 33)
+
+blocked on: semaph<43> lockcnt: 1
+sem4del<42>:
+parent: 0
+
+signals:
+delegate[0]: 4960<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 33 (time: 33)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 18 16 14 12 13 8 11 4 20activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 17
+Thread<2> blocked on Semaphore<5>
+
+
+
+=====================================context(34)====== T2 to T18
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked
+
+blocked on: semaph<5> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<18>===================
+quant: 1
+state: running until 35 (time: 34)
+
+> max block time expired
+sem4del<38>:
+parent: 0
+
+signals:
+delegate[0]: 44a0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 16 14 12 13 8 11 4 20activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<18> unblocked from Semaphore<39>
+PRODUCER: 15
+Thread<18> blocked on Semaphore<39>
+
+
+
+=====================================context(34)====== T18 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<18>===================
+quant: 1
+state: blocked until 44 (time: 34)
+
+blocked on: semaph<39> lockcnt: 1
+sem4del<38>:
+parent: 0
+
+signals:
+delegate[0]: 44a0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 34 (time: 34)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 14 12 13 8 11 4 20 18activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 15
+Thread<2> blocked on Semaphore<5>
+
+
+
+=====================================context(35)====== T2 to T16
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked
+
+blocked on: semaph<5> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<16>===================
+quant: 1
+state: running until 36 (time: 35)
+
+> max block time expired
+sem4del<34>:
+parent: 0
+
+signals:
+delegate[0]: 3fe0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 14 12 13 8 11 4 20 18activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<16> unblocked from Semaphore<35>
+PRODUCER: 13
+Thread<16> blocked on Semaphore<35>
+
+
+
+=====================================context(35)====== T16 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<16>===================
+quant: 1
+state: blocked until 45 (time: 35)
+
+blocked on: semaph<35> lockcnt: 1
+sem4del<34>:
+parent: 0
+
+signals:
+delegate[0]: 3fe0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 35 (time: 35)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 14 12 13 8 11 4 20 18 16activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 13
+Thread<2> blocked on Semaphore<5>
+
+
+
+=====================================context(35)====== T2 to T7
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked
+
+blocked on: semaph<5> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<7>===================
+quant: 1
+state: running until 36 (time: 36)
+
+sem4del<16>:
+parent: 0
+
+signals:
+delegate[0]: 2a80<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 12 13 8 11 4 20 18 16activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+
+
+
+=====================================context(36)====== T7 to T14
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<7>===================
+quant: 1
+state: ready
+
+sem4del<16>:
+parent: 0
+
+signals:
+delegate[0]: 2a80<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<14>===================
+quant: 1
+state: running until 37 (time: 36)
+
+> max block time expired
+sem4del<30>:
+parent: 0
+
+signals:
+delegate[0]: 3b20<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 12 13 8 11 4 20 18 16activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<14> unblocked from Semaphore<31>
+PRODUCER: 11
+Thread<14> blocked on Semaphore<31>
+
+
+
+=====================================context(36)====== T14 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<14>===================
+quant: 1
+state: blocked until 46 (time: 37)
+
+blocked on: semaph<31> lockcnt: 1
+sem4del<30>:
+parent: 0
+
+signals:
+delegate[0]: 3b20<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 36 (time: 37)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 13 8 11 4 20 18 16 14activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 11
+Thread<2> blocked on Semaphore<5>
+
+
+
+=====================================context(37)====== T2 to T12
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked
+
+blocked on: semaph<5> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<12>===================
+quant: 1
+state: running until 38 (time: 37)
+
+> max block time expired
+sem4del<26>:
+parent: 0
+
+signals:
+delegate[0]: 3660<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 13 8 11 4 20 18 16 14activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<12> unblocked from Semaphore<27>
+PRODUCER: 9
+Thread<12> blocked on Semaphore<27>
+
+
+
+=====================================context(37)====== T12 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<12>===================
+quant: 1
+state: blocked until 47 (time: 37)
+
+blocked on: semaph<27> lockcnt: 1
+sem4del<26>:
+parent: 0
+
+signals:
+delegate[0]: 3660<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 37 (time: 38)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 8 11 4 20 18 16 14 12activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 9
+Thread<2> blocked on Semaphore<5>
+
+
+
+=====================================context(38)====== T2 to T13
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked
+
+blocked on: semaph<5> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<13>===================
+quant: 1
+state: running until 39 (time: 38)
+
+> max block time expired
+sem4del<28>:
+parent: 0
+
+signals:
+delegate[0]: 38c0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 8 11 4 20 18 16 14 12activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<13> unblocked from Semaphore<29>
+PRODUCER: 10
+Thread<13> blocked on Semaphore<29>
+
+
+
+=====================================context(38)====== T13 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<13>===================
+quant: 1
+state: blocked until 48 (time: 38)
+
+blocked on: semaph<29> lockcnt: 1
+sem4del<28>:
+parent: 0
+
+signals:
+delegate[0]: 38c0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 38 (time: 39)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 11 4 20 18 16 14 12 13activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 10
+Thread<2> blocked on Semaphore<5>
+
+
+
+=====================================context(39)====== T2 to T8
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked
+
+blocked on: semaph<5> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+quant: 1
+state: running until 40 (time: 39)
+
+> max block time expired
+sem4del<18>:
+parent: 0
+
+signals:
+delegate[0]: 2ce0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 11 4 20 18 16 14 12 13activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<8> unblocked from Semaphore<19>
+PRODUCER: 5
+Thread<8> blocked on Semaphore<19>
+
+
+
+=====================================context(39)====== T8 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+quant: 1
+state: blocked until 49 (time: 39)
+
+blocked on: semaph<19> lockcnt: 1
+sem4del<18>:
+parent: 0
+
+signals:
+delegate[0]: 2ce0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 39 (time: 39)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 4 20 18 16 14 12 13 8activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 5
+Thread<2> blocked on Semaphore<5>
+
+
+
+=====================================context(40)====== T2 to T11
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked
+
+blocked on: semaph<5> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<11>===================
+quant: 1
+state: running until 41 (time: 40)
+
+> max block time expired
+sem4del<24>:
+parent: 0
+
+signals:
+delegate[0]: 3400<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 4 20 18 16 14 12 13 8activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<11> unblocked from Semaphore<25>
+PRODUCER: 8
+Thread<11> blocked on Semaphore<25>
+
+
+
+=====================================context(40)====== T11 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<11>===================
+quant: 1
+state: blocked until 50 (time: 40)
+
+blocked on: semaph<25> lockcnt: 1
+sem4del<24>:
+parent: 0
+
+signals:
+delegate[0]: 3400<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 40 (time: 40)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 4 20 18 16 14 12 13 8 11activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 8
+Thread<2> blocked on Semaphore<5>
+
+
+
+=====================================context(40)====== T2 to T5
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked
+
+blocked on: semaph<5> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<5>===================
+quant: 1
+state: running until 41 (time: 41)
+
+sem4del<12>:
+parent: 0
+
+signals:
+delegate[0]: 25c0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 20 18 16 14 12 13 8 11activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+
+
+
+=====================================context(41)====== T5 to T4
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<5>===================
+quant: 1
+state: ready
+
+sem4del<12>:
+parent: 0
+
+signals:
+delegate[0]: 25c0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<4>===================
+quant: 1
+state: running until 42 (time: 41)
+
+> max block time expired
+sem4del<10>:
+parent: 0
+
+signals:
+delegate[0]: 2360<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 20 18 16 14 12 13 8 11activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<4> unblocked from Semaphore<11>
+
+
+
+=====================================context(42)====== T4 to T3
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<4>===================
+quant: 1
+state: ready
+
+sem4del<10>:
+parent: 0
+
+signals:
+delegate[0]: 2360<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+quant: 1
+state: running until 43 (time: 42)
+
+sem4del<8>: 0
+parent: 0
+
+signals:
+delegate[0]: 2100<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 20 18 16 14 12 13 8 11activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+PRODUCER: 0
+Thread<3> blocked on Semaphore<9>
+
+
+
+=====================================context(42)====== T3 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<3>===================
+quant: 1
+state: blocked until 52 (time: 42)
+
+blocked on: semaph<9> lockcnt: 1
+sem4del<8>: 0
+parent: 0
+
+signals:
+delegate[0]: 2100<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 42 (time: 42)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 20 18 16 14 12 13 8 11 3activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 0
+Thread<2> blocked on Semaphore<5>
+
+
+
+=====================================context(42)====== T2 to T21
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked
+
+blocked on: semaph<5> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<21>===================
+quant: 1
+state: running until 43 (time: 43)
+
+sem4del<44>:
+parent: 0
+
+signals:
+delegate[0]: 4bc0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 18 16 14 12 13 8 11 3activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+
+
+
+=====================================context(43)====== T21 to T20
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<21>===================
+quant: 1
+state: ready
+
+sem4del<44>:
+parent: 0
+
+signals:
+delegate[0]: 4bc0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<20>===================
+quant: 1
+state: running until 44 (time: 43)
+
+> max block time expired
+sem4del<42>:
+parent: 0
+
+signals:
+delegate[0]: 4960<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 18 16 14 12 13 8 11 3activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<20> unblocked from Semaphore<43>
+PRODUCER: 17
+Thread<20> blocked on Semaphore<43>
+
+
+
+=====================================context(43)====== T20 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<20>===================
+quant: 1
+state: blocked until 53 (time: 44)
+
+blocked on: semaph<43> lockcnt: 1
+sem4del<42>:
+parent: 0
+
+signals:
+delegate[0]: 4960<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 43 (time: 44)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 16 14 12 13 8 11 3 20activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 17
+Thread<2> blocked on Semaphore<5>
+
+
+
+=====================================context(44)====== T2 to T18
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked
+
+blocked on: semaph<5> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<18>===================
+quant: 1
+state: running until 45 (time: 44)
+
+> max block time expired
+sem4del<38>:
+parent: 0
+
+signals:
+delegate[0]: 44a0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 16 14 12 13 8 11 3 20activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<18> unblocked from Semaphore<39>
+PRODUCER: 15
+Thread<18> blocked on Semaphore<39>
+
+
+
+=====================================context(44)====== T18 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<18>===================
+quant: 1
+state: blocked until 54 (time: 45)
+
+blocked on: semaph<39> lockcnt: 1
+sem4del<38>:
+parent: 0
+
+signals:
+delegate[0]: 44a0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 44 (time: 45)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 14 12 13 8 11 3 20 18activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 15
+Thread<2> blocked on Semaphore<5>
+
+
+
+=====================================context(45)====== T2 to T16
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked
+
+blocked on: semaph<5> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<16>===================
+quant: 1
+state: running until 46 (time: 45)
+
+> max block time expired
+sem4del<34>:
+parent: 0
+
+signals:
+delegate[0]: 3fe0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 12 13 8 11 3 20 18activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<16> unblocked from Semaphore<35>
+
+
+
+=====================================context(46)====== T16 to T14
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<16>===================
+quant: 1
+state: ready
+
+sem4del<34>:
+parent: 0
+
+signals:
+delegate[0]: 3fe0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<14>===================
+quant: 1
+state: running until 47 (time: 46)
+
+> max block time expired
+sem4del<30>:
+parent: 0
+
+signals:
+delegate[0]: 3b20<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 12 13 8 11 3 20 18activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<14> unblocked from Semaphore<31>
+PRODUCER: 11
+Thread<14> blocked on Semaphore<31>
+
+
+
+=====================================context(46)====== T14 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<14>===================
+quant: 1
+state: blocked until 56 (time: 46)
+
+blocked on: semaph<31> lockcnt: 1
+sem4del<30>:
+parent: 0
+
+signals:
+delegate[0]: 3b20<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 46 (time: 46)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 12 13 8 11 3 20 18 14activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 11
+Thread<2> blocked on Semaphore<5>
+
+
+
+=====================================context(47)====== T2 to T12
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked
+
+blocked on: semaph<5> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<12>===================
+quant: 1
+state: running until 48 (time: 47)
+
+> max block time expired
+sem4del<26>:
+parent: 0
+
+signals:
+delegate[0]: 3660<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 13 8 11 3 20 18 14activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<12> unblocked from Semaphore<27>
+PRODUCER: 9
+Thread<12> blocked on Semaphore<27>
+
+
+
+=====================================context(47)====== T12 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<12>===================
+quant: 1
+state: blocked until 57 (time: 47)
+
+blocked on: semaph<27> lockcnt: 1
+sem4del<26>:
+parent: 0
+
+signals:
+delegate[0]: 3660<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 47 (time: 47)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 8 11 3 20 18 14 12activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 9
+Thread<2> blocked on Semaphore<5>
+
+
+
+=====================================context(48)====== T2 to T13
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked
+
+blocked on: semaph<5> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<13>===================
+quant: 1
+state: running until 49 (time: 48)
+
+> max block time expired
+sem4del<28>:
+parent: 0
+
+signals:
+delegate[0]: 38c0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 8 11 3 20 18 14 12activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<13> unblocked from Semaphore<29>
+PRODUCER: 10
+Thread<13> blocked on Semaphore<29>
+
+
+
+=====================================context(48)====== T13 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<13>===================
+quant: 1
+state: blocked until 58 (time: 48)
+
+blocked on: semaph<29> lockcnt: 1
+sem4del<28>:
+parent: 0
+
+signals:
+delegate[0]: 38c0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 48 (time: 48)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 8 11 3 20 18 14 12 13activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 10
+Thread<2> blocked on Semaphore<5>
+
+
+
+=====================================context(48)====== T2 to T19
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked
+
+blocked on: semaph<5> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<19>===================
+quant: 1
+state: running until 49 (time: 49)
+
+sem4del<40>:
+parent: 0
+
+signals:
+delegate[0]: 4700<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 11 3 20 18 14 12 13activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+
+
+
+=====================================context(49)====== T19 to T8
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<19>===================
+quant: 1
+state: ready
+
+sem4del<40>:
+parent: 0
+
+signals:
+delegate[0]: 4700<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+quant: 1
+state: running until 50 (time: 50)
+
+> max block time expired
+sem4del<18>:
+parent: 0
+
+signals:
+delegate[0]: 2ce0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 3 20 18 14 12 13activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<8> unblocked from Semaphore<19>
+
+
+
+=====================================context(50)====== T8 to T11
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+quant: 1
+state: ready
+
+sem4del<18>:
+parent: 0
+
+signals:
+delegate[0]: 2ce0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<11>===================
+quant: 1
+state: running until 51 (time: 50)
+
+> max block time expired
+sem4del<24>:
+parent: 0
+
+signals:
+delegate[0]: 3400<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 3 20 18 14 12 13activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<11> unblocked from Semaphore<25>
+
+
+
+=====================================context(51)====== T11 to T10
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<11>===================
+quant: 1
+state: ready
+
+sem4del<24>:
+parent: 0
+
+signals:
+delegate[0]: 3400<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<10>===================
+quant: 1
+state: running until 52 (time: 51)
+
+sem4del<22>:
+parent: 0
+
+signals:
+delegate[0]: 31a0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 3 20 18 14 12 13activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+
+
+
+=====================================context(52)====== T10 to T3
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<10>===================
+quant: 1
+state: ready
+
+sem4del<22>:
+parent: 0
+
+signals:
+delegate[0]: 31a0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+quant: 1
+state: running until 53 (time: 52)
+
+> max block time expired
+sem4del<8>: 0
+parent: 0
+
+signals:
+delegate[0]: 2100<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 20 18 14 12 13activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: 0
+Thread<3> blocked on Semaphore<9>
+
+
+
+=====================================context(52)====== T3 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<3>===================
+quant: 1
+state: blocked until 62 (time: 53)
+
+blocked on: semaph<9> lockcnt: 1
+sem4del<8>: 0
+parent: 0
+
+signals:
+delegate[0]: 2100<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 52 (time: 53)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 18 14 12 13 3activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 0
+Thread<2> blocked on Semaphore<7>
+
+
+
+=====================================context(53)====== T2 to T20
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked until 58 (time: 53)
+
+blocked on: semaph<7> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<20>===================
+quant: 1
+state: running until 54 (time: 54)
+
+> max block time expired
+sem4del<42>:
+parent: 0
+
+signals:
+delegate[0]: 4960<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 14 12 13 2 3activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<20> unblocked from Semaphore<43>
+
+
+
+=====================================context(54)====== T20 to T18
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<20>===================
+quant: 1
+state: ready
+
+sem4del<42>:
+parent: 0
+
+signals:
+delegate[0]: 4960<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<18>===================
+quant: 1
+state: running until 55 (time: 55)
+
+> max block time expired
+sem4del<38>:
+parent: 0
+
+signals:
+delegate[0]: 44a0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 14 12 13 2 3activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<18> unblocked from Semaphore<39>
+
+
+
+=====================================context(55)====== T18 to T17
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<18>===================
+quant: 1
+state: ready
+
+sem4del<38>:
+parent: 0
+
+signals:
+delegate[0]: 44a0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<17>===================
+quant: 1
+state: running until 56 (time: 55)
+
+sem4del<36>:
+parent: 0
+
+signals:
+delegate[0]: 4240<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 12 13 2 3activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+
+
+
+=====================================context(56)====== T17 to T14
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<17>===================
+quant: 1
+state: ready
+
+sem4del<36>:
+parent: 0
+
+signals:
+delegate[0]: 4240<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<14>===================
+quant: 1
+state: running until 57 (time: 56)
+
+> max block time expired
+sem4del<30>:
+parent: 0
+
+signals:
+delegate[0]: 3b20<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 13 2 3activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<14> unblocked from Semaphore<31>
+
+
+
+=====================================context(57)====== T14 to T12
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<14>===================
+quant: 1
+state: ready
+
+sem4del<30>:
+parent: 0
+
+signals:
+delegate[0]: 3b20<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<12>===================
+quant: 1
+state: running until 58 (time: 57)
+
+> max block time expired
+sem4del<26>:
+parent: 0
+
+signals:
+delegate[0]: 3660<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 13 2 3activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<12> unblocked from Semaphore<27>
+PRODUCER: 9
+Thread<12> blocked on Semaphore<27>
+
+
+
+=====================================context(57)====== T12 to T6
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<12>===================
+quant: 1
+state: blocked until 67 (time: 58)
+
+blocked on: semaph<27> lockcnt: 1
+sem4del<26>:
+parent: 0
+
+signals:
+delegate[0]: 3660<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<6>===================
+quant: 1
+state: running until 58 (time: 58)
+
+sem4del<14>:
+parent: 0
+
+signals:
+delegate[0]: 2820<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 3 12activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+
+
+
+=====================================context(58)====== T6 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<6>===================
+quant: 1
+state: ready
+
+sem4del<14>:
+parent: 0
+
+signals:
+delegate[0]: 2820<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 58 (time: 58)
+
+> max block time expired
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 3 12activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<7>
+CONSUMER: 9
+Thread<2> blocked on Semaphore<5>
+
+
+
+=====================================context(58)====== T2 to T13
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked
+
+blocked on: semaph<5> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<13>===================
+quant: 1
+state: running until 59 (time: 59)
+
+> max block time expired
+sem4del<28>:
+parent: 0
+
+signals:
+delegate[0]: 38c0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 3 12activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<13> unblocked from Semaphore<29>
+
+
+
+=====================================context(59)====== T13 to T9
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<13>===================
+quant: 1
+state: ready
+
+sem4del<28>:
+parent: 0
+
+signals:
+delegate[0]: 38c0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<9>===================
+quant: 1
+state: running until 60 (time: 59)
+
+sem4del<20>:
+parent: 0
+
+signals:
+delegate[0]: 2f40<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 3 12activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+PRODUCER: 6
+Thread<9> blocked on Semaphore<21>
+
+
+
+=====================================context(59)====== T9 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<9>===================
+quant: 1
+state: blocked until 69 (time: 59)
+
+blocked on: semaph<21> lockcnt: 1
+sem4del<20>:
+parent: 0
+
+signals:
+delegate[0]: 2f40<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 59 (time: 60)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 3 12 9activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 6
+Thread<2> blocked on Semaphore<5>
+
+
+
+=====================================context(60)====== T2 to T15
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked
+
+blocked on: semaph<5> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<15>===================
+quant: 1
+state: running until 61 (time: 60)
+
+sem4del<32>:
+parent: 0
+
+signals:
+delegate[0]: 3d80<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 3 12 9activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+PRODUCER: 12
+Thread<15> blocked on Semaphore<33>
+
+
+
+=====================================context(60)====== T15 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<15>===================
+quant: 1
+state: blocked until 70 (time: 60)
+
+blocked on: semaph<33> lockcnt: 1
+sem4del<32>:
+parent: 0
+
+signals:
+delegate[0]: 3d80<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 60 (time: 61)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 3 12 9 15activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 12
+Thread<2> blocked on Semaphore<5>
+
+
+
+=====================================context(61)====== T2 to T7
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked
+
+blocked on: semaph<5> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<7>===================
+quant: 1
+state: running until 62 (time: 61)
+
+sem4del<16>:
+parent: 0
+
+signals:
+delegate[0]: 2a80<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 3 12 9 15activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+PRODUCER: 4
+Thread<7> blocked on Semaphore<17>
+
+
+
+=====================================context(61)====== T7 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<7>===================
+quant: 1
+state: blocked until 71 (time: 62)
+
+blocked on: semaph<17> lockcnt: 1
+sem4del<16>:
+parent: 0
+
+signals:
+delegate[0]: 2a80<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 61 (time: 62)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 12 9 15 7activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 4
+Thread<2> blocked on Semaphore<5>
+
+
+
+=====================================context(62)====== T2 to T3
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked
+
+blocked on: semaph<5> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+quant: 1
+state: running until 63 (time: 62)
+
+> max block time expired
+sem4del<8>: 0
+parent: 0
+
+signals:
+delegate[0]: 2100<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 12 9 15 7activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<3> unblocked from Semaphore<9>
+PRODUCER: 0
+Thread<3> blocked on Semaphore<9>
+
+
+
+=====================================context(62)====== T3 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<3>===================
+quant: 1
+state: blocked until 72 (time: 62)
+
+blocked on: semaph<9> lockcnt: 1
+sem4del<8>: 0
+parent: 0
+
+signals:
+delegate[0]: 2100<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 62 (time: 63)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 12 9 15 7 3activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 0
+Thread<2> blocked on Semaphore<5>
+
+
+
+=====================================context(63)====== T2 to T5
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked
+
+blocked on: semaph<5> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<5>===================
+quant: 1
+state: running until 64 (time: 63)
+
+sem4del<12>:
+parent: 0
+
+signals:
+delegate[0]: 25c0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 12 9 15 7 3activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+PRODUCER: 2
+Thread<5> blocked on Semaphore<13>
+
+
+
+=====================================context(63)====== T5 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<5>===================
+quant: 1
+state: blocked until 73 (time: 63)
+
+blocked on: semaph<13> lockcnt: 1
+sem4del<12>:
+parent: 0
+
+signals:
+delegate[0]: 25c0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 63 (time: 63)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 12 9 15 7 3 5activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 2
+Thread<2> blocked on Semaphore<5>
+
+
+
+=====================================context(64)====== T2 to T4
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked
+
+blocked on: semaph<5> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<4>===================
+quant: 1
+state: running until 65 (time: 64)
+
+sem4del<10>:
+parent: 0
+
+signals:
+delegate[0]: 2360<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 12 9 15 7 3 5activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+PRODUCER: 1
+Thread<4> blocked on Semaphore<11>
+
+
+
+=====================================context(64)====== T4 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<4>===================
+quant: 1
+state: blocked until 74 (time: 64)
+
+blocked on: semaph<11> lockcnt: 1
+sem4del<10>:
+parent: 0
+
+signals:
+delegate[0]: 2360<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 64 (time: 65)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 12 9 15 7 3 5 4activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<5>
+CONSUMER: 1
+Thread<2> blocked on Semaphore<5>
+
+
+
+=====================================context(65)====== T2 to T21
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: blocked
+
+blocked on: semaph<5> lockcnt: 1
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<21>===================
+quant: 1
+state: running until 66 (time: 65)
+
+sem4del<44>:
+parent: 0
+
+signals:
+delegate[0]: 4bc0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 12 9 15 7 3 5 4activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+PRODUCER: PRODUCER:
+
+
+=====================================context(66)====== T21 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<21>===================
+quant: 1
+state: ready
+
+sem4del<44>:
+parent: 0
+
+signals:
+delegate[0]: 4bc0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+quant: 0
+state: running until 66 (time: 66)
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 12 9 15 7 3 5 4activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<2> unblocked from Semaphore<5>
+
+
+
+=====================================context(66)====== T2 to T16
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+quant: 0
+state: ready
+
+sem4del<6>:
+parent: 0
+
+signals:
+delegate[0]: 1ea0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<16>===================
+quant: 1
+state: running until 67 (time: 67)
+
+sem4del<34>:
+parent: 0
+
+signals:
+delegate[0]: 3fe0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 9 15 7 3 5 4activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+
+
+
+=====================================context(67)====== T16 to T12
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<16>===================
+quant: 1
+state: ready
+
+sem4del<34>:
+parent: 0
+
+signals:
+delegate[0]: 3fe0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<12>===================
+quant: 1
+state: running until 68 (time: 68)
+
+> max block time expired
+sem4del<26>:
+parent: 0
+
+signals:
+delegate[0]: 3660<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 9 15 7 3 5 4activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<12> unblocked from Semaphore<27>
+
+
+
+=====================================context(68)====== T12 to T19
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<12>===================
+quant: 1
+state: ready
+
+sem4del<26>:
+parent: 0
+
+signals:
+delegate[0]: 3660<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<19>===================
+quant: 1
+state: running until 69 (time: 68)
+
+sem4del<40>:
+parent: 0
+
+signals:
+delegate[0]: 4700<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 15 7 3 5 4activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+
+
+
+=====================================context(69)====== T19 to T9
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<19>===================
+quant: 1
+state: ready
+
+sem4del<40>:
+parent: 0
+
+signals:
+delegate[0]: 4700<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<9>===================
+quant: 1
+state: running until 70 (time: 69)
+
+> max block time expired
+sem4del<20>:
+parent: 0
+
+signals:
+delegate[0]: 2f40<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 7 3 5 4activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<9> unblocked from Semaphore<21>
+
+
+
+=====================================context(70)====== T9 to T15
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<9>===================
+quant: 1
+state: ready
+
+sem4del<20>:
+parent: 0
+
+signals:
+delegate[0]: 2f40<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<15>===================
+quant: 1
+state: running until 71 (time: 70)
+
+> max block time expired
+sem4del<32>:
+parent: 0
+
+signals:
+delegate[0]: 3d80<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 7 3 5 4activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<15> unblocked from Semaphore<33>
+
+
+
+=====================================context(71)====== T15 to T7
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<15>===================
+quant: 1
+state: ready
+
+sem4del<32>:
+parent: 0
+
+signals:
+delegate[0]: 3d80<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<7>===================
+quant: 1
+state: running until 72 (time: 71)
+
+> max block time expired
+sem4del<16>:
+parent: 0
+
+signals:
+delegate[0]: 2a80<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 3 5 4activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<7> unblocked from Semaphore<17>
+
+
+
+=====================================context(71)====== T7 to T8
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<7>===================
+quant: 1
+state: ready
+
+sem4del<16>:
+parent: 0
+
+signals:
+delegate[0]: 2a80<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+quant: 1
+state: running until 72 (time: 72)
+
+sem4del<18>:
+parent: 0
+
+signals:
+delegate[0]: 2ce0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 5 4activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+
+
+
+=====================================context(72)====== T8 to T3
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+quant: 1
+state: ready
+
+sem4del<18>:
+parent: 0
+
+signals:
+delegate[0]: 2ce0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+quant: 1
+state: running until 73 (time: 73)
+
+> max block time expired
+sem4del<8>: 0
+parent: 0
+
+signals:
+delegate[0]: 2100<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: 4activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<3> unblocked from Semaphore<9>
+
+
+
+=====================================context(73)====== T3 to T5
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<3>===================
+quant: 1
+state: ready
+
+sem4del<8>: 0
+parent: 0
+
+signals:
+delegate[0]: 2100<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<5>===================
+quant: 1
+state: running until 74 (time: 73)
+
+> max block time expired
+sem4del<12>:
+parent: 0
+
+signals:
+delegate[0]: 25c0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<5> unblocked from Semaphore<13>
+
+
+
+=====================================context(74)====== T5 to T4
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<5>===================
+quant: 1
+state: ready
+
+sem4del<12>:
+parent: 0
+
+signals:
+delegate[0]: 25c0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<4>===================
+quant: 1
+state: running until 75 (time: 74)
+
+> max block time expired
+sem4del<10>:
+parent: 0
+
+signals:
+delegate[0]: 2360<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+Thread<4> unblocked from Semaphore<11>
+
+
+
+=====================================context(75)====== T4 to T11
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<4>===================
+quant: 1
+state: ready
+
+sem4del<10>:
+parent: 0
+
+signals:
+delegate[0]: 2360<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<11>===================
+quant: 1
+state: running until 76 (time: 75)
+
+sem4del<24>:
+parent: 0
+
+signals:
+delegate[0]: 3400<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+
+
+
+=====================================context(75)====== T11 to T10
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<11>===================
+quant: 1
+state: ready
+
+sem4del<24>:
+parent: 0
+
+signals:
+delegate[0]: 3400<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<10>===================
+quant: 1
+state: running until 76 (time: 76)
+
+sem4del<22>:
+parent: 0
+
+signals:
+delegate[0]: 31a0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+
+
+
+=====================================context(76)====== T10 to T20
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<10>===================
+quant: 1
+state: ready
+
+sem4del<22>:
+parent: 0
+
+signals:
+delegate[0]: 31a0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<20>===================
+quant: 1
+state: running until 77 (time: 77)
+
+sem4del<42>:
+parent: 0
+
+signals:
+delegate[0]: 4960<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+
+
+
+=====================================context(77)====== T20 to T18
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<20>===================
+quant: 1
+state: ready
+
+sem4del<42>:
+parent: 0
+
+signals:
+delegate[0]: 4960<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<18>===================
+quant: 1
+state: running until 78 (time: 78)
+
+sem4del<38>:
+parent: 0
+
+signals:
+delegate[0]: 44a0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+
+
+
+=====================================context(78)====== T18 to T17
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<18>===================
+quant: 1
+state: ready
+
+sem4del<38>:
+parent: 0
+
+signals:
+delegate[0]: 44a0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<17>===================
+quant: 1
+state: running until 79 (time: 78)
+
+sem4del<36>:
+parent: 0
+
+signals:
+delegate[0]: 4240<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+
+
+
+=====================================context(79)====== T17 to T14
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<17>===================
+quant: 1
+state: ready
+
+sem4del<36>:
+parent: 0
+
+signals:
+delegate[0]: 4240<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<14>===================
+quant: 1
+state: running until 80 (time: 79)
+
+sem4del<30>:
+parent: 0
+
+signals:
+delegate[0]: 3b20<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+
+
+
+=====================================context(79)====== T14 to T6
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<14>===================
+quant: 1
+state: ready
+
+sem4del<30>:
+parent: 0
+
+signals:
+delegate[0]: 3b20<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<6>===================
+quant: 1
+state: running until 80 (time: 80)
+
+sem4del<14>:
+parent: 0
+
+signals:
+delegate[0]: 2820<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked: activecnt: 23
+(psw I-flag: 0)
+-------------------------------------------------------
+
+
+
+=====================================context(80)====== T6 to T13
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<6>===================
+quant: 1
+state: ready
+
+sem4del<14>:
+parent: 0
+
+signals:
+delegate[0]: 2820<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+Sledeci kontekst:
+======Thread<13>===================
+quant: 1
+state: running until 81 (time: 80)
+
+sem4del<28>:
+parent: 0
+
+signals:
+delegate[0]: 38c0<<4 + 0004
+mask:   11111111 11111111
+mask_g: 11111111 11111111
+----------------------------------
+
+globally blocked:
+C:\Users\OS1\workspace\Projekat\BCC>

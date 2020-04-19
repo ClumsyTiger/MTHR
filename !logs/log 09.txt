@@ -1,0 +1,3269 @@
+
+C:\eclipse-cpp-luna-SR1-win32\eclipse>set PathName="C:\Users\OS1\workspace\Proje
+kat\BCC"
+
+C:\eclipse-cpp-luna-SR1-win32\eclipse>cd "C:\Users\OS1\workspace\Projekat\BCC"
+
+C:\Users\OS1\workspace\Projekat\BCC>Projekat.exe
+        _   __                          _
+       | | / /                         | |
+       | |/ /   ___  _ __  _ __    ___ | |
+       |    \  / _ \| '__|| '_ \  / _ \| |
+       | |\  \|  __/| |   | | | ||  __/| |
+       \_| \_/ \___||_|   |_| |_| \___||_|
+
+
+=================================================================
+
+New thread:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:19b3 sw:0200
+bp:0f90 sp:0000
+cs:13b5 ss:181b ds:16bf es:0000
+
+quant: 40
+state: running
+----------------------------------
+
+New thread:
+======Thread<I>===================
+run:   13b5<<4 + 0019
+stack: 1a11<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0019 sw:7006
+bp:1fe0 sp:1fe0
+cs:13b5 ss:1a11 ds:16bf es:0000
+
+quant: 100
+state: ready
+----------------------------------
+
+======Scheduler===================
+<M>
+----------------------------------
+
+======Types=======================
+1B signed char
+2B signed int
+4B signed long
+4B signed long long
+
+1B unsigned char
+2B unsigned int
+4B unsigned long
+4B unsigned long long
+
+4B float
+8B double
+
+4B void *
+----------------------------------
+
+======Interrupt=Table=============
+D   0: 0583<<4 + 0162 - divide error
+D   1: 0070<<4 + 018b - single step
+D   2: 0393<<4 + 0016 - non-maskable
+D   3: 0070<<4 + 018b - breakpoint
+D   4: 0070<<4 + 018b - overflow
+R   5: 020a<<4 + 06cc
+R   6: 020a<<4 + 0753
+R   7: 020a<<4 + 03ff
+R   8: 09bf<<4 + 000c - timer
+R   9: 020a<<4 + 040a - keyboard
+
+R  10: 0393<<4 + 003a
+R  11: 0393<<4 + 0054
+R  12: 0393<<4 + 006e
+R  13: 0393<<4 + 0088
+R  14: 0393<<4 + 00a2
+R  15: 020a<<4 + 03ff
+R  16: 020a<<4 + 08bd
+R  17: 020a<<4 + 09e2
+R  18: 020a<<4 + 09e8
+R  19: 020a<<4 + 045d
+
+R  20: 020a<<4 + 09ee
+R  21: 02dd<<4 + 020d
+R  22: 020a<<4 + 0a00
+R  23: 020a<<4 + 058b
+R  24: 020a<<4 + 0c4a
+R  25: 020a<<4 + 0c50
+R  26: 020a<<4 + 0c5b
+R  27: 020a<<4 + 06c0
+R  28: 020a<<4 + 06c0
+R  29: f000<<4 + f0a4
+
+R  30: 020a<<4 + 0537
+R  31: c000<<4 + 133a
+A  32: 00a7<<4 + 1072
+A  33: 00a7<<4 + 107c
+A  34: 0411<<4 + 01de
+A  35: 0411<<4 + 014b
+A  36: 0411<<4 + 0156
+A  37: 00a7<<4 + 1086
+A  38: 00a7<<4 + 1090
+A  39: 00a7<<4 + 109a
+
+A  40: 00a7<<4 + 10b8
+A  41: 0070<<4 + 0254
+A  42: cc7b<<4 + 04e2
+A  43: 00a7<<4 + 10b8
+A  44: 00a7<<4 + 10b8
+A  45: 00a7<<4 + 10b8
+A  46: 0411<<4 + 0140
+A  47: d493<<4 + 0960
+A  48: a710<<4 + aeea
+A  49: f000<<4 + 0d00
+
+A  50: 00a7<<4 + 10b8
+A  51: e802<<4 + 23c4
+A  52: 00a7<<4 + 10b8
+A  53: 00a7<<4 + 10b8
+A  54: 00a7<<4 + 10b8
+A  55: 00a7<<4 + 10b8
+A  56: 00a7<<4 + 10b8
+A  57: 00a7<<4 + 10b8
+A  58: 00a7<<4 + 10b8
+A  59: 00a7<<4 + 10b8
+
+A  60: 00a7<<4 + 10b8
+A  61: 00a7<<4 + 10b8
+A  62: 00a7<<4 + 10b8
+A  63: 00a7<<4 + 10b8
+A  64: 020a<<4 + 048a
+A  65: 020a<<4 + 03ff
+A  66: 020a<<4 + 09b4
+A  67: c000<<4 + 2667
+A  68: f000<<4 + 0d66
+A  69: f000<<4 + 0d66
+
+A  70: f000<<4 + 0d66
+A  71: f000<<4 + 0d66
+A  72: f000<<4 + 0d66
+A  73: f000<<4 + 0d66
+A  74: f000<<4 + 0d66
+A  75: f000<<4 + 0d66
+A  76: f000<<4 + 0d66
+A  77: f000<<4 + 0d66
+A  78: f000<<4 + 0d66
+A  79: f000<<4 + 0d66
+
+A  80: f000<<4 + 0d66
+A  81: f000<<4 + 0d66
+A  82: f000<<4 + 0d66
+A  83: f000<<4 + 0d66
+A  84: f000<<4 + 0d66
+A  85: f000<<4 + 0d66
+A  86: f000<<4 + 0d66
+A  87: f000<<4 + 0d66
+A  88: f000<<4 + 0d66
+A  89: f000<<4 + 0d66
+
+A  90: f000<<4 + 0d66
+A  91: f000<<4 + 0d66
+A  92: cc7b<<4 + 0528
+A  93: f000<<4 + 0d66
+A  94: f000<<4 + 0d66
+A  95: f000<<4 + 0d66
+A  96: 020a<<4 + 0759 - old timer
+A  97:
+A  98:
+A  99:
+
+D-dedicated R-reserved A-available
+----------------------------------
+
+New thread:
+======Thread<2>===================
+run:   1519<<4 + 0218
+stack: 1c77<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0218 sw:7202
+bp:1fe0 sp:1fe0
+cs:1519 ss:1c77 ds:16bf es:0000
+
+quant: 20
+state: start
+----------------------------------
+
+New thread:
+======Thread<3>===================
+run:   1519<<4 + 0218
+stack: 1ed0<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0218 sw:7202
+bp:1fe0 sp:1fe0
+cs:1519 ss:1ed0 ds:16bf es:0000
+
+quant: 20
+state: start
+----------------------------------
+
+New thread:
+======Thread<4>===================
+run:   1519<<4 + 0218
+stack: 2129<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0218 sw:7202
+bp:1fe0 sp:1fe0
+cs:1519 ss:2129 ds:16bf es:0000
+
+quant: 20
+state: start
+----------------------------------
+
+MAIN# 0
+
+
+
+=====================================context(1)====== M  to M
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+ACTIVECNT: 5
+-------------------------------------------------------
+MAIN# 1
+MAIN# 2
+MAIN# 3
+MAIN# 4
+
+
+
+=====================================context(41)====== M  to T4
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+ACTIVECNT: 5
+Trenutni kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:1740 cx:19b0 dx:0029 si:0000 di:0470
+pc:0199 sw:3046
+bp:0f64 sp:0f64
+cs:09bf ss:181b ds:15ba es:1740
+
+quant: 40
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<4>===================
+run:   1519<<4 + 0218
+stack: 2129<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0218 sw:7202
+bp:1fe0 sp:1fe0
+cs:1519 ss:2129 ds:16bf es:0000
+
+quant: 20
+state: running until 61 (time: 41)
+----------------------------------
+
+Scheduler: <4> 3 2 M
+-------------------------------------------------------
+New event:
+======Event<9>====================
+kevent[9]: 9
+oldivt[9]: 020a<<4 + 040a
+regivt[9]: 094a<<4 + 01ad - set
+owner: 4
+event semaphore: 7
+----------------------------------
+
+
+
+
+=====================================context(41)====== T4 to T3
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+ACTIVECNT: 5
+Trenutni kontekst:
+======Thread<4>===================
+run:   1519<<4 + 0218
+stack: 2129<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:0303 sw:7046
+bp:1f82 sp:1f82
+cs:0c80 ss:2129 ds:169e es:1740
+
+quant: 20
+state: blocked
+blocked on: 7 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+run:   1519<<4 + 0218
+stack: 1ed0<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0218 sw:7202
+bp:1fe0 sp:1fe0
+cs:1519 ss:1ed0 ds:16bf es:0000
+
+quant: 20
+state: running until 61 (time: 41)
+----------------------------------
+
+Scheduler: <3> 4 2 M
+-------------------------------------------------------
+
+
+
+=====================================context(41)====== T3 to T3
+CALLEDCNT: 1
+CALLEDOLDCNT: 1
+ACTIVECNT: 5
+-------------------------------------------------------
+
+
+
+=====================================context(41)====== T3 to T4
+CALLEDCNT: 1
+CALLEDOLDCNT: 1
+ACTIVECNT: 5
+Trenutni kontekst:
+======Thread<3>===================
+run:   1519<<4 + 0218
+stack: 1ed0<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1ed0 ds:169e es:1740
+
+quant: 20
+state: blocked until 61 (time: 41)
+blocked on: 2 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<4>===================
+run:   1519<<4 + 0218
+stack: 2129<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:0303 sw:7046
+bp:1f82 sp:1f82
+cs:0c80 ss:2129 ds:169e es:1740
+
+quant: 20
+state: running until 61 (time: 42)
+----------------------------------
+
+Scheduler: <4> 2 M
+-------------------------------------------------------
+C# 0
+
+
+
+=====================================context(42)====== T4 to T4
+CALLEDCNT: 2
+CALLEDOLDCNT: 1
+ACTIVECNT: 5
+-------------------------------------------------------
+
+
+
+=====================================context(43)====== T4 to T2
+CALLEDCNT: 3
+CALLEDOLDCNT: 2
+ACTIVECNT: 5
+Trenutni kontekst:
+======Thread<4>===================
+run:   1519<<4 + 0218
+stack: 2129<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:2381 dx:0000 si:0000 di:0000
+pc:0199 sw:3046
+bp:1f72 sp:1f72
+cs:09bf ss:2129 ds:15ba es:1740
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   1519<<4 + 0218
+stack: 1c77<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0218 sw:7202
+bp:1fe0 sp:1fe0
+cs:1519 ss:1c77 ds:16bf es:0000
+
+quant: 20
+state: running until 63 (time: 44)
+----------------------------------
+
+Scheduler: <2> M 4
+-------------------------------------------------------
+
+
+
+=====================================context(44)====== T2 to M
+CALLEDCNT: 3
+CALLEDOLDCNT: 2
+ACTIVECNT: 5
+Trenutni kontekst:
+======Thread<2>===================
+run:   1519<<4 + 0218
+stack: 1c77<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1c77 ds:169e es:1740
+
+quant: 20
+state: blocked until 64 (time: 44)
+blocked on: 3 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:1740 cx:19b0 dx:0029 si:0000 di:0470
+pc:0199 sw:3046
+bp:0f64 sp:0f64
+cs:09bf ss:181b ds:15ba es:1740
+
+quant: 40
+state: running until 84 (time: 44)
+----------------------------------
+
+Scheduler: <M> 4
+-------------------------------------------------------
+MAIN# 5
+MAIN# 6
+======Semaphore=glist(61)=========
+List< 1>: [H] --> 2 --> [T]
+
+----------------------------------
+======Semaphore=glist(64)=========
+List< 0>: [H] --> --> [T]
+
+----------------------------------
+MAIN# 7
+MAIN# 8
+MAIN# 9
+
+
+
+=====================================context(84)====== M  to M
+CALLEDCNT: 3
+CALLEDOLDCNT: 2
+ACTIVECNT: 5
+-------------------------------------------------------
+MAIN# 10
+MAIN# 11
+MAIN# 12
+MAIN# 13
+
+
+
+=====================================context(124)====== M  to T2
+CALLEDCNT: 3
+CALLEDOLDCNT: 2
+ACTIVECNT: 5
+Trenutni kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:1740 cx:19b0 dx:007c si:0000 di:0470
+pc:0199 sw:3046
+bp:0f64 sp:0f64
+cs:09bf ss:181b ds:15ba es:1740
+
+quant: 40
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   1519<<4 + 0218
+stack: 1c77<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1c77 ds:169e es:1740
+
+quant: 20
+state: running until 144 (time: 124)
+> max block time expired
+----------------------------------
+
+Scheduler: <2> 3 4 M
+-------------------------------------------------------
+A# 0
+
+
+
+=====================================context(129)====== T2 to T3
+CALLEDCNT: 3
+CALLEDOLDCNT: 2
+ACTIVECNT: 5
+Trenutni kontekst:
+======Thread<2>===================
+run:   1519<<4 + 0218
+stack: 1c77<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0001 di:2710
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1c77 ds:169e es:1740
+
+quant: 20
+state: blocked until 149 (time: 129)
+blocked on: 3 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+run:   1519<<4 + 0218
+stack: 1ed0<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1ed0 ds:169e es:1740
+
+quant: 20
+state: running until 149 (time: 129)
+> max block time expired
+----------------------------------
+
+Scheduler: <3> 4 M
+-------------------------------------------------------
+B# 0
+
+
+
+=====================================context(132)====== T3 to T2
+CALLEDCNT: 3
+CALLEDOLDCNT: 2
+ACTIVECNT: 5
+Trenutni kontekst:
+======Thread<3>===================
+run:   1519<<4 + 0218
+stack: 1ed0<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0001 di:2710
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1ed0 ds:169e es:1740
+
+quant: 20
+state: blocked until 152 (time: 132)
+blocked on: 2 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   1519<<4 + 0218
+stack: 1c77<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0001 di:2710
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1c77 ds:169e es:1740
+
+quant: 20
+state: running until 152 (time: 132)
+----------------------------------
+
+Scheduler: <2> 4 M
+-------------------------------------------------------
+A# 1
+
+
+
+=====================================context(137)====== T2 to T3
+CALLEDCNT: 3
+CALLEDOLDCNT: 2
+ACTIVECNT: 5
+Trenutni kontekst:
+======Thread<2>===================
+run:   1519<<4 + 0218
+stack: 1c77<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0002 di:2710
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1c77 ds:169e es:1740
+
+quant: 20
+state: blocked until 157 (time: 137)
+blocked on: 3 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+run:   1519<<4 + 0218
+stack: 1ed0<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0001 di:2710
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1ed0 ds:169e es:1740
+
+quant: 20
+state: running until 157 (time: 137)
+----------------------------------
+
+Scheduler: <3> 4 M
+-------------------------------------------------------
+B# 1
+
+
+
+=====================================context(141)====== T3 to T2
+CALLEDCNT: 3
+CALLEDOLDCNT: 2
+ACTIVECNT: 5
+Trenutni kontekst:
+======Thread<3>===================
+run:   1519<<4 + 0218
+stack: 1ed0<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0002 di:2710
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1ed0 ds:169e es:1740
+
+quant: 20
+state: blocked until 161 (time: 141)
+blocked on: 2 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   1519<<4 + 0218
+stack: 1c77<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0002 di:2710
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1c77 ds:169e es:1740
+
+quant: 20
+state: running until 161 (time: 141)
+----------------------------------
+
+Scheduler: <2> 4 M
+-------------------------------------------------------
+A# 2
+
+
+
+=====================================context(145)====== T2 to T3
+CALLEDCNT: 3
+CALLEDOLDCNT: 2
+ACTIVECNT: 5
+Trenutni kontekst:
+======Thread<2>===================
+run:   1519<<4 + 0218
+stack: 1c77<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0003 di:2710
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1c77 ds:169e es:1740
+
+quant: 20
+state: blocked until 165 (time: 146)
+blocked on: 3 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+run:   1519<<4 + 0218
+stack: 1ed0<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0002 di:2710
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1ed0 ds:169e es:1740
+
+quant: 20
+state: running until 165 (time: 146)
+----------------------------------
+
+Scheduler: <3> 4 M
+-------------------------------------------------------
+B# 2
+
+
+
+=====================================context(149)====== T3 to T2
+CALLEDCNT: 3
+CALLEDOLDCNT: 2
+ACTIVECNT: 5
+Trenutni kontekst:
+======Thread<3>===================
+run:   1519<<4 + 0218
+stack: 1ed0<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0003 di:2710
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1ed0 ds:169e es:1740
+
+quant: 20
+state: blocked until 169 (time: 149)
+blocked on: 2 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   1519<<4 + 0218
+stack: 1c77<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0003 di:2710
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1c77 ds:169e es:1740
+
+quant: 20
+state: running until 169 (time: 150)
+----------------------------------
+
+Scheduler: <2> 4 M
+-------------------------------------------------------
+A# 3
+
+
+
+=====================================context(154)====== T2 to T3
+CALLEDCNT: 3
+CALLEDOLDCNT: 2
+ACTIVECNT: 5
+Trenutni kontekst:
+======Thread<2>===================
+run:   1519<<4 + 0218
+stack: 1c77<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0004 di:2710
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1c77 ds:169e es:1740
+
+quant: 20
+state: blocked until 174 (time: 154)
+blocked on: 3 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+run:   1519<<4 + 0218
+stack: 1ed0<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0003 di:2710
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1ed0 ds:169e es:1740
+
+quant: 20
+state: running until 174 (time: 154)
+----------------------------------
+
+Scheduler: <3> 4 M
+-------------------------------------------------------
+B# 3
+
+
+
+=====================================context(158)====== T3 to T2
+CALLEDCNT: 3
+CALLEDOLDCNT: 2
+ACTIVECNT: 5
+Trenutni kontekst:
+======Thread<3>===================
+run:   1519<<4 + 0218
+stack: 1ed0<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0004 di:2710
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1ed0 ds:169e es:1740
+
+quant: 20
+state: blocked until 178 (time: 158)
+blocked on: 2 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   1519<<4 + 0218
+stack: 1c77<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0004 di:2710
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1c77 ds:169e es:1740
+
+quant: 20
+state: running until 178 (time: 158)
+----------------------------------
+
+Scheduler: <2> 4 M
+-------------------------------------------------------
+A# 4
+
+
+
+=====================================context(162)====== T2 to T3
+CALLEDCNT: 3
+CALLEDOLDCNT: 2
+ACTIVECNT: 5
+Trenutni kontekst:
+======Thread<2>===================
+run:   1519<<4 + 0218
+stack: 1c77<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0005 di:2710
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1c77 ds:169e es:1740
+
+quant: 20
+state: blocked until 182 (time: 163)
+blocked on: 3 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+run:   1519<<4 + 0218
+stack: 1ed0<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0004 di:2710
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1ed0 ds:169e es:1740
+
+quant: 20
+state: running until 182 (time: 163)
+----------------------------------
+
+Scheduler: <3> 4 M
+-------------------------------------------------------
+B# 4
+
+
+
+=====================================context(166)====== T3 to T2
+CALLEDCNT: 3
+CALLEDOLDCNT: 2
+ACTIVECNT: 5
+Trenutni kontekst:
+======Thread<3>===================
+run:   1519<<4 + 0218
+stack: 1ed0<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0005 di:2710
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1ed0 ds:169e es:1740
+
+quant: 20
+state: blocked until 186 (time: 166)
+blocked on: 2 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   1519<<4 + 0218
+stack: 1c77<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0005 di:2710
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1c77 ds:169e es:1740
+
+quant: 20
+state: running until 186 (time: 166)
+----------------------------------
+
+Scheduler: <2> 4 M
+-------------------------------------------------------
+A# 5
+
+
+
+=====================================context(171)====== T2 to T3
+CALLEDCNT: 3
+CALLEDOLDCNT: 2
+ACTIVECNT: 5
+Trenutni kontekst:
+======Thread<2>===================
+run:   1519<<4 + 0218
+stack: 1c77<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0006 di:2710
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1c77 ds:169e es:1740
+
+quant: 20
+state: blocked until 191 (time: 171)
+blocked on: 3 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+run:   1519<<4 + 0218
+stack: 1ed0<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0005 di:2710
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1ed0 ds:169e es:1740
+
+quant: 20
+state: running until 191 (time: 171)
+----------------------------------
+
+Scheduler: <3> 4 M
+-------------------------------------------------------
+B# 5
+
+
+
+=====================================context(174)====== T3 to T2
+CALLEDCNT: 3
+CALLEDOLDCNT: 2
+ACTIVECNT: 5
+Trenutni kontekst:
+======Thread<3>===================
+run:   1519<<4 + 0218
+stack: 1ed0<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0006 di:2710
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1ed0 ds:169e es:1740
+
+quant: 20
+state: blocked until 194 (time: 175)
+blocked on: 2 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   1519<<4 + 0218
+stack: 1c77<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0006 di:2710
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1c77 ds:169e es:1740
+
+quant: 20
+state: running until 194 (time: 175)
+----------------------------------
+
+Scheduler: <2> 4 M
+-------------------------------------------------------
+A# 6
+
+
+
+=====================================context(179)====== T2 to T3
+CALLEDCNT: 3
+CALLEDOLDCNT: 2
+ACTIVECNT: 5
+Trenutni kontekst:
+======Thread<2>===================
+run:   1519<<4 + 0218
+stack: 1c77<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0007 di:2710
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1c77 ds:169e es:1740
+
+quant: 20
+state: blocked until 199 (time: 179)
+blocked on: 3 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+run:   1519<<4 + 0218
+stack: 1ed0<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0006 di:2710
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1ed0 ds:169e es:1740
+
+quant: 20
+state: running until 199 (time: 180)
+----------------------------------
+
+Scheduler: <3> 4 M
+-------------------------------------------------------
+B# 6
+
+
+
+=====================================context(183)====== T3 to T2
+CALLEDCNT: 3
+CALLEDOLDCNT: 2
+ACTIVECNT: 5
+Trenutni kontekst:
+======Thread<3>===================
+run:   1519<<4 + 0218
+stack: 1ed0<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0007 di:2710
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1ed0 ds:169e es:1740
+
+quant: 20
+state: blocked until 203 (time: 183)
+blocked on: 2 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   1519<<4 + 0218
+stack: 1c77<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0007 di:2710
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1c77 ds:169e es:1740
+
+quant: 20
+state: running until 203 (time: 183)
+----------------------------------
+
+Scheduler: <2> 4 M
+-------------------------------------------------------
+A# 7
+
+
+
+=====================================context(188)====== T2 to T3
+CALLEDCNT: 3
+CALLEDOLDCNT: 2
+ACTIVECNT: 5
+Trenutni kontekst:
+======Thread<2>===================
+run:   1519<<4 + 0218
+stack: 1c77<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0008 di:2710
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1c77 ds:169e es:1740
+
+quant: 20
+state: blocked until 208 (time: 188)
+blocked on: 3 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+run:   1519<<4 + 0218
+stack: 1ed0<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0007 di:2710
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1ed0 ds:169e es:1740
+
+quant: 20
+state: running until 208 (time: 188)
+----------------------------------
+
+Scheduler: <3> 4 M
+-------------------------------------------------------
+B# 7
+
+
+
+=====================================context(191)====== T3 to T2
+CALLEDCNT: 3
+CALLEDOLDCNT: 2
+ACTIVECNT: 5
+Trenutni kontekst:
+======Thread<3>===================
+run:   1519<<4 + 0218
+stack: 1ed0<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0008 di:2710
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1ed0 ds:169e es:1740
+
+quant: 20
+state: blocked until 211 (time: 191)
+blocked on: 2 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   1519<<4 + 0218
+stack: 1c77<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0008 di:2710
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1c77 ds:169e es:1740
+
+quant: 20
+state: running until 211 (time: 192)
+----------------------------------
+
+Scheduler: <2> 4 M
+-------------------------------------------------------
+A# 8
+
+
+
+=====================================context(196)====== T2 to T3
+CALLEDCNT: 3
+CALLEDOLDCNT: 2
+ACTIVECNT: 5
+Trenutni kontekst:
+======Thread<2>===================
+run:   1519<<4 + 0218
+stack: 1c77<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0009 di:2710
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1c77 ds:169e es:1740
+
+quant: 20
+state: blocked until 216 (time: 196)
+blocked on: 3 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+run:   1519<<4 + 0218
+stack: 1ed0<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0008 di:2710
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1ed0 ds:169e es:1740
+
+quant: 20
+state: running until 216 (time: 197)
+----------------------------------
+
+Scheduler: <3> 4 M
+-------------------------------------------------------
+B# 8
+
+
+
+=====================================context(200)====== T3 to T2
+CALLEDCNT: 3
+CALLEDOLDCNT: 2
+ACTIVECNT: 5
+Trenutni kontekst:
+======Thread<3>===================
+run:   1519<<4 + 0218
+stack: 1ed0<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0009 di:2710
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1ed0 ds:169e es:1740
+
+quant: 20
+state: blocked until 220 (time: 200)
+blocked on: 2 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   1519<<4 + 0218
+stack: 1c77<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0009 di:2710
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1c77 ds:169e es:1740
+
+quant: 20
+state: running until 220 (time: 200)
+----------------------------------
+
+Scheduler: <2> 4 M
+-------------------------------------------------------
+A# 9
+A> Happy End
+
+
+
+=====================================context(205)====== T2 to T3
+CALLEDCNT: 3
+CALLEDOLDCNT: 2
+ACTIVECNT: 4
+Trenutni kontekst:
+======Thread<2>===================
+run:   1519<<4 + 0218
+stack: 1c77<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:1c70 dx:0000 si:0000 di:0000
+pc:1557 sw:7002
+bp:1fca sp:1fca
+cs:13b5 ss:1c77 ds:16dc es:1740
+
+quant: 20
+state: finished
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+run:   1519<<4 + 0218
+stack: 1ed0<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0009 di:2710
+pc:0303 sw:7216
+bp:1f8e sp:1f8e
+cs:0c80 ss:1ed0 ds:169e es:1740
+
+quant: 20
+state: running until 225 (time: 205)
+----------------------------------
+
+Scheduler: <3> 4 M
+-------------------------------------------------------
+B# 9
+B> Happy End
+
+
+
+=====================================context(208)====== T3 to T4
+CALLEDCNT: 3
+CALLEDOLDCNT: 2
+ACTIVECNT: 3
+Trenutni kontekst:
+======Thread<3>===================
+run:   1519<<4 + 0218
+stack: 1ed0<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:1ec9 dx:0000 si:0000 di:0000
+pc:1557 sw:7002
+bp:1fca sp:1fca
+cs:13b5 ss:1ed0 ds:16dc es:1740
+
+quant: 20
+state: finished
+----------------------------------
+
+Sledeci kontekst:
+======Thread<4>===================
+run:   1519<<4 + 0218
+stack: 2129<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:2381 dx:0000 si:0000 di:0000
+pc:0199 sw:3046
+bp:1f72 sp:1f72
+cs:09bf ss:2129 ds:15ba es:1740
+
+quant: 20
+state: running until 228 (time: 208)
+----------------------------------
+
+Scheduler: <4> M
+-------------------------------------------------------
+
+
+
+=====================================context(209)====== T4 to T4
+CALLEDCNT: 4
+CALLEDOLDCNT: 3
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(209)====== T4 to M
+CALLEDCNT: 5
+CALLEDOLDCNT: 4
+ACTIVECNT: 3
+Trenutni kontekst:
+======Thread<4>===================
+run:   1519<<4 + 0218
+stack: 2129<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:2381 dx:0000 si:0000 di:0000
+pc:0199 sw:3046
+bp:1f72 sp:1f72
+cs:09bf ss:2129 ds:15ba es:1740
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:1740 cx:19b0 dx:007c si:0000 di:0470
+pc:0199 sw:3046
+bp:0f64 sp:0f64
+cs:09bf ss:181b ds:15ba es:1740
+
+quant: 40
+state: running until 249 (time: 209)
+----------------------------------
+
+Scheduler: <M> 4
+-------------------------------------------------------
+MAIN# 14
+MAIN# 15
+MAIN# 16
+MAIN# 17
+MAIN# 18
+
+
+
+=====================================context(249)====== M  to M
+CALLEDCNT: 5
+CALLEDOLDCNT: 4
+ACTIVECNT: 3
+-------------------------------------------------------
+MAIN# 19
+MAIN# 20
+MAIN# 21
+MAIN# 22
+
+
+
+=====================================context(289)====== M  to T4
+CALLEDCNT: 5
+CALLEDOLDCNT: 4
+ACTIVECNT: 3
+Trenutni kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:1740 cx:19b0 dx:0121 si:0000 di:0470
+pc:0199 sw:3046
+bp:0f64 sp:0f64
+cs:09bf ss:181b ds:15ba es:1740
+
+quant: 40
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<4>===================
+run:   1519<<4 + 0218
+stack: 2129<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:2381 dx:0000 si:0000 di:0000
+pc:0199 sw:3046
+bp:1f72 sp:1f72
+cs:09bf ss:2129 ds:15ba es:1740
+
+quant: 20
+state: running until 309 (time: 289)
+----------------------------------
+
+Scheduler: <4> M
+-------------------------------------------------------
+
+
+
+=====================================context(289)====== T4 to T4
+CALLEDCNT: 6
+CALLEDOLDCNT: 5
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(290)====== T4 to M
+CALLEDCNT: 7
+CALLEDOLDCNT: 6
+ACTIVECNT: 3
+Trenutni kontekst:
+======Thread<4>===================
+run:   1519<<4 + 0218
+stack: 2129<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:2381 dx:0000 si:0000 di:0000
+pc:0199 sw:3046
+bp:1f72 sp:1f72
+cs:09bf ss:2129 ds:15ba es:1740
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:1740 cx:19b0 dx:0121 si:0000 di:0470
+pc:0199 sw:3046
+bp:0f64 sp:0f64
+cs:09bf ss:181b ds:15ba es:1740
+
+quant: 40
+state: running until 330 (time: 290)
+----------------------------------
+
+Scheduler: <M> 4
+-------------------------------------------------------
+MAIN# 23
+MAIN# 24
+
+
+
+=====================================context(311)====== M  to T4
+CALLEDCNT: 7
+CALLEDOLDCNT: 6
+ACTIVECNT: 3
+Trenutni kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0470
+pc:0303 sw:7246
+bp:0f30 sp:0f30
+cs:0c80 ss:181b ds:169e es:1740
+
+quant: 40
+state: blocked
+blocked on: 6 lockcnt: 5
+----------------------------------
+
+Sledeci kontekst:
+======Thread<4>===================
+run:   1519<<4 + 0218
+stack: 2129<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:2381 dx:0000 si:0000 di:0000
+pc:0199 sw:3046
+bp:1f72 sp:1f72
+cs:09bf ss:2129 ds:15ba es:1740
+
+quant: 20
+state: running until 331 (time: 312)
+----------------------------------
+
+Scheduler: <4>
+-------------------------------------------------------
+
+
+
+=====================================context(312)====== T4 to T4
+CALLEDCNT: 8
+CALLEDOLDCNT: 7
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(312)====== T4 to T4
+CALLEDCNT: 9
+CALLEDOLDCNT: 8
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(313)====== T4 to T4
+CALLEDCNT: 10
+CALLEDOLDCNT: 9
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(313)====== T4 to T4
+CALLEDCNT: 11
+CALLEDOLDCNT: 10
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(313)====== T4 to T4
+CALLEDCNT: 12
+CALLEDOLDCNT: 11
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(314)====== T4 to T4
+CALLEDCNT: 13
+CALLEDOLDCNT: 12
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(314)====== T4 to T4
+CALLEDCNT: 14
+CALLEDOLDCNT: 13
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(315)====== T4 to T4
+CALLEDCNT: 15
+CALLEDOLDCNT: 14
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(315)====== T4 to T4
+CALLEDCNT: 16
+CALLEDOLDCNT: 15
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(315)====== T4 to T4
+CALLEDCNT: 17
+CALLEDOLDCNT: 16
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(316)====== T4 to T4
+CALLEDCNT: 18
+CALLEDOLDCNT: 17
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(316)====== T4 to T4
+CALLEDCNT: 19
+CALLEDOLDCNT: 18
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(316)====== T4 to T4
+CALLEDCNT: 20
+CALLEDOLDCNT: 19
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(316)====== T4 to T4
+CALLEDCNT: 21
+CALLEDOLDCNT: 20
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(317)====== T4 to T4
+CALLEDCNT: 22
+CALLEDOLDCNT: 21
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(317)====== T4 to T4
+CALLEDCNT: 23
+CALLEDOLDCNT: 22
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(318)====== T4 to T4
+CALLEDCNT: 24
+CALLEDOLDCNT: 23
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(318)====== T4 to T4
+CALLEDCNT: 25
+CALLEDOLDCNT: 24
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(318)====== T4 to T4
+CALLEDCNT: 26
+CALLEDOLDCNT: 25
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(319)====== T4 to T4
+CALLEDCNT: 27
+CALLEDOLDCNT: 26
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(319)====== T4 to T4
+CALLEDCNT: 28
+CALLEDOLDCNT: 27
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(319)====== T4 to T4
+CALLEDCNT: 29
+CALLEDOLDCNT: 28
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(320)====== T4 to T4
+CALLEDCNT: 30
+CALLEDOLDCNT: 29
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(320)====== T4 to T4
+CALLEDCNT: 31
+CALLEDOLDCNT: 30
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(321)====== T4 to T4
+CALLEDCNT: 32
+CALLEDOLDCNT: 31
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(322)====== T4 to T4
+CALLEDCNT: 33
+CALLEDOLDCNT: 32
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(322)====== T4 to T4
+CALLEDCNT: 34
+CALLEDOLDCNT: 33
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(323)====== T4 to T4
+CALLEDCNT: 35
+CALLEDOLDCNT: 34
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(324)====== T4 to T4
+CALLEDCNT: 36
+CALLEDOLDCNT: 35
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(324)====== T4 to T4
+CALLEDCNT: 37
+CALLEDOLDCNT: 36
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(324)====== T4 to T4
+CALLEDCNT: 38
+CALLEDOLDCNT: 37
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(325)====== T4 to T4
+CALLEDCNT: 39
+CALLEDOLDCNT: 38
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(325)====== T4 to T4
+CALLEDCNT: 40
+CALLEDOLDCNT: 39
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(325)====== T4 to T4
+CALLEDCNT: 41
+CALLEDOLDCNT: 40
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(326)====== T4 to T4
+CALLEDCNT: 42
+CALLEDOLDCNT: 41
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(326)====== T4 to T4
+CALLEDCNT: 43
+CALLEDOLDCNT: 42
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(326)====== T4 to T4
+CALLEDCNT: 44
+CALLEDOLDCNT: 43
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(327)====== T4 to T4
+CALLEDCNT: 45
+CALLEDOLDCNT: 44
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(327)====== T4 to T4
+CALLEDCNT: 46
+CALLEDOLDCNT: 45
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(327)====== T4 to T4
+CALLEDCNT: 47
+CALLEDOLDCNT: 46
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(328)====== T4 to T4
+CALLEDCNT: 48
+CALLEDOLDCNT: 47
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(328)====== T4 to T4
+CALLEDCNT: 49
+CALLEDOLDCNT: 48
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(328)====== T4 to T4
+CALLEDCNT: 50
+CALLEDOLDCNT: 49
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(328)====== T4 to T4
+CALLEDCNT: 51
+CALLEDOLDCNT: 50
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(329)====== T4 to T4
+CALLEDCNT: 52
+CALLEDOLDCNT: 51
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(329)====== T4 to T4
+CALLEDCNT: 53
+CALLEDOLDCNT: 52
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(330)====== T4 to T4
+CALLEDCNT: 54
+CALLEDOLDCNT: 53
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(331)====== T4 to T4
+CALLEDCNT: 55
+CALLEDOLDCNT: 54
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(332)====== T4 to T4
+CALLEDCNT: 56
+CALLEDOLDCNT: 55
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(332)====== T4 to T4
+CALLEDCNT: 57
+CALLEDOLDCNT: 56
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(332)====== T4 to T4
+CALLEDCNT: 58
+CALLEDOLDCNT: 57
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(333)====== T4 to T4
+CALLEDCNT: 59
+CALLEDOLDCNT: 58
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(333)====== T4 to T4
+CALLEDCNT: 60
+CALLEDOLDCNT: 59
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(333)====== T4 to T4
+CALLEDCNT: 61
+CALLEDOLDCNT: 60
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(334)====== T4 to T4
+CALLEDCNT: 62
+CALLEDOLDCNT: 61
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(334)====== T4 to T4
+CALLEDCNT: 63
+CALLEDOLDCNT: 62
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(334)====== T4 to T4
+CALLEDCNT: 64
+CALLEDOLDCNT: 63
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(335)====== T4 to T4
+CALLEDCNT: 65
+CALLEDOLDCNT: 64
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(335)====== T4 to T4
+CALLEDCNT: 66
+CALLEDOLDCNT: 65
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(335)====== T4 to T4
+CALLEDCNT: 67
+CALLEDOLDCNT: 66
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(336)====== T4 to T4
+CALLEDCNT: 68
+CALLEDOLDCNT: 67
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(336)====== T4 to T4
+CALLEDCNT: 69
+CALLEDOLDCNT: 68
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(336)====== T4 to T4
+CALLEDCNT: 70
+CALLEDOLDCNT: 69
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(337)====== T4 to T4
+CALLEDCNT: 71
+CALLEDOLDCNT: 70
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(337)====== T4 to T4
+CALLEDCNT: 72
+CALLEDOLDCNT: 71
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(337)====== T4 to T4
+CALLEDCNT: 73
+CALLEDOLDCNT: 72
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(338)====== T4 to T4
+CALLEDCNT: 74
+CALLEDOLDCNT: 73
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(338)====== T4 to T4
+CALLEDCNT: 75
+CALLEDOLDCNT: 74
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(338)====== T4 to T4
+CALLEDCNT: 76
+CALLEDOLDCNT: 75
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(339)====== T4 to T4
+CALLEDCNT: 77
+CALLEDOLDCNT: 76
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(339)====== T4 to T4
+CALLEDCNT: 78
+CALLEDOLDCNT: 77
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(339)====== T4 to T4
+CALLEDCNT: 79
+CALLEDOLDCNT: 78
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(340)====== T4 to T4
+CALLEDCNT: 80
+CALLEDOLDCNT: 79
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(340)====== T4 to T4
+CALLEDCNT: 81
+CALLEDOLDCNT: 80
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(340)====== T4 to T4
+CALLEDCNT: 82
+CALLEDOLDCNT: 81
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(341)====== T4 to T4
+CALLEDCNT: 83
+CALLEDOLDCNT: 82
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(341)====== T4 to T4
+CALLEDCNT: 84
+CALLEDOLDCNT: 83
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(341)====== T4 to T4
+CALLEDCNT: 85
+CALLEDOLDCNT: 84
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(342)====== T4 to T4
+CALLEDCNT: 86
+CALLEDOLDCNT: 85
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(342)====== T4 to T4
+CALLEDCNT: 87
+CALLEDOLDCNT: 86
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(342)====== T4 to T4
+CALLEDCNT: 88
+CALLEDOLDCNT: 87
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(343)====== T4 to T4
+CALLEDCNT: 89
+CALLEDOLDCNT: 88
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(343)====== T4 to T4
+CALLEDCNT: 90
+CALLEDOLDCNT: 89
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(343)====== T4 to T4
+CALLEDCNT: 91
+CALLEDOLDCNT: 90
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(344)====== T4 to T4
+CALLEDCNT: 92
+CALLEDOLDCNT: 91
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(344)====== T4 to T4
+CALLEDCNT: 93
+CALLEDOLDCNT: 92
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(344)====== T4 to T4
+CALLEDCNT: 94
+CALLEDOLDCNT: 93
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(345)====== T4 to T4
+CALLEDCNT: 95
+CALLEDOLDCNT: 94
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(345)====== T4 to T4
+CALLEDCNT: 96
+CALLEDOLDCNT: 95
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(346)====== T4 to T4
+CALLEDCNT: 97
+CALLEDOLDCNT: 96
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(346)====== T4 to T4
+CALLEDCNT: 98
+CALLEDOLDCNT: 97
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(346)====== T4 to T4
+CALLEDCNT: 99
+CALLEDOLDCNT: 98
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(347)====== T4 to T4
+CALLEDCNT: 100
+CALLEDOLDCNT: 99
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(347)====== T4 to T4
+CALLEDCNT: 101
+CALLEDOLDCNT: 100
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(347)====== T4 to T4
+CALLEDCNT: 102
+CALLEDOLDCNT: 101
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(348)====== T4 to T4
+CALLEDCNT: 103
+CALLEDOLDCNT: 102
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(348)====== T4 to T4
+CALLEDCNT: 104
+CALLEDOLDCNT: 103
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(348)====== T4 to T4
+CALLEDCNT: 105
+CALLEDOLDCNT: 104
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(349)====== T4 to T4
+CALLEDCNT: 106
+CALLEDOLDCNT: 105
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(349)====== T4 to T4
+CALLEDCNT: 107
+CALLEDOLDCNT: 106
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(349)====== T4 to T4
+CALLEDCNT: 108
+CALLEDOLDCNT: 107
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(350)====== T4 to T4
+CALLEDCNT: 109
+CALLEDOLDCNT: 108
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(350)====== T4 to T4
+CALLEDCNT: 110
+CALLEDOLDCNT: 109
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(350)====== T4 to T4
+CALLEDCNT: 111
+CALLEDOLDCNT: 110
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(350)====== T4 to T4
+CALLEDCNT: 112
+CALLEDOLDCNT: 111
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(351)====== T4 to T4
+CALLEDCNT: 113
+CALLEDOLDCNT: 112
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(351)====== T4 to T4
+CALLEDCNT: 114
+CALLEDOLDCNT: 113
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(351)====== T4 to T4
+CALLEDCNT: 115
+CALLEDOLDCNT: 114
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(352)====== T4 to T4
+CALLEDCNT: 116
+CALLEDOLDCNT: 115
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(352)====== T4 to T4
+CALLEDCNT: 117
+CALLEDOLDCNT: 116
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(353)====== T4 to T4
+CALLEDCNT: 118
+CALLEDOLDCNT: 117
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(353)====== T4 to T4
+CALLEDCNT: 119
+CALLEDOLDCNT: 118
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(353)====== T4 to T4
+CALLEDCNT: 120
+CALLEDOLDCNT: 119
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(353)====== T4 to T4
+CALLEDCNT: 121
+CALLEDOLDCNT: 120
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(354)====== T4 to T4
+CALLEDCNT: 122
+CALLEDOLDCNT: 121
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(354)====== T4 to T4
+CALLEDCNT: 123
+CALLEDOLDCNT: 122
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(355)====== T4 to T4
+CALLEDCNT: 124
+CALLEDOLDCNT: 123
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(355)====== T4 to T4
+CALLEDCNT: 125
+CALLEDOLDCNT: 124
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(355)====== T4 to T4
+CALLEDCNT: 126
+CALLEDOLDCNT: 125
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(355)====== T4 to T4
+CALLEDCNT: 127
+CALLEDOLDCNT: 126
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(356)====== T4 to T4
+CALLEDCNT: 128
+CALLEDOLDCNT: 127
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(356)====== T4 to T4
+CALLEDCNT: 129
+CALLEDOLDCNT: 128
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(357)====== T4 to T4
+CALLEDCNT: 130
+CALLEDOLDCNT: 129
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(357)====== T4 to T4
+CALLEDCNT: 131
+CALLEDOLDCNT: 130
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(357)====== T4 to T4
+CALLEDCNT: 132
+CALLEDOLDCNT: 131
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(358)====== T4 to T4
+CALLEDCNT: 133
+CALLEDOLDCNT: 132
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(358)====== T4 to T4
+CALLEDCNT: 134
+CALLEDOLDCNT: 133
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(358)====== T4 to T4
+CALLEDCNT: 135
+CALLEDOLDCNT: 134
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(359)====== T4 to T4
+CALLEDCNT: 136
+CALLEDOLDCNT: 135
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(359)====== T4 to T4
+CALLEDCNT: 137
+CALLEDOLDCNT: 136
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(359)====== T4 to T4
+CALLEDCNT: 138
+CALLEDOLDCNT: 137
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(360)====== T4 to T4
+CALLEDCNT: 139
+CALLEDOLDCNT: 138
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(360)====== T4 to T4
+CALLEDCNT: 140
+CALLEDOLDCNT: 139
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(360)====== T4 to T4
+CALLEDCNT: 141
+CALLEDOLDCNT: 140
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(361)====== T4 to T4
+CALLEDCNT: 142
+CALLEDOLDCNT: 141
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(361)====== T4 to T4
+CALLEDCNT: 143
+CALLEDOLDCNT: 142
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(361)====== T4 to T4
+CALLEDCNT: 144
+CALLEDOLDCNT: 143
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(362)====== T4 to T4
+CALLEDCNT: 145
+CALLEDOLDCNT: 144
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(362)====== T4 to T4
+CALLEDCNT: 146
+CALLEDOLDCNT: 145
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(363)====== T4 to T4
+CALLEDCNT: 147
+CALLEDOLDCNT: 146
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(363)====== T4 to T4
+CALLEDCNT: 148
+CALLEDOLDCNT: 147
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(363)====== T4 to T4
+CALLEDCNT: 149
+CALLEDOLDCNT: 148
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(364)====== T4 to T4
+CALLEDCNT: 150
+CALLEDOLDCNT: 149
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(364)====== T4 to T4
+CALLEDCNT: 151
+CALLEDOLDCNT: 150
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(364)====== T4 to T4
+CALLEDCNT: 152
+CALLEDOLDCNT: 151
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(365)====== T4 to T4
+CALLEDCNT: 153
+CALLEDOLDCNT: 152
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(365)====== T4 to T4
+CALLEDCNT: 154
+CALLEDOLDCNT: 153
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(365)====== T4 to T4
+CALLEDCNT: 155
+CALLEDOLDCNT: 154
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(366)====== T4 to T4
+CALLEDCNT: 156
+CALLEDOLDCNT: 155
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(366)====== T4 to T4
+CALLEDCNT: 157
+CALLEDOLDCNT: 156
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(366)====== T4 to T4
+CALLEDCNT: 158
+CALLEDOLDCNT: 157
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(367)====== T4 to T4
+CALLEDCNT: 159
+CALLEDOLDCNT: 158
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(367)====== T4 to T4
+CALLEDCNT: 160
+CALLEDOLDCNT: 159
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(367)====== T4 to T4
+CALLEDCNT: 161
+CALLEDOLDCNT: 160
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(368)====== T4 to T4
+CALLEDCNT: 162
+CALLEDOLDCNT: 161
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(368)====== T4 to T4
+CALLEDCNT: 163
+CALLEDOLDCNT: 162
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(368)====== T4 to T4
+CALLEDCNT: 164
+CALLEDOLDCNT: 163
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(369)====== T4 to T4
+CALLEDCNT: 165
+CALLEDOLDCNT: 164
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(369)====== T4 to T4
+CALLEDCNT: 166
+CALLEDOLDCNT: 165
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(369)====== T4 to T4
+CALLEDCNT: 167
+CALLEDOLDCNT: 166
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(370)====== T4 to T4
+CALLEDCNT: 168
+CALLEDOLDCNT: 167
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(370)====== T4 to T4
+CALLEDCNT: 169
+CALLEDOLDCNT: 168
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(370)====== T4 to T4
+CALLEDCNT: 170
+CALLEDOLDCNT: 169
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(371)====== T4 to T4
+CALLEDCNT: 171
+CALLEDOLDCNT: 170
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(371)====== T4 to T4
+CALLEDCNT: 172
+CALLEDOLDCNT: 171
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(372)====== T4 to T4
+CALLEDCNT: 173
+CALLEDOLDCNT: 172
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(372)====== T4 to T4
+CALLEDCNT: 174
+CALLEDOLDCNT: 173
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(372)====== T4 to T4
+CALLEDCNT: 175
+CALLEDOLDCNT: 174
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(373)====== T4 to T4
+CALLEDCNT: 176
+CALLEDOLDCNT: 175
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(373)====== T4 to T4
+CALLEDCNT: 177
+CALLEDOLDCNT: 176
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(374)====== T4 to T4
+CALLEDCNT: 178
+CALLEDOLDCNT: 177
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(374)====== T4 to T4
+CALLEDCNT: 179
+CALLEDOLDCNT: 178
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(375)====== T4 to T4
+CALLEDCNT: 180
+CALLEDOLDCNT: 179
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(375)====== T4 to T4
+CALLEDCNT: 181
+CALLEDOLDCNT: 180
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(375)====== T4 to T4
+CALLEDCNT: 182
+CALLEDOLDCNT: 181
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(376)====== T4 to T4
+CALLEDCNT: 183
+CALLEDOLDCNT: 182
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(376)====== T4 to T4
+CALLEDCNT: 184
+CALLEDOLDCNT: 183
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(376)====== T4 to T4
+CALLEDCNT: 185
+CALLEDOLDCNT: 184
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(377)====== T4 to T4
+CALLEDCNT: 186
+CALLEDOLDCNT: 185
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(377)====== T4 to T4
+CALLEDCNT: 187
+CALLEDOLDCNT: 186
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(377)====== T4 to T4
+CALLEDCNT: 188
+CALLEDOLDCNT: 187
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(378)====== T4 to T4
+CALLEDCNT: 189
+CALLEDOLDCNT: 188
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(378)====== T4 to T4
+CALLEDCNT: 190
+CALLEDOLDCNT: 189
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(378)====== T4 to T4
+CALLEDCNT: 191
+CALLEDOLDCNT: 190
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(379)====== T4 to T4
+CALLEDCNT: 192
+CALLEDOLDCNT: 191
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(379)====== T4 to T4
+CALLEDCNT: 193
+CALLEDOLDCNT: 192
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(379)====== T4 to T4
+CALLEDCNT: 194
+CALLEDOLDCNT: 193
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(380)====== T4 to T4
+CALLEDCNT: 195
+CALLEDOLDCNT: 194
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(380)====== T4 to T4
+CALLEDCNT: 196
+CALLEDOLDCNT: 195
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(381)====== T4 to T4
+CALLEDCNT: 197
+CALLEDOLDCNT: 196
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(381)====== T4 to T4
+CALLEDCNT: 198
+CALLEDOLDCNT: 197
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(381)====== T4 to T4
+CALLEDCNT: 199
+CALLEDOLDCNT: 198
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(382)====== T4 to T4
+CALLEDCNT: 200
+CALLEDOLDCNT: 199
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(382)====== T4 to T4
+CALLEDCNT: 201
+CALLEDOLDCNT: 200
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(382)====== T4 to T4
+CALLEDCNT: 202
+CALLEDOLDCNT: 201
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(383)====== T4 to T4
+CALLEDCNT: 203
+CALLEDOLDCNT: 202
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(383)====== T4 to T4
+CALLEDCNT: 204
+CALLEDOLDCNT: 203
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(384)====== T4 to T4
+CALLEDCNT: 205
+CALLEDOLDCNT: 204
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(384)====== T4 to T4
+CALLEDCNT: 206
+CALLEDOLDCNT: 205
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(384)====== T4 to T4
+CALLEDCNT: 207
+CALLEDOLDCNT: 206
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(385)====== T4 to T4
+CALLEDCNT: 208
+CALLEDOLDCNT: 207
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(385)====== T4 to T4
+CALLEDCNT: 209
+CALLEDOLDCNT: 208
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(385)====== T4 to T4
+CALLEDCNT: 210
+CALLEDOLDCNT: 209
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(386)====== T4 to T4
+CALLEDCNT: 211
+CALLEDOLDCNT: 210
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(386)====== T4 to T4
+CALLEDCNT: 212
+CALLEDOLDCNT: 211
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(386)====== T4 to T4
+CALLEDCNT: 213
+CALLEDOLDCNT: 212
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(387)====== T4 to T4
+CALLEDCNT: 214
+CALLEDOLDCNT: 213
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(387)====== T4 to T4
+CALLEDCNT: 215
+CALLEDOLDCNT: 214
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(387)====== T4 to T4
+CALLEDCNT: 216
+CALLEDOLDCNT: 215
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(388)====== T4 to T4
+CALLEDCNT: 217
+CALLEDOLDCNT: 216
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(388)====== T4 to T4
+CALLEDCNT: 218
+CALLEDOLDCNT: 217
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(389)====== T4 to T4
+CALLEDCNT: 219
+CALLEDOLDCNT: 218
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(389)====== T4 to T4
+CALLEDCNT: 220
+CALLEDOLDCNT: 219
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(390)====== T4 to T4
+CALLEDCNT: 221
+CALLEDOLDCNT: 220
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(390)====== T4 to T4
+CALLEDCNT: 222
+CALLEDOLDCNT: 221
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(390)====== T4 to T4
+CALLEDCNT: 223
+CALLEDOLDCNT: 222
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(391)====== T4 to T4
+CALLEDCNT: 224
+CALLEDOLDCNT: 223
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(391)====== T4 to T4
+CALLEDCNT: 225
+CALLEDOLDCNT: 224
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(391)====== T4 to T4
+CALLEDCNT: 226
+CALLEDOLDCNT: 225
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(411)====== T4 to T4
+CALLEDCNT: 226
+CALLEDOLDCNT: 226
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(431)====== T4 to T4
+CALLEDCNT: 226
+CALLEDOLDCNT: 226
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(451)====== T4 to T4
+CALLEDCNT: 226
+CALLEDOLDCNT: 226
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(471)====== T4 to T4
+CALLEDCNT: 226
+CALLEDOLDCNT: 226
+ACTIVECNT: 3
+-------------------------------------------------------
+
+
+
+=====================================context(491)====== T4 to T4
+CALLEDCNT: 226
+CALLEDOLDCNT: 226
+ACTIVECNT: 3
+-------------------------------------------------------

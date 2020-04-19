@@ -1,0 +1,1251 @@
+
+C:\eclipse-cpp-luna-SR1-win32\eclipse>set PathName="C:\Users\OS1\workspace\Proje
+kat\BCC"
+
+C:\eclipse-cpp-luna-SR1-win32\eclipse>cd "C:\Users\OS1\workspace\Projekat\BCC"
+
+C:\Users\OS1\workspace\Projekat\BCC>Projekat.exe
+        _   __                          _
+       | | / /                         | |
+       | |/ /   ___  _ __  _ __    ___ | |
+       |    \  / _ \| '__|| '_ \  / _ \| |
+       | |\  \|  __/| |   | | | ||  __/| |
+       \_| \_/ \___||_|   |_| |_| \___||_|
+
+
+=================================================================
+
+New thread:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:1af8 sw:0200
+bp:0f90 sp:0000
+cs:14d6 ss:1960 ds:17fa es:0000
+
+quant: 40
+state: running
+----------------------------------
+
+New thread:
+======Thread<I>===================
+run:   14d6<<4 + 0011
+stack: 1b56<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0011 sw:7006
+bp:1fe0 sp:1fe0
+cs:14d6 ss:1b56 ds:17fa es:0000
+
+quant: 100
+state: ready
+----------------------------------
+
+======Scheduler===================
+<M>
+----------------------------------
+
+======Types=======================
+1B signed char
+2B signed int
+4B signed long
+4B signed long long
+
+1B unsigned char
+2B unsigned int
+4B unsigned long
+4B unsigned long long
+
+4B float
+8B double
+
+4B void *
+----------------------------------
+
+======Interrupt=Table=============
+D   0: 0583<<4 + 0162 - divide error
+D   1: 0070<<4 + 018b - single step
+D   2: 0393<<4 + 0016 - non-maskable
+D   3: 0070<<4 + 018b - breakpoint
+D   4: 0070<<4 + 018b - overflow
+R   5: 020a<<4 + 06cc
+R   6: 020a<<4 + 0753
+R   7: 020a<<4 + 03ff
+R   8: 0adf<<4 + 000a - timer
+R   9: 020a<<4 + 040a - keyboard
+
+R  10: 0393<<4 + 003a
+R  11: 0393<<4 + 0054
+R  12: 0393<<4 + 006e
+R  13: 0393<<4 + 0088
+R  14: 0393<<4 + 00a2
+R  15: 020a<<4 + 03ff
+R  16: 020a<<4 + 08bd
+R  17: 020a<<4 + 09e2
+R  18: 020a<<4 + 09e8
+R  19: 020a<<4 + 045d
+
+R  20: 020a<<4 + 09ee
+R  21: 02dd<<4 + 020d
+R  22: 020a<<4 + 0a00
+R  23: 020a<<4 + 058b
+R  24: 020a<<4 + 0c4a
+R  25: 020a<<4 + 0c50
+R  26: 020a<<4 + 0c5b
+R  27: 020a<<4 + 06c0
+R  28: 020a<<4 + 06c0
+R  29: f000<<4 + f0a4
+
+R  30: 020a<<4 + 0537
+R  31: c000<<4 + 133a
+A  32: 00a7<<4 + 1072
+A  33: 00a7<<4 + 107c
+A  34: 0411<<4 + 01de
+A  35: 0411<<4 + 014b
+A  36: 0411<<4 + 0156
+A  37: 00a7<<4 + 1086
+A  38: 00a7<<4 + 1090
+A  39: 00a7<<4 + 109a
+
+A  40: 00a7<<4 + 10b8
+A  41: 0070<<4 + 0254
+A  42: cc7b<<4 + 04e2
+A  43: 00a7<<4 + 10b8
+A  44: 00a7<<4 + 10b8
+A  45: 00a7<<4 + 10b8
+A  46: 0411<<4 + 0140
+A  47: d493<<4 + 0960
+A  48: a710<<4 + aeea
+A  49: f000<<4 + 0d00
+
+A  50: 00a7<<4 + 10b8
+A  51: e802<<4 + 23c4
+A  52: 00a7<<4 + 10b8
+A  53: 00a7<<4 + 10b8
+A  54: 00a7<<4 + 10b8
+A  55: 00a7<<4 + 10b8
+A  56: 00a7<<4 + 10b8
+A  57: 00a7<<4 + 10b8
+A  58: 00a7<<4 + 10b8
+A  59: 00a7<<4 + 10b8
+
+A  60: 00a7<<4 + 10b8
+A  61: 00a7<<4 + 10b8
+A  62: 00a7<<4 + 10b8
+A  63: 00a7<<4 + 10b8
+A  64: 020a<<4 + 048a
+A  65: 020a<<4 + 03ff
+A  66: 020a<<4 + 09b4
+A  67: c000<<4 + 2667
+A  68: f000<<4 + 0d66
+A  69: f000<<4 + 0d66
+
+A  70: f000<<4 + 0d66
+A  71: f000<<4 + 0d66
+A  72: f000<<4 + 0d66
+A  73: f000<<4 + 0d66
+A  74: f000<<4 + 0d66
+A  75: f000<<4 + 0d66
+A  76: f000<<4 + 0d66
+A  77: f000<<4 + 0d66
+A  78: f000<<4 + 0d66
+A  79: f000<<4 + 0d66
+
+A  80: f000<<4 + 0d66
+A  81: f000<<4 + 0d66
+A  82: f000<<4 + 0d66
+A  83: f000<<4 + 0d66
+A  84: f000<<4 + 0d66
+A  85: f000<<4 + 0d66
+A  86: f000<<4 + 0d66
+A  87: f000<<4 + 0d66
+A  88: f000<<4 + 0d66
+A  89: f000<<4 + 0d66
+
+A  90: f000<<4 + 0d66
+A  91: f000<<4 + 0d66
+A  92: cc7b<<4 + 0528
+A  93: f000<<4 + 0d66
+A  94: f000<<4 + 0d66
+A  95: f000<<4 + 0d66
+A  96: 020a<<4 + 0759 - old timer
+A  97:
+A  98:
+A  99:
+
+D-dedicated R-reserved A-available
+----------------------------------
+
+New thread:
+======Thread<2>===================
+run:   1639<<4 + 0220
+stack: 1dca<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0220 sw:7206
+bp:1fe0 sp:1fe0
+cs:1639 ss:1dca ds:17fa es:0000
+
+quant: 0
+state: start
+----------------------------------
+
+
+
+
+=====================================context(1)====== M  to M
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+ACTIVECNT: 2
+-------------------------------------------------------
+New thread:
+======Thread<3>===================
+run:   1639<<4 + 0220
+stack: 202a<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0220 sw:7206
+bp:1fe0 sp:1fe0
+cs:1639 ss:202a ds:17fa es:0000
+
+quant: 0
+state: start
+----------------------------------
+
+New thread:
+======Thread<4>===================
+run:   1639<<4 + 0220
+stack: 2289<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0220 sw:7206
+bp:1fe0 sp:1fe0
+cs:1639 ss:2289 ds:17fa es:0000
+
+quant: 2
+state: start
+----------------------------------
+
+======Interrupt=Table=============
+D   0: 0583<<4 + 0162 - divide error
+D   1: 0070<<4 + 018b - single step
+D   2: 0393<<4 + 0016 - non-maskable
+D   3: 0070<<4 + 018b - breakpoint
+D   4: 0070<<4 + 018b - overflow
+R   5: 020a<<4 + 06cc
+R   6: 020a<<4 + 0753
+R   7: 020a<<4 + 03ff
+R   8: 0adf<<4 + 000a - timer
+R   9: 020a<<4 + 040a - keyboard
+
+R  10: 0393<<4 + 003a
+R  11: 0393<<4 + 0054
+R  12: 0393<<4 + 006e
+R  13: 0393<<4 + 0088
+R  14: 0393<<4 + 00a2
+R  15: 020a<<4 + 03ff
+R  16: 020a<<4 + 08bd
+R  17: 020a<<4 + 09e2
+R  18: 020a<<4 + 09e8
+R  19: 020a<<4 + 045d
+
+R  20: 020a<<4 + 09ee
+R  21: 02dd<<4 + 020d
+R  22: 020a<<4 + 0a00
+R  23: 020a<<4 + 058b
+R  24: 020a<<4 + 0c4a
+R  25: 020a<<4 + 0c50
+R  26: 020a<<4 + 0c5b
+R  27: 020a<<4 + 06c0
+R  28: 020a<<4 + 06c0
+R  29: f000<<4 + f0a4
+
+R  30: 020a<<4 + 0537
+R  31: c000<<4 + 133a
+A  32: 00a7<<4 + 1072
+A  33: 00a7<<4 + 107c
+A  34: 0411<<4 + 01de
+A  35: 0411<<4 + 014b
+A  36: 0411<<4 + 0156
+A  37: 00a7<<4 + 1086
+A  38: 00a7<<4 + 1090
+A  39: 00a7<<4 + 109a
+
+A  40: 00a7<<4 + 10b8
+A  41: 0070<<4 + 0254
+A  42: cc7b<<4 + 04e2
+A  43: 00a7<<4 + 10b8
+A  44: 00a7<<4 + 10b8
+A  45: 00a7<<4 + 10b8
+A  46: 0411<<4 + 0140
+A  47: d493<<4 + 0960
+A  48: a710<<4 + aeea
+A  49: f000<<4 + 0d00
+
+A  50: 00a7<<4 + 10b8
+A  51: e802<<4 + 23c4
+A  52: 00a7<<4 + 10b8
+A  53: 00a7<<4 + 10b8
+A  54: 00a7<<4 + 10b8
+A  55: 00a7<<4 + 10b8
+A  56: 00a7<<4 + 10b8
+A  57: 00a7<<4 + 10b8
+A  58: 00a7<<4 + 10b8
+A  59: 00a7<<4 + 10b8
+
+A  60: 00a7<<4 + 10b8
+A  61: 00a7<<4 + 10b8
+A  62: 00a7<<4 + 10b8
+A  63: 00a7<<4 + 10b8
+A  64: 020a<<4 + 048a
+A  65: 020a<<4 + 03ff
+A  66: 020a<<4 + 09b4
+A  67: c000<<4 + 2667
+A  68: f000<<4 + 0d66
+A  69: f000<<4 + 0d66
+
+A  70: f000<<4 + 0d66
+A  71: f000<<4 + 0d66
+A  72: f000<<4 + 0d66
+A  73: f000<<4 + 0d66
+A  74: f000<<4 + 0d66
+A  75: f000<<4 + 0d66
+A  76: f000<<4 + 0d66
+A  77: f000<<4 + 0d66
+A  78: f000<<4 + 0d66
+A  79: f000<<4 + 0d66
+
+A  80: f000<<4 + 0d66
+A  81: f000<<4 + 0d66
+A  82: f000<<4 + 0d66
+A  83: f000<<4 + 0d66
+A  84: f000<<4 + 0d66
+A  85: f000<<4 + 0d66
+A  86: f000<<4 + 0d66
+A  87: f000<<4 + 0d66
+A  88: f000<<4 + 0d66
+A  89: f000<<4 + 0d66
+
+A  90: f000<<4 + 0d66
+A  91: f000<<4 + 0d66
+A  92: cc7b<<4 + 0528
+A  93: f000<<4 + 0d66
+A  94: f000<<4 + 0d66
+A  95: f000<<4 + 0d66
+A  96: 020a<<4 + 0759 - old timer
+A  97:
+A  98:
+A  99:
+
+D-dedicated R-reserved A-available
+----------------------------------
+New thread:
+======Thread<5>===================
+run:   1639<<4 + 0220
+stack: 24e4<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0220 sw:7206
+bp:1fe0 sp:1fe0
+cs:1639 ss:24e4 ds:17fa es:0000
+
+quant: 2
+state: start
+----------------------------------
+
+======Interrupt=Table=============
+D   0: 0583<<4 + 0162 - divide error
+D   1: 0070<<4 + 018b - single step
+D   2: 0393<<4 + 0016 - non-maskable
+D   3: 0070<<4 + 018b - breakpoint
+D   4: 0070<<4 + 018b - overflow
+R   5: 020a<<4 + 06cc
+R   6: 020a<<4 + 0753
+R   7: 020a<<4 + 03ff
+R   8: 0adf<<4 + 000a - timer
+R   9: 020a<<4 + 040a - keyboard
+
+R  10: 0393<<4 + 003a
+R  11: 0393<<4 + 0054
+R  12: 0393<<4 + 006e
+R  13: 0393<<4 + 0088
+R  14: 0393<<4 + 00a2
+R  15: 020a<<4 + 03ff
+R  16: 020a<<4 + 08bd
+R  17: 020a<<4 + 09e2
+R  18: 020a<<4 + 09e8
+R  19: 020a<<4 + 045d
+
+R  20: 020a<<4 + 09ee
+R  21: 02dd<<4 + 020d
+R  22: 020a<<4 + 0a00
+R  23: 020a<<4 + 058b
+R  24: 020a<<4 + 0c4a
+R  25: 020a<<4 + 0c50
+R  26: 020a<<4 + 0c5b
+R  27: 020a<<4 + 06c0
+R  28: 020a<<4 + 06c0
+R  29: f000<<4 + f0a4
+
+R  30: 020a<<4 + 0537
+R  31: c000<<4 + 133a
+A  32: 00a7<<4 + 1072
+A  33: 00a7<<4 + 107c
+A  34: 0411<<4 + 01de
+A  35: 0411<<4 + 014b
+A  36: 0411<<4 + 0156
+A  37: 00a7<<4 + 1086
+A  38: 00a7<<4 + 1090
+A  39: 00a7<<4 + 109a
+
+A  40: 00a7<<4 + 10b8
+A  41: 0070<<4 + 0254
+A  42: cc7b<<4 + 04e2
+A  43: 00a7<<4 + 10b8
+A  44: 00a7<<4 + 10b8
+A  45: 00a7<<4 + 10b8
+A  46: 0411<<4 + 0140
+A  47: d493<<4 + 0960
+A  48: a710<<4 + aeea
+A  49: f000<<4 + 0d00
+
+A  50: 00a7<<4 + 10b8
+A  51: e802<<4 + 23c4
+A  52: 00a7<<4 + 10b8
+A  53: 00a7<<4 + 10b8
+A  54: 00a7<<4 + 10b8
+A  55: 00a7<<4 + 10b8
+A  56: 00a7<<4 + 10b8
+A  57: 00a7<<4 + 10b8
+A  58: 00a7<<4 + 10b8
+A  59: 00a7<<4 + 10b8
+
+A  60: 00a7<<4 + 10b8
+A  61: 00a7<<4 + 10b8
+A  62: 00a7<<4 + 10b8
+A  63: 00a7<<4 + 10b8
+A  64: 020a<<4 + 048a
+A  65: 020a<<4 + 03ff
+A  66: 020a<<4 + 09b4
+A  67: c000<<4 + 2667
+A  68: f000<<4 + 0d66
+A  69: f000<<4 + 0d66
+
+A  70: f000<<4 + 0d66
+A  71: f000<<4 + 0d66
+A  72: f000<<4 + 0d66
+A  73: f000<<4 + 0d66
+A  74: f000<<4 + 0d66
+A  75: f000<<4 + 0d66
+A  76: f000<<4 + 0d66
+A  77: f000<<4 + 0d66
+A  78: f000<<4 + 0d66
+A  79: f000<<4 + 0d66
+
+A  80: f000<<4 + 0d66
+A  81: f000<<4 + 0d66
+A  82: f000<<4 + 0d66
+A  83: f000<<4 + 0d66
+A  84: f000<<4 + 0d66
+A  85: f000<<4 + 0d66
+A  86: f000<<4 + 0d66
+A  87: f000<<4 + 0d66
+A  88: f000<<4 + 0d66
+A  89: f000<<4 + 0d66
+
+A  90: f000<<4 + 0d66
+A  91: f000<<4 + 0d66
+A  92: cc7b<<4 + 0528
+A  93: f000<<4 + 0d66
+A  94: f000<<4 + 0d66
+A  95: f000<<4 + 0d66
+A  96: 020a<<4 + 0759 - old timer
+A  97:
+A  98:
+A  99:
+
+D-dedicated R-reserved A-available
+----------------------------------
+
+
+
+=====================================context(4)====== M  to T5
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+ACTIVECNT: 6
+Trenutni kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0003 di:0001
+pc:02fb sw:7246
+bp:0f34 sp:0f34
+cs:0da1 ss:1960 ds:17d9 es:187b
+
+quant: 40
+state: blocked
+blocked on: 8 lockcnt: 3
+----------------------------------
+
+Sledeci kontekst:
+======Thread<5>===================
+run:   1639<<4 + 0220
+stack: 24e4<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0220 sw:7206
+bp:1fe0 sp:1fe0
+cs:1639 ss:24e4 ds:17fa es:0000
+
+quant: 2
+state: running until 6 (time: 4)
+----------------------------------
+
+Scheduler: <5> 4 3 2
+-------------------------------------------------------
+New event:
+======Event<9>====================
+kevent[9]: 9
+oldivt[9]: 020a<<4 + 040a
+regivt[9]: 0a1c<<4 + 001c - set
+owner: 5
+event semaphore: 12
+----------------------------------
+
+KeyebordListener started!
+
+
+
+=====================================context(4)====== T5 to T4
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+ACTIVECNT: 6
+Trenutni kontekst:
+======Thread<5>===================
+run:   1639<<4 + 0220
+stack: 24e4<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02fb sw:7046
+bp:1f82 sp:1f82
+cs:0da1 ss:24e4 ds:17d9 es:187b
+
+quant: 2
+state: blocked
+blocked on: 12 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<4>===================
+run:   1639<<4 + 0220
+stack: 2289<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0220 sw:7206
+bp:1fe0 sp:1fe0
+cs:1639 ss:2289 ds:17fa es:0000
+
+quant: 2
+state: running until 6 (time: 5)
+----------------------------------
+
+Scheduler: <4> 5 3 2
+-------------------------------------------------------
+
+
+
+=====================================context(5)====== T4 to T4
+CALLEDCNT: 1
+CALLEDOLDCNT: 0
+ACTIVECNT: 6
+-------------------------------------------------------
+A# 0
+
+
+
+=====================================context(7)====== T4 to T5
+CALLEDCNT: 1
+CALLEDOLDCNT: 0
+ACTIVECNT: 6
+Trenutni kontekst:
+======Thread<4>===================
+run:   1639<<4 + 0220
+stack: 2289<<4 + 0004 [4096]
+
+ax:0000 bx:187b cx:1af5 dx:0007 si:0000 di:0000
+pc:0197 sw:3046
+bp:1f9c sp:1f9c
+cs:0adf ss:2289 ds:16f5 es:187b
+
+quant: 2
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<5>===================
+run:   1639<<4 + 0220
+stack: 24e4<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02fb sw:7046
+bp:1f82 sp:1f82
+cs:0da1 ss:24e4 ds:17d9 es:187b
+
+quant: 2
+state: running until 9 (time: 7)
+----------------------------------
+
+Scheduler: <5> 3 2 4
+-------------------------------------------------------
+
+
+
+=====================================context(7)====== T5 to T3
+CALLEDCNT: 1
+CALLEDOLDCNT: 0
+ACTIVECNT: 6
+Trenutni kontekst:
+======Thread<5>===================
+run:   1639<<4 + 0220
+stack: 24e4<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02fb sw:7046
+bp:1f82 sp:1f82
+cs:0da1 ss:24e4 ds:17d9 es:187b
+
+quant: 2
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+run:   1639<<4 + 0220
+stack: 202a<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0220 sw:7206
+bp:1fe0 sp:1fe0
+cs:1639 ss:202a ds:17fa es:0000
+
+quant: 0
+state: running until 7 (time: 7)
+----------------------------------
+
+Scheduler: <3> 5 2 4
+-------------------------------------------------------
+
+
+
+=====================================context(7)====== T3 to T3
+CALLEDCNT: 2
+CALLEDOLDCNT: 0
+ACTIVECNT: 6
+-------------------------------------------------------
+PRODUCER...
+PRODUCER: 0
+
+
+
+=====================================context(8)====== T3 to T5
+CALLEDCNT: 2
+CALLEDOLDCNT: 0
+ACTIVECNT: 6
+Trenutni kontekst:
+======Thread<3>===================
+run:   1639<<4 + 0220
+stack: 202a<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02fb sw:7202
+bp:1f90 sp:1f90
+cs:0da1 ss:202a ds:17d9 es:187b
+
+quant: 0
+state: blocked until 18 (time: 8)
+blocked on: 9 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<5>===================
+run:   1639<<4 + 0220
+stack: 24e4<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02fb sw:7046
+bp:1f82 sp:1f82
+cs:0da1 ss:24e4 ds:17d9 es:187b
+
+quant: 2
+state: running until 10 (time: 8)
+----------------------------------
+
+Scheduler: <5> 2 4
+-------------------------------------------------------
+
+
+
+=====================================context(8)====== T5 to T2
+CALLEDCNT: 2
+CALLEDOLDCNT: 0
+ACTIVECNT: 6
+Trenutni kontekst:
+======Thread<5>===================
+run:   1639<<4 + 0220
+stack: 24e4<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02fb sw:7046
+bp:1f82 sp:1f82
+cs:0da1 ss:24e4 ds:17d9 es:187b
+
+quant: 2
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   1639<<4 + 0220
+stack: 1dca<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0220 sw:7206
+bp:1fe0 sp:1fe0
+cs:1639 ss:1dca ds:17fa es:0000
+
+quant: 0
+state: running until 8 (time: 8)
+----------------------------------
+
+Scheduler: <2> 5 4
+-------------------------------------------------------
+
+
+
+=====================================context(9)====== T2 to T2
+CALLEDCNT: 3
+CALLEDOLDCNT: 0
+ACTIVECNT: 6
+-------------------------------------------------------
+CONSUMER: 0
+
+
+
+=====================================context(9)====== T2 to T5
+CALLEDCNT: 3
+CALLEDOLDCNT: 0
+ACTIVECNT: 6
+Trenutni kontekst:
+======Thread<2>===================
+run:   1639<<4 + 0220
+stack: 1dca<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0001 di:0000
+pc:02fb sw:7246
+bp:1f80 sp:1f80
+cs:0da1 ss:1dca ds:17d9 es:187b
+
+quant: 0
+state: blocked
+blocked on: 5 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<5>===================
+run:   1639<<4 + 0220
+stack: 24e4<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02fb sw:7046
+bp:1f82 sp:1f82
+cs:0da1 ss:24e4 ds:17d9 es:187b
+
+quant: 2
+state: running until 11 (time: 9)
+----------------------------------
+
+Scheduler: <5> 4
+-------------------------------------------------------
+
+
+
+=====================================context(9)====== T5 to T2
+CALLEDCNT: 3
+CALLEDOLDCNT: 0
+ACTIVECNT: 6
+Trenutni kontekst:
+======Thread<5>===================
+run:   1639<<4 + 0220
+stack: 24e4<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02fb sw:7046
+bp:1f82 sp:1f82
+cs:0da1 ss:24e4 ds:17d9 es:187b
+
+quant: 2
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   1639<<4 + 0220
+stack: 1dca<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0001 di:0000
+pc:02fb sw:7246
+bp:1f80 sp:1f80
+cs:0da1 ss:1dca ds:17d9 es:187b
+
+quant: 0
+state: running until 9 (time: 10)
+----------------------------------
+
+Scheduler: <2> 5 4
+-------------------------------------------------------
+CONSUMER: a
+
+
+
+=====================================context(10)====== T2 to T5
+CALLEDCNT: 4
+CALLEDOLDCNT: 0
+ACTIVECNT: 6
+Trenutni kontekst:
+======Thread<2>===================
+run:   1639<<4 + 0220
+stack: 1dca<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0002 di:0000
+pc:02fb sw:7246
+bp:1f80 sp:1f80
+cs:0da1 ss:1dca ds:17d9 es:187b
+
+quant: 0
+state: blocked
+blocked on: 5 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<5>===================
+run:   1639<<4 + 0220
+stack: 24e4<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02fb sw:7046
+bp:1f82 sp:1f82
+cs:0da1 ss:24e4 ds:17d9 es:187b
+
+quant: 2
+state: running until 12 (time: 10)
+----------------------------------
+
+Scheduler: <5> 4
+-------------------------------------------------------
+
+
+
+=====================================context(10)====== T5 to T2
+CALLEDCNT: 4
+CALLEDOLDCNT: 0
+ACTIVECNT: 6
+Trenutni kontekst:
+======Thread<5>===================
+run:   1639<<4 + 0220
+stack: 24e4<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02fb sw:7046
+bp:1f82 sp:1f82
+cs:0da1 ss:24e4 ds:17d9 es:187b
+
+quant: 2
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   1639<<4 + 0220
+stack: 1dca<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0002 di:0000
+pc:02fb sw:7246
+bp:1f80 sp:1f80
+cs:0da1 ss:1dca ds:17d9 es:187b
+
+quant: 0
+state: running until 10 (time: 11)
+----------------------------------
+
+Scheduler: <2> 5 4
+-------------------------------------------------------
+CONSUMER: s
+
+
+
+=====================================context(11)====== T2 to T5
+CALLEDCNT: 5
+CALLEDOLDCNT: 0
+ACTIVECNT: 6
+Trenutni kontekst:
+======Thread<2>===================
+run:   1639<<4 + 0220
+stack: 1dca<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0003 di:0000
+pc:02fb sw:7246
+bp:1f80 sp:1f80
+cs:0da1 ss:1dca ds:17d9 es:187b
+
+quant: 0
+state: blocked
+blocked on: 5 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<5>===================
+run:   1639<<4 + 0220
+stack: 24e4<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02fb sw:7046
+bp:1f82 sp:1f82
+cs:0da1 ss:24e4 ds:17d9 es:187b
+
+quant: 2
+state: running until 13 (time: 11)
+----------------------------------
+
+Scheduler: <5> 4
+-------------------------------------------------------
+
+
+
+=====================================context(11)====== T5 to T2
+CALLEDCNT: 5
+CALLEDOLDCNT: 0
+ACTIVECNT: 6
+Trenutni kontekst:
+======Thread<5>===================
+run:   1639<<4 + 0220
+stack: 24e4<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02fb sw:7046
+bp:1f82 sp:1f82
+cs:0da1 ss:24e4 ds:17d9 es:187b
+
+quant: 2
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   1639<<4 + 0220
+stack: 1dca<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0003 di:0000
+pc:02fb sw:7246
+bp:1f80 sp:1f80
+cs:0da1 ss:1dca ds:17d9 es:187b
+
+quant: 0
+state: running until 11 (time: 12)
+----------------------------------
+
+Scheduler: <2> 5 4
+-------------------------------------------------------
+CONSUMER: d
+
+
+
+=====================================context(12)====== T2 to T5
+CALLEDCNT: 6
+CALLEDOLDCNT: 0
+ACTIVECNT: 6
+Trenutni kontekst:
+======Thread<2>===================
+run:   1639<<4 + 0220
+stack: 1dca<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0004 di:0000
+pc:02fb sw:7246
+bp:1f80 sp:1f80
+cs:0da1 ss:1dca ds:17d9 es:187b
+
+quant: 0
+state: blocked
+blocked on: 5 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<5>===================
+run:   1639<<4 + 0220
+stack: 24e4<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02fb sw:7046
+bp:1f82 sp:1f82
+cs:0da1 ss:24e4 ds:17d9 es:187b
+
+quant: 2
+state: running until 14 (time: 12)
+----------------------------------
+
+Scheduler: <5> 4
+-------------------------------------------------------
+
+
+
+=====================================context(12)====== T5 to T2
+CALLEDCNT: 6
+CALLEDOLDCNT: 0
+ACTIVECNT: 6
+Trenutni kontekst:
+======Thread<5>===================
+run:   1639<<4 + 0220
+stack: 24e4<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02fb sw:7046
+bp:1f82 sp:1f82
+cs:0da1 ss:24e4 ds:17d9 es:187b
+
+quant: 2
+state: blocked
+blocked on: 12 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   1639<<4 + 0220
+stack: 1dca<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0004 di:0000
+pc:02fb sw:7246
+bp:1f80 sp:1f80
+cs:0da1 ss:1dca ds:17d9 es:187b
+
+quant: 0
+state: running until 12 (time: 13)
+----------------------------------
+
+Scheduler: <2> 5 4
+-------------------------------------------------------
+CONSUMER: f
+
+
+
+=====================================context(13)====== T2 to T5
+CALLEDCNT: 7
+CALLEDOLDCNT: 0
+ACTIVECNT: 6
+Trenutni kontekst:
+======Thread<2>===================
+run:   1639<<4 + 0220
+stack: 1dca<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0005 di:0000
+pc:02fb sw:7246
+bp:1f80 sp:1f80
+cs:0da1 ss:1dca ds:17d9 es:187b
+
+quant: 0
+state: blocked
+blocked on: 5 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<5>===================
+run:   1639<<4 + 0220
+stack: 24e4<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02fb sw:7046
+bp:1f82 sp:1f82
+cs:0da1 ss:24e4 ds:17d9 es:187b
+
+quant: 2
+state: running until 15 (time: 13)
+----------------------------------
+
+Scheduler: <5> 4
+-------------------------------------------------------
+
+
+
+=====================================context(13)====== T5 to T4
+CALLEDCNT: 7
+CALLEDOLDCNT: 0
+ACTIVECNT: 6
+Trenutni kontekst:
+======Thread<5>===================
+run:   1639<<4 + 0220
+stack: 24e4<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02fb sw:7046
+bp:1f82 sp:1f82
+cs:0da1 ss:24e4 ds:17d9 es:187b
+
+quant: 2
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<4>===================
+run:   1639<<4 + 0220
+stack: 2289<<4 + 0004 [4096]
+
+ax:0000 bx:187b cx:1af5 dx:0007 si:0000 di:0000
+pc:0197 sw:3046
+bp:1f9c sp:1f9c
+cs:0adf ss:2289 ds:16f5 es:187b
+
+quant: 2
+state: running until 15 (time: 14)
+----------------------------------
+
+Scheduler: <4> 5
+-------------------------------------------------------
+
+
+
+=====================================context(14)====== T4 to T4
+CALLEDCNT: 8
+CALLEDOLDCNT: 0
+ACTIVECNT: 6
+-------------------------------------------------------
+
+
+
+=====================================context(16)====== T4 to T5
+CALLEDCNT: 8
+CALLEDOLDCNT: 0
+ACTIVECNT: 6
+Trenutni kontekst:
+======Thread<4>===================
+run:   1639<<4 + 0220
+stack: 2289<<4 + 0004 [4096]
+
+ax:0000 bx:187b cx:1af5 dx:0010 si:0000 di:0000
+pc:0197 sw:3046
+bp:1f9c sp:1f9c
+cs:0adf ss:2289 ds:16f5 es:187b
+
+quant: 2
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<5>===================
+run:   1639<<4 + 0220
+stack: 24e4<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02fb sw:7046
+bp:1f82 sp:1f82
+cs:0da1 ss:24e4 ds:17d9 es:187b
+
+quant: 2
+state: running until 18 (time: 16)
+----------------------------------
+
+Scheduler: <5> 4
+-------------------------------------------------------
+
+
+
+=====================================context(16)====== T5 to T4
+CALLEDCNT: 8
+CALLEDOLDCNT: 0
+ACTIVECNT: 6
+Trenutni kontekst:
+======Thread<5>===================
+run:   1639<<4 + 0220
+stack: 24e4<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02fb sw:7046
+bp:1f82 sp:1f82
+cs:0da1 ss:24e4 ds:17d9 es:187b
+
+quant: 2
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<4>===================
+run:   1639<<4 + 0220
+stack: 2289<<4 + 0004 [4096]
+
+ax:0000 bx:187b cx:1af5 dx:0010 si:0000 di:0000
+pc:0197 sw:3046
+bp:1f9c sp:1f9c
+cs:0adf ss:2289 ds:16f5 es:187b
+
+quant: 2
+state: running until 18 (time: 16)
+----------------------------------
+
+Scheduler: <4> 5
+-------------------------------------------------------
+
+
+
+=====================================context(16)====== T4 to T4
+CALLEDCNT: 9
+CALLEDOLDCNT: 0
+ACTIVECNT: 6
+-------------------------------------------------------
+A# 1
+======Semaphore=glist(18)=========
+List< 0>: [H] --> --> [T]
+
+----------------------------------
+
+
+
+=====================================context(18)====== T4 to T3
+CALLEDCNT: 9
+CALLEDOLDCNT: 0
+ACTIVECNT: 6
+Trenutni kontekst:
+======Thread<4>===================
+run:   1639<<4 + 0220
+stack: 2289<<4 + 0004 [4096]
+
+ax:0000 bx:187b cx:190e dx:0012 si:0001 di:0000
+pc:0197 sw:3046
+bp:1f9c sp:1f9c
+cs:0adf ss:2289 ds:16f5 es:187b
+
+quant: 2
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+run:   1639<<4 + 0220
+stack: 202a<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02fb sw:7202
+bp:1f90 sp:1f90
+cs:0da1 ss:202a ds:17d9 es:187b
+
+quant: 0
+state: running until 18 (time: 18)
+> max block time expired
+----------------------------------
+
+Scheduler: <3> 5 4
+-------------------------------------------------------
+Assertion failed: 1 != sleep.wait(10), file ..\test\user.cpp, line 149
+Abnormal program termination
+
+C:\Users\OS1\WORKSP~1\Projekat\BCC>asj;aslkdjflkdjsfas;ldfkjalsk;dfjasl;dkfjsajd
+fjdsf

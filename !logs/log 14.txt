@@ -1,0 +1,901 @@
+
+C:\eclipse-cpp-luna-SR1-win32\eclipse>set PathName="C:\Users\OS1\workspace\Proje
+kat\BCC"
+
+C:\eclipse-cpp-luna-SR1-win32\eclipse>cd "C:\Users\OS1\workspace\Projekat\BCC"
+
+C:\Users\OS1\workspace\Projekat\BCC>Projekat.exe
+        _   __                          _
+       | | / /                         | |
+       | |/ /   ___  _ __  _ __    ___ | |
+       |    \  / _ \| '__|| '_ \  / _ \| |
+       | |\  \|  __/| |   | | | ||  __/| |
+       \_| \_/ \___||_|   |_| |_| \___||_|
+
+
+=================================================================
+
+New thread:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:196f sw:0200
+bp:0f90 sp:0000
+cs:1371 ss:17d7 ds:167d es:0000
+
+quant: 40
+state: running
+----------------------------------
+
+New thread:
+======Thread<I>===================
+run:   1371<<4 + 001e
+stack: 19cd<<4 + 0004 [100]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:001e sw:7002
+bp:00a8 sp:00a8
+cs:1371 ss:19cd ds:167d es:0000
+
+quant: 1
+state: ready
+----------------------------------
+
+======Scheduler===================
+<M>
+----------------------------------
+
+======Types=======================
+1B signed char
+2B signed int
+4B signed long
+4B signed long long
+
+1B unsigned char
+2B unsigned int
+4B unsigned long
+4B unsigned long long
+
+4B float
+8B double
+
+4B void *
+----------------------------------
+
+======Interrupt=Table=============
+D   0: 0583<<4 + 0162 - divide error
+D   1: 0070<<4 + 018b - single step
+D   2: 0393<<4 + 0016 - non-maskable
+D   3: 0070<<4 + 018b - breakpoint
+D   4: 0070<<4 + 018b - overflow
+R   5: 020a<<4 + 06cc
+R   6: 020a<<4 + 0753
+R   7: 020a<<4 + 03ff
+R   8: 09bf<<4 + 000c - timer
+R   9: 020a<<4 + 040a - keyboard
+
+R  10: 0393<<4 + 003a
+R  11: 0393<<4 + 0054
+R  12: 0393<<4 + 006e
+R  13: 0393<<4 + 0088
+R  14: 0393<<4 + 00a2
+R  15: 020a<<4 + 03ff
+R  16: 020a<<4 + 08bd
+R  17: 020a<<4 + 09e2
+R  18: 020a<<4 + 09e8
+R  19: 020a<<4 + 045d
+
+R  20: 020a<<4 + 09ee
+R  21: 02dd<<4 + 020d
+R  22: 020a<<4 + 0a00
+R  23: 020a<<4 + 058b
+R  24: 020a<<4 + 0c4a
+R  25: 020a<<4 + 0c50
+R  26: 020a<<4 + 0c5b
+R  27: 020a<<4 + 06c0
+R  28: 020a<<4 + 06c0
+R  29: f000<<4 + f0a4
+
+R  30: 020a<<4 + 0537
+R  31: c000<<4 + 133a
+A  32: 00a7<<4 + 1072
+A  33: 00a7<<4 + 107c
+A  34: 0411<<4 + 01de
+A  35: 0411<<4 + 014b
+A  36: 0411<<4 + 0156
+A  37: 00a7<<4 + 1086
+A  38: 00a7<<4 + 1090
+A  39: 00a7<<4 + 109a
+
+A  40: 00a7<<4 + 10b8
+A  41: 0070<<4 + 0254
+A  42: cc7b<<4 + 04e2
+A  43: 00a7<<4 + 10b8
+A  44: 00a7<<4 + 10b8
+A  45: 00a7<<4 + 10b8
+A  46: 0411<<4 + 0140
+A  47: d493<<4 + 0960
+A  48: a710<<4 + aeea
+A  49: f000<<4 + 0d00
+
+A  50: 00a7<<4 + 10b8
+A  51: e802<<4 + 23c4
+A  52: 00a7<<4 + 10b8
+A  53: 00a7<<4 + 10b8
+A  54: 00a7<<4 + 10b8
+A  55: 00a7<<4 + 10b8
+A  56: 00a7<<4 + 10b8
+A  57: 00a7<<4 + 10b8
+A  58: 00a7<<4 + 10b8
+A  59: 00a7<<4 + 10b8
+
+A  60: 00a7<<4 + 10b8
+A  61: 00a7<<4 + 10b8
+A  62: 00a7<<4 + 10b8
+A  63: 00a7<<4 + 10b8
+A  64: 020a<<4 + 048a
+A  65: 020a<<4 + 03ff
+A  66: 020a<<4 + 09b4
+A  67: c000<<4 + 2667
+A  68: f000<<4 + 0d66
+A  69: f000<<4 + 0d66
+
+A  70: f000<<4 + 0d66
+A  71: f000<<4 + 0d66
+A  72: f000<<4 + 0d66
+A  73: f000<<4 + 0d66
+A  74: f000<<4 + 0d66
+A  75: f000<<4 + 0d66
+A  76: f000<<4 + 0d66
+A  77: f000<<4 + 0d66
+A  78: f000<<4 + 0d66
+A  79: f000<<4 + 0d66
+
+A  80: f000<<4 + 0d66
+A  81: f000<<4 + 0d66
+A  82: f000<<4 + 0d66
+A  83: f000<<4 + 0d66
+A  84: f000<<4 + 0d66
+A  85: f000<<4 + 0d66
+A  86: f000<<4 + 0d66
+A  87: f000<<4 + 0d66
+A  88: f000<<4 + 0d66
+A  89: f000<<4 + 0d66
+
+A  90: f000<<4 + 0d66
+A  91: f000<<4 + 0d66
+A  92: cc7b<<4 + 0528
+A  93: f000<<4 + 0d66
+A  94: f000<<4 + 0d66
+A  95: f000<<4 + 0d66
+A  96: 020a<<4 + 0759 - old timer
+A  97:
+A  98:
+A  99:
+
+D-dedicated R-reserved A-available
+----------------------------------
+
+New thread:
+======Thread<2>===================
+run:   14d4<<4 + 0225
+stack: 1a3f<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0225 sw:7206
+bp:1fe0 sp:1fe0
+cs:14d4 ss:1a3f ds:167d es:0000
+
+quant: 20
+state: start
+----------------------------------
+
+New thread:
+======Thread<3>===================
+run:   14d4<<4 + 0225
+stack: 1c98<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0225 sw:7206
+bp:1fe0 sp:1fe0
+cs:14d4 ss:1c98 ds:167d es:0000
+
+quant: 20
+state: start
+----------------------------------
+
+New thread:
+======Thread<4>===================
+run:   14d4<<4 + 0225
+stack: 1ef1<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0225 sw:7206
+bp:1fe0 sp:1fe0
+cs:14d4 ss:1ef1 ds:167d es:0000
+
+quant: 20
+state: start
+----------------------------------
+
+MAIN# 0
+
+
+
+=====================================context(1)====== M  to M
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+-------------------------------------------------------
+MAIN# 1
+MAIN# 2
+MAIN# 3
+MAIN# 4
+
+
+
+=====================================context(41)====== M  to T4
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:16fc cx:196c dx:0029 si:0004 di:0470
+pc:017c sw:3046
+bp:0f64 sp:0f64
+cs:09bf ss:17d7 ds:1575 es:16fc
+
+quant: 40
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<4>===================
+run:   14d4<<4 + 0225
+stack: 1ef1<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0225 sw:7206
+bp:1fe0 sp:1fe0
+cs:14d4 ss:1ef1 ds:167d es:0000
+
+quant: 20
+state: running until 61 (time: 41)
+----------------------------------
+
+globally blocked:
+scheduler: <4> 3 2 M
+activecnt: 5
+-------------------------------------------------------
+New event:
+======Event<9>====================
+kevent[9]: 9
+oldivt[9]: 020a<<4 + 040a
+regivt[9]: 094a<<4 + 01ad - set
+owner: 4
+event semaphore: 7
+----------------------------------
+
+
+
+
+=====================================context(41)====== T4 to T3
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<4>===================
+run:   14d4<<4 + 0225
+stack: 1ef1<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02fa sw:7046
+bp:1f82 sp:1f82
+cs:0c6c ss:1ef1 ds:1659 es:16fc
+
+quant: 20
+state: blocked
+blocked on: 7 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+run:   14d4<<4 + 0225
+stack: 1c98<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0225 sw:7206
+bp:1fe0 sp:1fe0
+cs:14d4 ss:1c98 ds:167d es:0000
+
+quant: 20
+state: running until 61 (time: 41)
+----------------------------------
+
+globally blocked:
+scheduler: <3> 2 M
+activecnt: 5
+-------------------------------------------------------
+
+
+
+=====================================context(41)====== T3 to T2
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<3>===================
+run:   14d4<<4 + 0225
+stack: 1c98<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02fa sw:7216
+bp:1f8e sp:1f8e
+cs:0c6c ss:1c98 ds:1659 es:16fc
+
+quant: 20
+state: blocked until 61 (time: 41)
+blocked on: 2 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   14d4<<4 + 0225
+stack: 1a3f<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0225 sw:7206
+bp:1fe0 sp:1fe0
+cs:14d4 ss:1a3f ds:167d es:0000
+
+quant: 20
+state: running until 61 (time: 42)
+----------------------------------
+
+globally blocked: 3
+scheduler: <2> M
+activecnt: 5
+-------------------------------------------------------
+
+
+
+=====================================context(42)====== T2 to M
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+run:   14d4<<4 + 0225
+stack: 1a3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02fa sw:7216
+bp:1f8e sp:1f8e
+cs:0c6c ss:1a3f ds:1659 es:16fc
+
+quant: 20
+state: blocked until 62 (time: 42)
+blocked on: 3 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:16fc cx:196c dx:0029 si:0004 di:0470
+pc:017c sw:3046
+bp:0f64 sp:0f64
+cs:09bf ss:17d7 ds:1575 es:16fc
+
+quant: 40
+state: running until 82 (time: 42)
+----------------------------------
+
+globally blocked: 3 2
+scheduler: <M>
+activecnt: 5
+-------------------------------------------------------
+
+
+
+=====================================context(43)====== M  to M
+CALLEDCNT: 1
+CALLEDOLDCNT: 0
+-------------------------------------------------------
+
+
+
+=====================================context(83)====== M  to T2
+CALLEDCNT: 2
+CALLEDOLDCNT: 2
+Trenutni kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:16fc cx:196c dx:0053 si:0004 di:0470
+pc:017c sw:3046
+bp:0f64 sp:0f64
+cs:09bf ss:17d7 ds:1575 es:16fc
+
+quant: 40
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   14d4<<4 + 0225
+stack: 1a3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02fa sw:7216
+bp:1f8e sp:1f8e
+cs:0c6c ss:1a3f ds:1659 es:16fc
+
+quant: 20
+state: running until 103 (time: 83)
+> max block time expired
+----------------------------------
+
+globally blocked:
+scheduler: <2> 3 4 M
+activecnt: 5
+-------------------------------------------------------
+A# 0
+
+
+
+=====================================context(88)====== T2 to T3
+CALLEDCNT: 2
+CALLEDOLDCNT: 2
+Trenutni kontekst:
+======Thread<2>===================
+run:   14d4<<4 + 0225
+stack: 1a3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0001 di:2710
+pc:02fa sw:7216
+bp:1f8e sp:1f8e
+cs:0c6c ss:1a3f ds:1659 es:16fc
+
+quant: 20
+state: blocked until 108 (time: 88)
+blocked on: 3 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+run:   14d4<<4 + 0225
+stack: 1c98<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02fa sw:7216
+bp:1f8e sp:1f8e
+cs:0c6c ss:1c98 ds:1659 es:16fc
+
+quant: 20
+state: running until 108 (time: 88)
+> max block time expired
+----------------------------------
+
+globally blocked: 2
+scheduler: <3> 4 M
+activecnt: 5
+-------------------------------------------------------
+B# 0
+
+
+
+=====================================context(108)====== T3 to T3
+CALLEDCNT: 44
+CALLEDOLDCNT: 44
+-------------------------------------------------------
+
+
+
+=====================================context(128)====== T3 to T2
+CALLEDCNT: 98
+CALLEDOLDCNT: 98
+Trenutni kontekst:
+======Thread<3>===================
+run:   14d4<<4 + 0225
+stack: 1c98<<4 + 0004 [4096]
+
+ax:0000 bx:16fc cx:196c dx:0080 si:0000 di:1db5
+pc:017c sw:3046
+bp:1f9a sp:1f9a
+cs:09bf ss:1c98 ds:1575 es:16fc
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   14d4<<4 + 0225
+stack: 1a3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0001 di:2710
+pc:02fa sw:7216
+bp:1f8e sp:1f8e
+cs:0c6c ss:1a3f ds:1659 es:16fc
+
+quant: 20
+state: running until 148 (time: 128)
+> max block time expired
+----------------------------------
+
+globally blocked:
+scheduler: <2> 4 M 3
+activecnt: 5
+-------------------------------------------------------
+A# 1
+
+
+
+=====================================context(148)====== T2 to T2
+CALLEDCNT: 136
+CALLEDOLDCNT: 136
+-------------------------------------------------------
+
+
+
+=====================================context(168)====== T2 to T4
+CALLEDCNT: 181
+CALLEDOLDCNT: 181
+Trenutni kontekst:
+======Thread<2>===================
+run:   14d4<<4 + 0225
+stack: 1a3f<<4 + 0004 [4096]
+
+ax:0000 bx:16fc cx:196c dx:00a8 si:0001 di:0080
+pc:017c sw:3046
+bp:1f9a sp:1f9a
+cs:09bf ss:1a3f ds:1575 es:16fc
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<4>===================
+run:   14d4<<4 + 0225
+stack: 1ef1<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02fa sw:7046
+bp:1f82 sp:1f82
+cs:0c6c ss:1ef1 ds:1659 es:16fc
+
+quant: 20
+state: running until 188 (time: 168)
+----------------------------------
+
+globally blocked:
+scheduler: <4> M 3 2
+activecnt: 5
+-------------------------------------------------------
+C# 0
+
+
+
+=====================================context(188)====== T4 to T4
+CALLEDCNT: 196
+CALLEDOLDCNT: 196
+-------------------------------------------------------
+
+
+
+=====================================context(208)====== T4 to M
+CALLEDCNT: 196
+CALLEDOLDCNT: 196
+Trenutni kontekst:
+======Thread<4>===================
+run:   14d4<<4 + 0225
+stack: 1ef1<<4 + 0004 [4096]
+
+ax:0000 bx:16fc cx:196c dx:00d0 si:0000 di:0000
+pc:017c sw:3046
+bp:1f98 sp:1f98
+cs:09bf ss:1ef1 ds:1575 es:16fc
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:16fc cx:196c dx:0053 si:0004 di:0470
+pc:017c sw:3046
+bp:0f64 sp:0f64
+cs:09bf ss:17d7 ds:1575 es:16fc
+
+quant: 40
+state: running until 248 (time: 208)
+----------------------------------
+
+globally blocked:
+scheduler: <M> 3 2 4
+activecnt: 5
+-------------------------------------------------------
+
+
+
+=====================================context(248)====== M  to M
+CALLEDCNT: 196
+CALLEDOLDCNT: 196
+-------------------------------------------------------
+
+
+
+=====================================context(288)====== M  to T3
+CALLEDCNT: 213
+CALLEDOLDCNT: 213
+Trenutni kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:16fc cx:196c dx:0120 si:0004 di:0470
+pc:017c sw:3046
+bp:0f64 sp:0f64
+cs:09bf ss:17d7 ds:1575 es:16fc
+
+quant: 40
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+run:   14d4<<4 + 0225
+stack: 1c98<<4 + 0004 [4096]
+
+ax:0000 bx:16fc cx:196c dx:0080 si:0000 di:1db5
+pc:017c sw:3046
+bp:1f9a sp:1f9a
+cs:09bf ss:1c98 ds:1575 es:16fc
+
+quant: 20
+state: running until 308 (time: 288)
+----------------------------------
+
+globally blocked:
+scheduler: <3> 2 4 M
+activecnt: 5
+-------------------------------------------------------
+
+
+
+=====================================context(308)====== T3 to T3
+CALLEDCNT: 243
+CALLEDOLDCNT: 243
+-------------------------------------------------------
+
+
+
+=====================================context(328)====== T3 to T2
+CALLEDCNT: 260
+CALLEDOLDCNT: 260
+Trenutni kontekst:
+======Thread<3>===================
+run:   14d4<<4 + 0225
+stack: 1c98<<4 + 0004 [4096]
+
+ax:0000 bx:16fc cx:196c dx:0148 si:0000 di:1dc3
+pc:017c sw:3046
+bp:1f9a sp:1f9a
+cs:09bf ss:1c98 ds:1575 es:16fc
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   14d4<<4 + 0225
+stack: 1a3f<<4 + 0004 [4096]
+
+ax:0000 bx:16fc cx:196c dx:00a8 si:0001 di:0080
+pc:017c sw:3046
+bp:1f9a sp:1f9a
+cs:09bf ss:1a3f ds:1575 es:16fc
+
+quant: 20
+state: running until 348 (time: 328)
+----------------------------------
+
+globally blocked:
+scheduler: <2> 4 M 3
+activecnt: 5
+-------------------------------------------------------
+
+
+
+=====================================context(348)====== T2 to T2
+CALLEDCNT: 279
+CALLEDOLDCNT: 279
+-------------------------------------------------------
+
+
+
+=====================================context(368)====== T2 to T4
+CALLEDCNT: 294
+CALLEDOLDCNT: 294
+Trenutni kontekst:
+======Thread<2>===================
+run:   14d4<<4 + 0225
+stack: 1a3f<<4 + 0004 [4096]
+
+ax:0000 bx:16fc cx:196c dx:0170 si:0001 di:008e
+pc:017c sw:3046
+bp:1f9a sp:1f9a
+cs:09bf ss:1a3f ds:1575 es:16fc
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<4>===================
+run:   14d4<<4 + 0225
+stack: 1ef1<<4 + 0004 [4096]
+
+ax:0000 bx:16fc cx:196c dx:00d0 si:0000 di:0000
+pc:017c sw:3046
+bp:1f98 sp:1f98
+cs:09bf ss:1ef1 ds:1575 es:16fc
+
+quant: 20
+state: running until 388 (time: 368)
+----------------------------------
+
+globally blocked:
+scheduler: <4> M 3 2
+activecnt: 5
+-------------------------------------------------------
+
+
+
+=====================================context(388)====== T4 to T4
+CALLEDCNT: 306
+CALLEDOLDCNT: 306
+-------------------------------------------------------
+
+
+
+=====================================context(408)====== T4 to M
+CALLEDCNT: 306
+CALLEDOLDCNT: 306
+Trenutni kontekst:
+======Thread<4>===================
+run:   14d4<<4 + 0225
+stack: 1ef1<<4 + 0004 [4096]
+
+ax:0000 bx:16fc cx:196c dx:0198 si:0000 di:0000
+pc:017c sw:3046
+bp:1f98 sp:1f98
+cs:09bf ss:1ef1 ds:1575 es:16fc
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:16fc cx:196c dx:0120 si:0004 di:0470
+pc:017c sw:3046
+bp:0f64 sp:0f64
+cs:09bf ss:17d7 ds:1575 es:16fc
+
+quant: 40
+state: running until 448 (time: 408)
+----------------------------------
+
+globally blocked:
+scheduler: <M> 3 2 4
+activecnt: 5
+-------------------------------------------------------
+
+
+
+=====================================context(448)====== M  to M
+CALLEDCNT: 306
+CALLEDOLDCNT: 306
+-------------------------------------------------------
+
+
+
+=====================================context(488)====== M  to T3
+CALLEDCNT: 306
+CALLEDOLDCNT: 306
+Trenutni kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:16fc cx:196c dx:01e8 si:0004 di:0470
+pc:017c sw:3046
+bp:0f64 sp:0f64
+cs:09bf ss:17d7 ds:1575 es:16fc
+
+quant: 40
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+run:   14d4<<4 + 0225
+stack: 1c98<<4 + 0004 [4096]
+
+ax:0000 bx:16fc cx:196c dx:0148 si:0000 di:1dc3
+pc:017c sw:3046
+bp:1f9a sp:1f9a
+cs:09bf ss:1c98 ds:1575 es:16fc
+
+quant: 20
+state: running until 508 (time: 488)
+----------------------------------
+
+globally blocked:
+scheduler: <3> 2 4 M
+activecnt: 5
+-------------------------------------------------------
+
+
+
+=====================================context(508)====== T3 to T3
+CALLEDCNT: 306
+CALLEDOLDCNT: 306
+-------------------------------------------------------
+
+
+
+=====================================context(528)====== T3 to T2
+CALLEDCNT: 306
+CALLEDOLDCNT: 306
+Trenutni kontekst:
+======Thread<3>===================
+run:   14d4<<4 + 0225
+stack: 1c98<<4 + 0004 [4096]
+
+ax:0000 bx:16fc cx:196c dx:0210 si:0000 di:1dd1
+pc:017c sw:3046
+bp:1f9a sp:1f9a
+cs:09bf ss:1c98 ds:1575 es:16fc
+
+quant: 20
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   14d4<<4 + 0225
+stack: 1a3f<<4 + 0004 [4096]
+
+ax:0000 bx:16fc cx:196c dx:0170 si:0001 di:008e
+pc:017c sw:3046
+bp:1f9a sp:1f9a
+cs:09bf ss:1a3f ds:1575 es:16fc
+
+quant: 20
+state: running until 548 (time: 528)
+----------------------------------
+
+globally blocked:
+scheduler: <2> 4 M 3
+activecnt: 5
+-------------------------------------------------------
+
+
+
+=====================================context(548)====== T2 to T2
+CALLEDCNT: 306
+CALLEDOLDCNT: 306
+-------------------------------------------------------

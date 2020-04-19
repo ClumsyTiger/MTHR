@@ -1,0 +1,8629 @@
+
+C:\eclipse-cpp-luna-SR1-win32\eclipse>set PathName="C:\Users\OS1\workspace\Proje
+kat\BCC"
+
+C:\eclipse-cpp-luna-SR1-win32\eclipse>cd "C:\Users\OS1\workspace\Projekat\BCC"
+
+C:\Users\OS1\workspace\Projekat\BCC>Projekat.exe
+        _   __                          _
+       | | / /                         | |
+       | |/ /   ___  _ __  _ __    ___ | |
+       |    \  / _ \| '__|| '_ \  / _ \| |
+       | |\  \|  __/| |   | | | ||  __/| |
+       \_| \_/ \___||_|   |_| |_| \___||_|
+
+
+=================================================================
+
+New thread:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:1aad sw:0200
+bp:0f7a sp:0000
+cs:1486 ss:1913 ds:17ae es:0000
+
+quant: 40
+state: running
+----------------------------------
+
+New thread:
+======Thread<I>===================
+run:   1486<<4 + 0019
+stack: 1b0b<<4 + 0004 [100]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0019 sw:7006
+bp:00a8 sp:00a8
+cs:1486 ss:1b0b ds:17ae es:0000
+
+quant: 1
+state: ready
+----------------------------------
+
+======Types=======================
+1B signed char
+2B signed int
+4B signed long
+4B signed long long
+
+1B unsigned char
+2B unsigned int
+4B unsigned long
+4B unsigned long long
+
+4B float
+8B double
+
+4B void *
+----------------------------------
+
+======Interrupt=Table=============
+D   0: 0583<<4 + 0162 - divide error
+D   1: 0070<<4 + 018b - single step
+D   2: 0393<<4 + 0016 - non-maskable
+D   3: 0070<<4 + 018b - breakpoint
+D   4: 0070<<4 + 018b - overflow
+R   5: 020a<<4 + 06cc
+R   6: 020a<<4 + 0753
+R   7: 020a<<4 + 03ff
+R   8: 0ad7<<4 + 0007 - timer
+R   9: 020a<<4 + 040a - keyboard
+
+R  10: 0393<<4 + 003a
+R  11: 0393<<4 + 0054
+R  12: 0393<<4 + 006e
+R  13: 0393<<4 + 0088
+R  14: 0393<<4 + 00a2
+R  15: 020a<<4 + 03ff
+R  16: 020a<<4 + 08bd
+R  17: 020a<<4 + 09e2
+R  18: 020a<<4 + 09e8
+R  19: 020a<<4 + 045d
+
+R  20: 020a<<4 + 09ee
+R  21: 02dd<<4 + 020d
+R  22: 020a<<4 + 0a00
+R  23: 020a<<4 + 058b
+R  24: 020a<<4 + 0c4a
+R  25: 020a<<4 + 0c50
+R  26: 020a<<4 + 0c5b
+R  27: 020a<<4 + 06c0
+R  28: 020a<<4 + 06c0
+R  29: f000<<4 + f0a4
+
+R  30: 020a<<4 + 0537
+R  31: c000<<4 + 133a
+A  32: 00a7<<4 + 1072
+A  33: 00a7<<4 + 107c
+A  34: 0411<<4 + 01de
+A  35: 0411<<4 + 014b
+A  36: 0411<<4 + 0156
+A  37: 00a7<<4 + 1086
+A  38: 00a7<<4 + 1090
+A  39: 00a7<<4 + 109a
+
+A  40: 00a7<<4 + 10b8
+A  41: 0070<<4 + 0254
+A  42: cc7b<<4 + 04e2
+A  43: 00a7<<4 + 10b8
+A  44: 00a7<<4 + 10b8
+A  45: 00a7<<4 + 10b8
+A  46: 0411<<4 + 0140
+A  47: d493<<4 + 0960
+A  48: a710<<4 + aeea
+A  49: f000<<4 + 0d00
+
+A  50: 00a7<<4 + 10b8
+A  51: e802<<4 + 23c4
+A  52: 00a7<<4 + 10b8
+A  53: 00a7<<4 + 10b8
+A  54: 00a7<<4 + 10b8
+A  55: 00a7<<4 + 10b8
+A  56: 00a7<<4 + 10b8
+A  57: 00a7<<4 + 10b8
+A  58: 00a7<<4 + 10b8
+A  59: 00a7<<4 + 10b8
+
+A  60: 00a7<<4 + 10b8
+A  61: 00a7<<4 + 10b8
+A  62: 00a7<<4 + 10b8
+A  63: 00a7<<4 + 10b8
+A  64: 020a<<4 + 048a
+A  65: 020a<<4 + 03ff
+A  66: 020a<<4 + 09b4
+A  67: c000<<4 + 2667
+A  68: f000<<4 + 0d66
+A  69: f000<<4 + 0d66
+
+A  70: f000<<4 + 0d66
+A  71: f000<<4 + 0d66
+A  72: f000<<4 + 0d66
+A  73: f000<<4 + 0d66
+A  74: f000<<4 + 0d66
+A  75: f000<<4 + 0d66
+A  76: f000<<4 + 0d66
+A  77: f000<<4 + 0d66
+A  78: f000<<4 + 0d66
+A  79: f000<<4 + 0d66
+
+A  80: f000<<4 + 0d66
+A  81: f000<<4 + 0d66
+A  82: f000<<4 + 0d66
+A  83: f000<<4 + 0d66
+A  84: f000<<4 + 0d66
+A  85: f000<<4 + 0d66
+A  86: f000<<4 + 0d66
+A  87: f000<<4 + 0d66
+A  88: f000<<4 + 0d66
+A  89: f000<<4 + 0d66
+
+A  90: f000<<4 + 0d66
+A  91: f000<<4 + 0d66
+A  92: cc7b<<4 + 0528
+A  93: f000<<4 + 0d66
+A  94: f000<<4 + 0d66
+A  95: f000<<4 + 0d66
+A  96: 020a<<4 + 0759 - old timer
+A  97:
+A  98:
+A  99:
+
+D-dedicated R-reserved A-available
+----------------------------------
+
+New thread:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:1b95 ds:17ae es:0000
+
+quant: 0
+state: start
+----------------------------------
+
+New thread:
+======Thread<3>===================
+run:   15ec<<4 + 021b
+stack: 1df7<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:1df7 ds:17ae es:0000
+
+quant: 0
+state: start
+----------------------------------
+
+New thread:
+======Thread<4>===================
+run:   15ec<<4 + 021b
+stack: 205b<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:205b ds:17ae es:0000
+
+quant: 0
+state: start
+----------------------------------
+
+New thread:
+======Thread<5>===================
+run:   15ec<<4 + 021b
+stack: 22bd<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:22bd ds:17ae es:0000
+
+quant: 0
+state: start
+----------------------------------
+
+New thread:
+======Thread<6>===================
+run:   15ec<<4 + 021b
+stack: 251f<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:251f ds:17ae es:0000
+
+quant: 0
+state: start
+----------------------------------
+
+New thread:
+======Thread<7>===================
+run:   15ec<<4 + 021b
+stack: 2781<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:2781 ds:17ae es:0000
+
+quant: 0
+state: start
+----------------------------------
+
+New thread:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:29e3 ds:17ae es:0000
+
+quant: 0
+state: start
+----------------------------------
+
+New thread:
+======Thread<9>===================
+run:   15ec<<4 + 021b
+stack: 2c45<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:2c45 ds:17ae es:0000
+
+quant: 0
+state: start
+----------------------------------
+
+New thread:
+======Thread<10>===================
+run:   15ec<<4 + 021b
+stack: 2ea7<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:2ea7 ds:17ae es:0000
+
+quant: 0
+state: start
+----------------------------------
+
+New thread:
+======Thread<11>===================
+run:   15ec<<4 + 021b
+stack: 3109<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:3109 ds:17ae es:0000
+
+quant: 0
+state: start
+----------------------------------
+
+New thread:
+======Thread<12>===================
+run:   15ec<<4 + 021b
+stack: 336b<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:336b ds:17ae es:0000
+
+quant: 0
+state: start
+----------------------------------
+
+New thread:
+======Thread<13>===================
+run:   15ec<<4 + 021b
+stack: 35cd<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:35cd ds:17ae es:0000
+
+quant: 0
+state: start
+----------------------------------
+
+New thread:
+======Thread<14>===================
+run:   15ec<<4 + 021b
+stack: 382f<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:382f ds:17ae es:0000
+
+quant: 0
+state: start
+----------------------------------
+
+New thread:
+======Thread<15>===================
+run:   15ec<<4 + 021b
+stack: 3a91<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:3a91 ds:17ae es:0000
+
+quant: 0
+state: start
+----------------------------------
+
+New thread:
+======Thread<16>===================
+run:   15ec<<4 + 021b
+stack: 3cf3<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:3cf3 ds:17ae es:0000
+
+quant: 0
+state: start
+----------------------------------
+
+New thread:
+======Thread<17>===================
+run:   15ec<<4 + 021b
+stack: 3f55<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:3f55 ds:17ae es:0000
+
+quant: 0
+state: start
+----------------------------------
+
+New thread:
+======Thread<18>===================
+run:   15ec<<4 + 021b
+stack: 41b7<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:41b7 ds:17ae es:0000
+
+quant: 0
+state: start
+----------------------------------
+
+New thread:
+======Thread<19>===================
+run:   15ec<<4 + 021b
+stack: 4419<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:4419 ds:17ae es:0000
+
+quant: 0
+state: start
+----------------------------------
+
+New thread:
+======Thread<20>===================
+run:   15ec<<4 + 021b
+stack: 467b<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:467b ds:17ae es:0000
+
+quant: 0
+state: start
+----------------------------------
+
+New thread:
+======Thread<21>===================
+run:   15ec<<4 + 021b
+stack: 48dd<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:48dd ds:17ae es:0000
+
+quant: 0
+state: start
+----------------------------------
+
+New thread:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:4b3f ds:17ae es:0000
+
+quant: 2
+state: start
+----------------------------------
+
+
+
+
+=====================================context(0)====== M  to T22
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:004c di:0013
+pc:02ff sw:7216
+bp:0f48 sp:0f48
+cs:0d82 ss:1913 ds:178a es:182d
+
+quant: 40
+state: blocked until 10 (time: 0)
+blocked on: 48 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:4b3f ds:17ae es:0000
+
+quant: 2
+state: running until 2 (time: 0)
+----------------------------------
+
+globally blocked: 0
+activecnt: 23
+-------------------------------------------------------
+New event:
+======Event<9>====================
+kevent[9]: 9
+oldivt[9]: 020a<<4 + 040a
+regivt[9]: 0a1c<<4 + 001c - set
+owner: 22
+event semaphore: 49
+----------------------------------
+
+KeyebordListener started!
+
+
+
+=====================================context(0)====== T22 to T21
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<21>===================
+run:   15ec<<4 + 021b
+stack: 48dd<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:48dd ds:17ae es:0000
+
+quant: 0
+state: running
+----------------------------------
+
+globally blocked: 0
+activecnt: 23
+-------------------------------------------------------
+PRODUCER: 18
+
+
+
+=====================================context(0)====== T21 to T20
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<21>===================
+run:   15ec<<4 + 021b
+stack: 48dd<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7202
+bp:1f90 sp:1f90
+cs:0d82 ss:48dd ds:178a es:182d
+
+quant: 0
+state: blocked until 100 (time: 0)
+blocked on: 46 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<20>===================
+run:   15ec<<4 + 021b
+stack: 467b<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:467b ds:17ae es:0000
+
+quant: 0
+state: running
+----------------------------------
+
+globally blocked: 0 21
+activecnt: 23
+-------------------------------------------------------
+PRODUCER: 17
+
+
+
+=====================================context(0)====== T20 to T19
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<20>===================
+run:   15ec<<4 + 021b
+stack: 467b<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7202
+bp:1f90 sp:1f90
+cs:0d82 ss:467b ds:178a es:182d
+
+quant: 0
+state: blocked until 100 (time: 0)
+blocked on: 44 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<19>===================
+run:   15ec<<4 + 021b
+stack: 4419<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:4419 ds:17ae es:0000
+
+quant: 0
+state: running
+----------------------------------
+
+globally blocked: 0 21 20
+activecnt: 23
+-------------------------------------------------------
+PRODUCER: 16
+
+
+
+=====================================context(0)====== T19 to T18
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<19>===================
+run:   15ec<<4 + 021b
+stack: 4419<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7202
+bp:1f90 sp:1f90
+cs:0d82 ss:4419 ds:178a es:182d
+
+quant: 0
+state: blocked until 100 (time: 0)
+blocked on: 42 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<18>===================
+run:   15ec<<4 + 021b
+stack: 41b7<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:41b7 ds:17ae es:0000
+
+quant: 0
+state: running
+----------------------------------
+
+globally blocked: 0 21 20 19
+activecnt: 23
+-------------------------------------------------------
+PRODUCER: 15
+
+
+
+=====================================context(0)====== T18 to T17
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<18>===================
+run:   15ec<<4 + 021b
+stack: 41b7<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7202
+bp:1f90 sp:1f90
+cs:0d82 ss:41b7 ds:178a es:182d
+
+quant: 0
+state: blocked until 100 (time: 0)
+blocked on: 40 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<17>===================
+run:   15ec<<4 + 021b
+stack: 3f55<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:3f55 ds:17ae es:0000
+
+quant: 0
+state: running
+----------------------------------
+
+globally blocked: 0 21 20 19 18
+activecnt: 23
+-------------------------------------------------------
+PRODUCER: 14
+
+
+
+=====================================context(0)====== T17 to T16
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<17>===================
+run:   15ec<<4 + 021b
+stack: 3f55<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7202
+bp:1f90 sp:1f90
+cs:0d82 ss:3f55 ds:178a es:182d
+
+quant: 0
+state: blocked until 100 (time: 0)
+blocked on: 38 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<16>===================
+run:   15ec<<4 + 021b
+stack: 3cf3<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:3cf3 ds:17ae es:0000
+
+quant: 0
+state: running
+----------------------------------
+
+globally blocked: 0 21 20 19 18 17
+activecnt: 23
+-------------------------------------------------------
+PRODUCER: 13
+
+
+
+=====================================context(0)====== T16 to T15
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<16>===================
+run:   15ec<<4 + 021b
+stack: 3cf3<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7202
+bp:1f90 sp:1f90
+cs:0d82 ss:3cf3 ds:178a es:182d
+
+quant: 0
+state: blocked until 100 (time: 0)
+blocked on: 36 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<15>===================
+run:   15ec<<4 + 021b
+stack: 3a91<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:3a91 ds:17ae es:0000
+
+quant: 0
+state: running
+----------------------------------
+
+globally blocked: 0 21 20 19 18 17 16
+activecnt: 23
+-------------------------------------------------------
+PRODUCER: 12
+
+
+
+=====================================context(0)====== T15 to T14
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<15>===================
+run:   15ec<<4 + 021b
+stack: 3a91<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7202
+bp:1f90 sp:1f90
+cs:0d82 ss:3a91 ds:178a es:182d
+
+quant: 0
+state: blocked until 100 (time: 0)
+blocked on: 34 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<14>===================
+run:   15ec<<4 + 021b
+stack: 382f<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:382f ds:17ae es:0000
+
+quant: 0
+state: running
+----------------------------------
+
+globally blocked: 0 21 20 19 18 17 16 15
+activecnt: 23
+-------------------------------------------------------
+PRODUCER: 11
+
+
+
+=====================================context(0)====== T14 to T13
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<14>===================
+run:   15ec<<4 + 021b
+stack: 382f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7202
+bp:1f90 sp:1f90
+cs:0d82 ss:382f ds:178a es:182d
+
+quant: 0
+state: blocked until 100 (time: 0)
+blocked on: 32 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<13>===================
+run:   15ec<<4 + 021b
+stack: 35cd<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:35cd ds:17ae es:0000
+
+quant: 0
+state: running
+----------------------------------
+
+globally blocked: 0 21 20 19 18 17 16 15 14
+activecnt: 23
+-------------------------------------------------------
+PRODUCER: 10
+
+
+
+=====================================context(0)====== T13 to T12
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<13>===================
+run:   15ec<<4 + 021b
+stack: 35cd<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7202
+bp:1f90 sp:1f90
+cs:0d82 ss:35cd ds:178a es:182d
+
+quant: 0
+state: blocked until 100 (time: 0)
+blocked on: 30 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<12>===================
+run:   15ec<<4 + 021b
+stack: 336b<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:336b ds:17ae es:0000
+
+quant: 0
+state: running
+----------------------------------
+
+globally blocked: 0 21 20 19 18 17 16 15 14 13
+activecnt: 23
+-------------------------------------------------------
+PRODUCER: 9
+
+
+
+=====================================context(0)====== T12 to T11
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<12>===================
+run:   15ec<<4 + 021b
+stack: 336b<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7202
+bp:1f90 sp:1f90
+cs:0d82 ss:336b ds:178a es:182d
+
+quant: 0
+state: blocked until 100 (time: 0)
+blocked on: 28 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<11>===================
+run:   15ec<<4 + 021b
+stack: 3109<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:3109 ds:17ae es:0000
+
+quant: 0
+state: running
+----------------------------------
+
+globally blocked: 0 21 20 19 18 17 16 15 14 13 12
+activecnt: 23
+-------------------------------------------------------
+PRODUCER: 8
+
+
+
+=====================================context(0)====== T11 to T10
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<11>===================
+run:   15ec<<4 + 021b
+stack: 3109<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7202
+bp:1f90 sp:1f90
+cs:0d82 ss:3109 ds:178a es:182d
+
+quant: 0
+state: blocked until 100 (time: 1)
+blocked on: 26 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<10>===================
+run:   15ec<<4 + 021b
+stack: 2ea7<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:2ea7 ds:17ae es:0000
+
+quant: 0
+state: running
+----------------------------------
+
+globally blocked: 0 21 20 19 18 17 16 15 14 13 12 11
+activecnt: 23
+-------------------------------------------------------
+PRODUCER: 7
+
+
+
+=====================================context(1)====== T10 to T9
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<10>===================
+run:   15ec<<4 + 021b
+stack: 2ea7<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7202
+bp:1f90 sp:1f90
+cs:0d82 ss:2ea7 ds:178a es:182d
+
+quant: 0
+state: blocked until 101 (time: 1)
+blocked on: 24 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<9>===================
+run:   15ec<<4 + 021b
+stack: 2c45<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:2c45 ds:17ae es:0000
+
+quant: 0
+state: running until 1 (time: 1)
+----------------------------------
+
+globally blocked: 0 21 20 19 18 17 16 15 14 13 12 11 10
+activecnt: 23
+-------------------------------------------------------
+PRODUCER: 6
+
+
+
+=====================================context(1)====== T9 to T8
+CALLEDCNT: 0
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<9>===================
+run:   15ec<<4 + 021b
+stack: 2c45<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7202
+bp:1f90 sp:1f90
+cs:0d82 ss:2c45 ds:178a es:182d
+
+quant: 0
+state: blocked until 101 (time: 1)
+blocked on: 22 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:29e3 ds:17ae es:0000
+
+quant: 0
+state: running until 1 (time: 1)
+----------------------------------
+
+globally blocked: 0 21 20 19 18 17 16 15 14 13 12 11 10 9
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(2)====== T8 to T22
+CALLEDCNT: 1
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1fac sp:1fac
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 4 (time: 2)
+----------------------------------
+
+globally blocked: 0 21 20 19 18 17 16 15 14 13 12 11 10 9
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(2)====== T22 to T7
+CALLEDCNT: 1
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<7>===================
+run:   15ec<<4 + 021b
+stack: 2781<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:2781 ds:17ae es:0000
+
+quant: 0
+state: running until 2 (time: 2)
+----------------------------------
+
+globally blocked: 0 21 20 19 18 17 16 15 14 13 12 11 10 9
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(2)====== T7 to T22
+CALLEDCNT: 2
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<7>===================
+run:   15ec<<4 + 021b
+stack: 2781<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1fac sp:1fac
+cs:0ad7 ss:2781 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 4 (time: 3)
+----------------------------------
+
+globally blocked: 0 21 20 19 18 17 16 15 14 13 12 11 10 9
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(3)====== T22 to T6
+CALLEDCNT: 2
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<6>===================
+run:   15ec<<4 + 021b
+stack: 251f<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:251f ds:17ae es:0000
+
+quant: 0
+state: running until 3 (time: 3)
+----------------------------------
+
+globally blocked: 0 21 20 19 18 17 16 15 14 13 12 11 10 9
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(3)====== T6 to T22
+CALLEDCNT: 3
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<6>===================
+run:   15ec<<4 + 021b
+stack: 251f<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1fac sp:1fac
+cs:0ad7 ss:251f ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 5 (time: 4)
+----------------------------------
+
+globally blocked: 0 21 20 19 18 17 16 15 14 13 12 11 10 9
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(4)====== T22 to T5
+CALLEDCNT: 3
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<5>===================
+run:   15ec<<4 + 021b
+stack: 22bd<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:22bd ds:17ae es:0000
+
+quant: 0
+state: running until 4 (time: 4)
+----------------------------------
+
+globally blocked: 0 21 20 19 18 17 16 15 14 13 12 11 10 9
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(4)====== T5 to T22
+CALLEDCNT: 4
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<5>===================
+run:   15ec<<4 + 021b
+stack: 22bd<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1fac sp:1fac
+cs:0ad7 ss:22bd ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 6 (time: 5)
+----------------------------------
+
+globally blocked: 0 21 20 19 18 17 16 15 14 13 12 11 10 9
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(5)====== T22 to T4
+CALLEDCNT: 4
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<4>===================
+run:   15ec<<4 + 021b
+stack: 205b<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:205b ds:17ae es:0000
+
+quant: 0
+state: running until 5 (time: 5)
+----------------------------------
+
+globally blocked: 0 21 20 19 18 17 16 15 14 13 12 11 10 9
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(5)====== T4 to T22
+CALLEDCNT: 5
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<4>===================
+run:   15ec<<4 + 021b
+stack: 205b<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1fac sp:1fac
+cs:0ad7 ss:205b ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 7 (time: 6)
+----------------------------------
+
+globally blocked: 0 21 20 19 18 17 16 15 14 13 12 11 10 9
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(6)====== T22 to T3
+CALLEDCNT: 5
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+run:   15ec<<4 + 021b
+stack: 1df7<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:1df7 ds:17ae es:0000
+
+quant: 0
+state: running until 6 (time: 6)
+----------------------------------
+
+globally blocked: 0 21 20 19 18 17 16 15 14 13 12 11 10 9
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(6)====== T3 to T22
+CALLEDCNT: 6
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<3>===================
+run:   15ec<<4 + 021b
+stack: 1df7<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1fac sp:1fac
+cs:0ad7 ss:1df7 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 8 (time: 7)
+----------------------------------
+
+globally blocked: 0 21 20 19 18 17 16 15 14 13 12 11 10 9
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(7)====== T22 to T2
+CALLEDCNT: 6
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:021b sw:7206
+bp:1fe0 sp:1fe0
+cs:15ec ss:1b95 ds:17ae es:0000
+
+quant: 0
+state: running until 7 (time: 7)
+----------------------------------
+
+globally blocked: 0 21 20 19 18 17 16 15 14 13 12 11 10 9
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(7)====== T2 to T22
+CALLEDCNT: 7
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1fac sp:1fac
+cs:0ad7 ss:1b95 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 9 (time: 7)
+----------------------------------
+
+globally blocked: 0 21 20 19 18 17 16 15 14 13 12 11 10 9
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(8)====== T22 to T8
+CALLEDCNT: 7
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1fac sp:1fac
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 8 (time: 8)
+----------------------------------
+
+globally blocked: 0 21 20 19 18 17 16 15 14 13 12 11 10 9
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(8)====== T8 to T22
+CALLEDCNT: 8
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1f78 sp:1f78
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 10 (time: 8)
+----------------------------------
+
+globally blocked: 0 21 20 19 18 17 16 15 14 13 12 11 10 9
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(9)====== T22 to T7
+CALLEDCNT: 8
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<7>===================
+run:   15ec<<4 + 021b
+stack: 2781<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1fac sp:1fac
+cs:0ad7 ss:2781 ds:16a7 es:182d
+
+quant: 0
+state: running until 9 (time: 9)
+----------------------------------
+
+globally blocked: 0 21 20 19 18 17 16 15 14 13 12 11 10 9
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(9)====== T7 to T22
+CALLEDCNT: 9
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<7>===================
+run:   15ec<<4 + 021b
+stack: 2781<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1f78 sp:1f78
+cs:0ad7 ss:2781 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 11 (time: 9)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(10)====== T22 to M
+CALLEDCNT: 9
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:004c di:0013
+pc:02ff sw:7216
+bp:0f48 sp:0f48
+cs:0d82 ss:1913 ds:178a es:182d
+
+quant: 40
+state: running until 50 (time: 10)
+> max block time expired
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(10)====== M  to T22
+CALLEDCNT: 10
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<M>===================
+run:   0000<<4 + 0000
+stack: 0000<<4 + 0000 [0]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:004c di:0013
+pc:02ff sw:7246
+bp:0f48 sp:0f48
+cs:0d82 ss:1913 ds:178a es:182d
+
+quant: 40
+state: blocked
+blocked on: 2 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 12 (time: 10)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(11)====== T22 to T6
+CALLEDCNT: 10
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<6>===================
+run:   15ec<<4 + 021b
+stack: 251f<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1fac sp:1fac
+cs:0ad7 ss:251f ds:16a7 es:182d
+
+quant: 0
+state: running until 11 (time: 11)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(11)====== T6 to T22
+CALLEDCNT: 11
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<6>===================
+run:   15ec<<4 + 021b
+stack: 251f<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1f78 sp:1f78
+cs:0ad7 ss:251f ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 13 (time: 11)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(12)====== T22 to T5
+CALLEDCNT: 11
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<5>===================
+run:   15ec<<4 + 021b
+stack: 22bd<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1fac sp:1fac
+cs:0ad7 ss:22bd ds:16a7 es:182d
+
+quant: 0
+state: running until 12 (time: 12)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(12)====== T5 to T22
+CALLEDCNT: 12
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<5>===================
+run:   15ec<<4 + 021b
+stack: 22bd<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1f78 sp:1f78
+cs:0ad7 ss:22bd ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 14 (time: 12)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(12)====== T22 to T4
+CALLEDCNT: 12
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<4>===================
+run:   15ec<<4 + 021b
+stack: 205b<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1fac sp:1fac
+cs:0ad7 ss:205b ds:16a7 es:182d
+
+quant: 0
+state: running until 12 (time: 13)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(13)====== T4 to T22
+CALLEDCNT: 13
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<4>===================
+run:   15ec<<4 + 021b
+stack: 205b<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1f78 sp:1f78
+cs:0ad7 ss:205b ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 15 (time: 13)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(13)====== T22 to T3
+CALLEDCNT: 13
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+run:   15ec<<4 + 021b
+stack: 1df7<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1fac sp:1fac
+cs:0ad7 ss:1df7 ds:16a7 es:182d
+
+quant: 0
+state: running until 13 (time: 14)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(14)====== T3 to T22
+CALLEDCNT: 14
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<3>===================
+run:   15ec<<4 + 021b
+stack: 1df7<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1f78 sp:1f78
+cs:0ad7 ss:1df7 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 16 (time: 14)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(14)====== T22 to T2
+CALLEDCNT: 14
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1fac sp:1fac
+cs:0ad7 ss:1b95 ds:16a7 es:182d
+
+quant: 0
+state: running until 14 (time: 15)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(15)====== T2 to T22
+CALLEDCNT: 15
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1f78 sp:1f78
+cs:0ad7 ss:1b95 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 17 (time: 15)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(15)====== T22 to T8
+CALLEDCNT: 15
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1f78 sp:1f78
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 15 (time: 16)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(16)====== T8 to T22
+CALLEDCNT: 16
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1f44 sp:1f44
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 18 (time: 16)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(16)====== T22 to T7
+CALLEDCNT: 16
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7246
+bp:1f7e sp:1f7e
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 5 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<7>===================
+run:   15ec<<4 + 021b
+stack: 2781<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1f78 sp:1f78
+cs:0ad7 ss:2781 ds:16a7 es:182d
+
+quant: 0
+state: running until 16 (time: 17)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(17)====== T7 to T6
+CALLEDCNT: 16
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<7>===================
+run:   15ec<<4 + 021b
+stack: 2781<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7246
+bp:1f82 sp:1f82
+cs:0d82 ss:2781 ds:178a es:182d
+
+quant: 0
+state: blocked
+blocked on: 5 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<6>===================
+run:   15ec<<4 + 021b
+stack: 251f<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1f78 sp:1f78
+cs:0ad7 ss:251f ds:16a7 es:182d
+
+quant: 0
+state: running until 17 (time: 17)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(17)====== T6 to T5
+CALLEDCNT: 16
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<6>===================
+run:   15ec<<4 + 021b
+stack: 251f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7246
+bp:1f82 sp:1f82
+cs:0d82 ss:251f ds:178a es:182d
+
+quant: 0
+state: blocked
+blocked on: 5 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<5>===================
+run:   15ec<<4 + 021b
+stack: 22bd<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1f78 sp:1f78
+cs:0ad7 ss:22bd ds:16a7 es:182d
+
+quant: 0
+state: running until 17 (time: 18)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(18)====== T5 to T4
+CALLEDCNT: 16
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<5>===================
+run:   15ec<<4 + 021b
+stack: 22bd<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7246
+bp:1f82 sp:1f82
+cs:0d82 ss:22bd ds:178a es:182d
+
+quant: 0
+state: blocked
+blocked on: 5 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<4>===================
+run:   15ec<<4 + 021b
+stack: 205b<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1f78 sp:1f78
+cs:0ad7 ss:205b ds:16a7 es:182d
+
+quant: 0
+state: running until 18 (time: 18)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(18)====== T4 to T3
+CALLEDCNT: 16
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<4>===================
+run:   15ec<<4 + 021b
+stack: 205b<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7246
+bp:1f82 sp:1f82
+cs:0d82 ss:205b ds:178a es:182d
+
+quant: 0
+state: blocked
+blocked on: 5 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+run:   15ec<<4 + 021b
+stack: 1df7<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1f78 sp:1f78
+cs:0ad7 ss:1df7 ds:16a7 es:182d
+
+quant: 0
+state: running until 18 (time: 19)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(19)====== T3 to T2
+CALLEDCNT: 16
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<3>===================
+run:   15ec<<4 + 021b
+stack: 1df7<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7246
+bp:1f82 sp:1f82
+cs:0d82 ss:1df7 ds:178a es:182d
+
+quant: 0
+state: blocked
+blocked on: 5 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1f78 sp:1f78
+cs:0ad7 ss:1b95 ds:16a7 es:182d
+
+quant: 0
+state: running until 19 (time: 19)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9
+activecnt: 23
+-------------------------------------------------------
+CONSUMER: 18
+CONSUMER: 17
+CONSUMER: 16
+CONSUMER: 15
+CONSUMER: 14
+CONSUMER: 13
+CONSUMER: 12
+CONSUMER: 11
+CONSUMER: 10
+CONSUMER: 9
+CONSUMER: 8
+CONSUMER: 7
+CONSUMER: 6
+CONSUMER: 58
+CONSUMER: 54
+CONSUMER: 67
+CONSUMER: 49
+CONSUMER: 52
+CONSUMER: 60
+
+
+
+=====================================context(19)====== T2 to T3
+CALLEDCNT: 16
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0013 di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: blocked
+blocked on: 6 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<3>===================
+run:   15ec<<4 + 021b
+stack: 1df7<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7246
+bp:1f82 sp:1f82
+cs:0d82 ss:1df7 ds:178a es:182d
+
+quant: 0
+state: running until 19 (time: 20)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9
+activecnt: 23
+-------------------------------------------------------
+PRODUCER: 0
+
+
+
+=====================================context(20)====== T3 to T2
+CALLEDCNT: 16
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<3>===================
+run:   15ec<<4 + 021b
+stack: 1df7<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7202
+bp:1f90 sp:1f90
+cs:0d82 ss:1df7 ds:178a es:182d
+
+quant: 0
+state: blocked until 120 (time: 20)
+blocked on: 10 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0013 di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: running until 20 (time: 20)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3
+activecnt: 23
+-------------------------------------------------------
+CONSUMER: 0
+
+
+
+=====================================context(20)====== T2 to T4
+CALLEDCNT: 16
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0014 di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: blocked
+blocked on: 6 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<4>===================
+run:   15ec<<4 + 021b
+stack: 205b<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7246
+bp:1f82 sp:1f82
+cs:0d82 ss:205b ds:178a es:182d
+
+quant: 0
+state: running until 20 (time: 21)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3
+activecnt: 23
+-------------------------------------------------------
+PRODUCER: 1
+
+
+
+=====================================context(21)====== T4 to T2
+CALLEDCNT: 16
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<4>===================
+run:   15ec<<4 + 021b
+stack: 205b<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7202
+bp:1f90 sp:1f90
+cs:0d82 ss:205b ds:178a es:182d
+
+quant: 0
+state: blocked until 121 (time: 21)
+blocked on: 12 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0014 di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: running until 21 (time: 21)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4
+activecnt: 23
+-------------------------------------------------------
+CONSUMER: 1
+
+
+
+=====================================context(21)====== T2 to T5
+CALLEDCNT: 16
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0015 di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: blocked
+blocked on: 6 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<5>===================
+run:   15ec<<4 + 021b
+stack: 22bd<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7246
+bp:1f82 sp:1f82
+cs:0d82 ss:22bd ds:178a es:182d
+
+quant: 0
+state: running until 21 (time: 22)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4
+activecnt: 23
+-------------------------------------------------------
+PRODUCER: 2
+
+
+
+=====================================context(22)====== T5 to T2
+CALLEDCNT: 16
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<5>===================
+run:   15ec<<4 + 021b
+stack: 22bd<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7202
+bp:1f90 sp:1f90
+cs:0d82 ss:22bd ds:178a es:182d
+
+quant: 0
+state: blocked until 122 (time: 22)
+blocked on: 14 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0015 di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: running until 22 (time: 22)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5
+activecnt: 23
+-------------------------------------------------------
+CONSUMER: 2
+
+
+
+=====================================context(22)====== T2 to T6
+CALLEDCNT: 16
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0016 di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: blocked
+blocked on: 6 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<6>===================
+run:   15ec<<4 + 021b
+stack: 251f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7246
+bp:1f82 sp:1f82
+cs:0d82 ss:251f ds:178a es:182d
+
+quant: 0
+state: running until 22 (time: 23)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5
+activecnt: 23
+-------------------------------------------------------
+PRODUCER: 3
+
+
+
+=====================================context(23)====== T6 to T2
+CALLEDCNT: 16
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<6>===================
+run:   15ec<<4 + 021b
+stack: 251f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7202
+bp:1f90 sp:1f90
+cs:0d82 ss:251f ds:178a es:182d
+
+quant: 0
+state: blocked until 123 (time: 23)
+blocked on: 16 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0016 di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: running until 23 (time: 23)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6
+activecnt: 23
+-------------------------------------------------------
+CONSUMER: 3
+
+
+
+=====================================context(23)====== T2 to T7
+CALLEDCNT: 16
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0017 di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: blocked
+blocked on: 6 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<7>===================
+run:   15ec<<4 + 021b
+stack: 2781<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7246
+bp:1f82 sp:1f82
+cs:0d82 ss:2781 ds:178a es:182d
+
+quant: 0
+state: running until 23 (time: 24)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6
+activecnt: 23
+-------------------------------------------------------
+PRODUCER: 4
+
+
+
+=====================================context(24)====== T7 to T2
+CALLEDCNT: 16
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<7>===================
+run:   15ec<<4 + 021b
+stack: 2781<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7202
+bp:1f90 sp:1f90
+cs:0d82 ss:2781 ds:178a es:182d
+
+quant: 0
+state: blocked until 124 (time: 24)
+blocked on: 18 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0017 di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: running until 24 (time: 24)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+CONSUMER: 4
+
+
+
+=====================================context(24)====== T2 to T22
+CALLEDCNT: 16
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0018 di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: blocked
+blocked on: 6 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7246
+bp:1f7e sp:1f7e
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 26 (time: 25)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(25)====== T22 to T2
+CALLEDCNT: 16
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0018 di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: running until 25 (time: 25)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+CONSUMER: 59
+
+
+
+=====================================context(25)====== T2 to T22
+CALLEDCNT: 17
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0019 di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: blocked
+blocked on: 6 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 27 (time: 26)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(26)====== T22 to T8
+CALLEDCNT: 17
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1f44 sp:1f44
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 26 (time: 26)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(26)====== T8 to T22
+CALLEDCNT: 18
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1f10 sp:1f10
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 28 (time: 27)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(27)====== T22 to T2
+CALLEDCNT: 18
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0019 di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: running until 27 (time: 27)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+CONSUMER: 58
+
+
+
+=====================================context(27)====== T2 to T22
+CALLEDCNT: 19
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:001a di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: blocked
+blocked on: 6 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 29 (time: 28)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(28)====== T22 to T8
+CALLEDCNT: 19
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1f10 sp:1f10
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 28 (time: 28)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(28)====== T8 to T22
+CALLEDCNT: 20
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1edc sp:1edc
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 30 (time: 29)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(29)====== T22 to T2
+CALLEDCNT: 20
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:001a di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: running until 29 (time: 29)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+CONSUMER: 54
+
+
+
+=====================================context(29)====== T2 to T22
+CALLEDCNT: 21
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:001b di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: blocked
+blocked on: 6 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 31 (time: 29)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(30)====== T22 to T8
+CALLEDCNT: 21
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1edc sp:1edc
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 30 (time: 30)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(30)====== T8 to T22
+CALLEDCNT: 22
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1ea8 sp:1ea8
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 32 (time: 30)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(31)====== T22 to T8
+CALLEDCNT: 22
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1ea8 sp:1ea8
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 31 (time: 31)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(31)====== T8 to T22
+CALLEDCNT: 23
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1e74 sp:1e74
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 33 (time: 31)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(32)====== T22 to T2
+CALLEDCNT: 23
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:001b di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: running until 32 (time: 32)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+CONSUMER: 49
+
+
+
+=====================================context(32)====== T2 to T22
+CALLEDCNT: 24
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:001c di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: blocked
+blocked on: 6 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 34 (time: 32)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(32)====== T22 to T2
+CALLEDCNT: 24
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:001c di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: running until 32 (time: 33)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+CONSUMER: 67
+
+
+
+=====================================context(33)====== T2 to T22
+CALLEDCNT: 25
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:001d di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: blocked
+blocked on: 6 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 35 (time: 33)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(33)====== T22 to T2
+CALLEDCNT: 25
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:001d di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: running until 33 (time: 34)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+CONSUMER: 52
+
+
+
+=====================================context(34)====== T2 to T22
+CALLEDCNT: 26
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:001e di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: blocked
+blocked on: 6 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 36 (time: 34)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(34)====== T22 to T8
+CALLEDCNT: 26
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1e74 sp:1e74
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 34 (time: 35)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(35)====== T8 to T22
+CALLEDCNT: 27
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1e40 sp:1e40
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 37 (time: 35)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(35)====== T22 to T2
+CALLEDCNT: 27
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:001e di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: running until 35 (time: 36)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+CONSUMER: 54
+
+
+
+=====================================context(36)====== T2 to T22
+CALLEDCNT: 28
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:001f di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: blocked
+blocked on: 6 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 38 (time: 36)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(36)====== T22 to T2
+CALLEDCNT: 28
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:001f di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: running until 36 (time: 36)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+CONSUMER: -35
+
+
+
+=====================================context(36)====== T2 to T22
+CALLEDCNT: 29
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0020 di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: blocked
+blocked on: 6 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 38 (time: 37)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(37)====== T22 to T8
+CALLEDCNT: 29
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1e40 sp:1e40
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 37 (time: 37)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(37)====== T8 to T22
+CALLEDCNT: 30
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1e0c sp:1e0c
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 39 (time: 38)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(38)====== T22 to T8
+CALLEDCNT: 30
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1e0c sp:1e0c
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 38 (time: 38)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(38)====== T8 to T22
+CALLEDCNT: 31
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1dd8 sp:1dd8
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 40 (time: 39)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(39)====== T22 to T8
+CALLEDCNT: 31
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1dd8 sp:1dd8
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 39 (time: 39)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(39)====== T8 to T22
+CALLEDCNT: 32
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1da4 sp:1da4
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 41 (time: 40)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(40)====== T22 to T2
+CALLEDCNT: 32
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0020 di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: running until 40 (time: 40)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+CONSUMER: -35
+
+
+
+=====================================context(40)====== T2 to T22
+CALLEDCNT: 33
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0021 di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: blocked
+blocked on: 6 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 42 (time: 41)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(41)====== T22 to T8
+CALLEDCNT: 33
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1da4 sp:1da4
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 41 (time: 41)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(41)====== T8 to T22
+CALLEDCNT: 34
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1d70 sp:1d70
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 43 (time: 42)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(42)====== T22 to T8
+CALLEDCNT: 34
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1d70 sp:1d70
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 42 (time: 42)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(42)====== T8 to T22
+CALLEDCNT: 35
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1d3c sp:1d3c
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 44 (time: 43)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(43)====== T22 to T2
+CALLEDCNT: 35
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0021 di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: running until 43 (time: 43)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+CONSUMER: 49
+
+
+
+=====================================context(43)====== T2 to T22
+CALLEDCNT: 36
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0022 di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: blocked
+blocked on: 6 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 45 (time: 44)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(44)====== T22 to T2
+CALLEDCNT: 36
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0022 di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: running until 44 (time: 44)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+CONSUMER: 67
+
+
+
+=====================================context(44)====== T2 to T22
+CALLEDCNT: 37
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0023 di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: blocked
+blocked on: 6 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 46 (time: 45)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(45)====== T22 to T2
+CALLEDCNT: 37
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0023 di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: running until 45 (time: 45)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+CONSUMER: 52
+
+
+
+=====================================context(45)====== T2 to T22
+CALLEDCNT: 38
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0024 di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: blocked
+blocked on: 6 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 47 (time: 46)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(46)====== T22 to T8
+CALLEDCNT: 38
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1d3c sp:1d3c
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 46 (time: 46)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(46)====== T8 to T22
+CALLEDCNT: 39
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1d08 sp:1d08
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 48 (time: 46)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(47)====== T22 to T2
+CALLEDCNT: 39
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0024 di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: running until 47 (time: 47)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+CONSUMER: 54
+
+
+
+=====================================context(47)====== T2 to T22
+CALLEDCNT: 40
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0025 di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: blocked
+blocked on: 6 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 49 (time: 47)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(47)====== T22 to T2
+CALLEDCNT: 40
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0025 di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: running until 47 (time: 48)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+CONSUMER: -35
+
+
+
+=====================================context(48)====== T2 to T22
+CALLEDCNT: 41
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0026 di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: blocked
+blocked on: 6 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 50 (time: 48)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(48)====== T22 to T8
+CALLEDCNT: 41
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1d08 sp:1d08
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 48 (time: 49)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(49)====== T8 to T22
+CALLEDCNT: 42
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1cd4 sp:1cd4
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 51 (time: 49)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(49)====== T22 to T8
+CALLEDCNT: 42
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1cd4 sp:1cd4
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 49 (time: 50)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(50)====== T8 to T22
+CALLEDCNT: 43
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1ca0 sp:1ca0
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 52 (time: 50)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(50)====== T22 to T8
+CALLEDCNT: 43
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1ca0 sp:1ca0
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 50 (time: 51)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(51)====== T8 to T22
+CALLEDCNT: 44
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1c6c sp:1c6c
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 53 (time: 51)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(51)====== T22 to T8
+CALLEDCNT: 44
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1c6c sp:1c6c
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 51 (time: 51)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(51)====== T8 to T22
+CALLEDCNT: 45
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1c38 sp:1c38
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 53 (time: 52)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(52)====== T22 to T2
+CALLEDCNT: 45
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0026 di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: running until 52 (time: 52)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+CONSUMER: -35
+
+
+
+=====================================context(52)====== T2 to T22
+CALLEDCNT: 46
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0027 di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: blocked
+blocked on: 6 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 54 (time: 53)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(53)====== T22 to T8
+CALLEDCNT: 46
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1c38 sp:1c38
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 53 (time: 53)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(53)====== T8 to T22
+CALLEDCNT: 47
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1c04 sp:1c04
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 55 (time: 54)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(54)====== T22 to T2
+CALLEDCNT: 47
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0027 di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: running until 54 (time: 54)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+CONSUMER: 67
+
+
+
+=====================================context(54)====== T2 to T22
+CALLEDCNT: 48
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0028 di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: blocked
+blocked on: 6 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 56 (time: 55)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(55)====== T22 to T2
+CALLEDCNT: 48
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0028 di:0000
+pc:02ff sw:7246
+bp:1f80 sp:1f80
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: running until 55 (time: 55)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7
+activecnt: 23
+-------------------------------------------------------
+CONSUMER: 49
+
+
+
+=====================================context(55)====== T2 to T22
+CALLEDCNT: 49
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<2>===================
+run:   15ec<<4 + 021b
+stack: 1b95<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0029 di:0000
+pc:02ff sw:7216
+bp:1f8e sp:1f8e
+cs:0d82 ss:1b95 ds:178a es:182d
+
+quant: 0
+state: blocked until 155 (time: 55)
+blocked on: 8 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 57 (time: 56)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(56)====== T22 to T8
+CALLEDCNT: 49
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1c04 sp:1c04
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 56 (time: 56)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(56)====== T8 to T22
+CALLEDCNT: 50
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1bd0 sp:1bd0
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 58 (time: 56)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(57)====== T22 to T8
+CALLEDCNT: 50
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1bd0 sp:1bd0
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 57 (time: 57)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(57)====== T8 to T22
+CALLEDCNT: 51
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1b9c sp:1b9c
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 59 (time: 57)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(58)====== T22 to T8
+CALLEDCNT: 51
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1b9c sp:1b9c
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 58 (time: 58)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(58)====== T8 to T22
+CALLEDCNT: 52
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1b68 sp:1b68
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 60 (time: 58)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(58)====== T22 to T8
+CALLEDCNT: 52
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1b68 sp:1b68
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 58 (time: 59)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(59)====== T8 to T22
+CALLEDCNT: 53
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1b34 sp:1b34
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 61 (time: 59)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(59)====== T22 to T8
+CALLEDCNT: 53
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1b34 sp:1b34
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 59 (time: 60)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(60)====== T8 to T22
+CALLEDCNT: 54
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1b00 sp:1b00
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 62 (time: 60)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(60)====== T22 to T8
+CALLEDCNT: 54
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1b00 sp:1b00
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 60 (time: 61)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(61)====== T8 to T22
+CALLEDCNT: 55
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1acc sp:1acc
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 63 (time: 61)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(61)====== T22 to T8
+CALLEDCNT: 55
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1acc sp:1acc
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 61 (time: 62)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(62)====== T8 to T22
+CALLEDCNT: 56
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1a98 sp:1a98
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 64 (time: 62)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(62)====== T22 to T8
+CALLEDCNT: 56
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1a98 sp:1a98
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 62 (time: 63)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(63)====== T8 to T22
+CALLEDCNT: 57
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1a64 sp:1a64
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 65 (time: 63)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(63)====== T22 to T8
+CALLEDCNT: 57
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1a64 sp:1a64
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 63 (time: 64)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(64)====== T8 to T22
+CALLEDCNT: 58
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1a30 sp:1a30
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 66 (time: 64)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(64)====== T22 to T8
+CALLEDCNT: 58
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1a30 sp:1a30
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 64 (time: 65)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(65)====== T8 to T22
+CALLEDCNT: 59
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:19fc sp:19fc
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 67 (time: 65)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(65)====== T22 to T8
+CALLEDCNT: 59
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:19fc sp:19fc
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 65 (time: 66)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(66)====== T8 to T22
+CALLEDCNT: 60
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:19c8 sp:19c8
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 68 (time: 66)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(66)====== T22 to T8
+CALLEDCNT: 60
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:19c8 sp:19c8
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 66 (time: 66)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(67)====== T8 to T22
+CALLEDCNT: 61
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1994 sp:1994
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 69 (time: 67)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(67)====== T22 to T8
+CALLEDCNT: 61
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1994 sp:1994
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 67 (time: 67)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(67)====== T8 to T22
+CALLEDCNT: 62
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1960 sp:1960
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 69 (time: 68)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(68)====== T22 to T8
+CALLEDCNT: 62
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1960 sp:1960
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 68 (time: 68)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(68)====== T8 to T22
+CALLEDCNT: 63
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:192c sp:192c
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 70 (time: 69)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(69)====== T22 to T8
+CALLEDCNT: 63
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:192c sp:192c
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 69 (time: 69)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(69)====== T8 to T22
+CALLEDCNT: 64
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:18f8 sp:18f8
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 71 (time: 70)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(70)====== T22 to T8
+CALLEDCNT: 64
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:18f8 sp:18f8
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 70 (time: 70)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(70)====== T8 to T22
+CALLEDCNT: 65
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:18c4 sp:18c4
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 72 (time: 70)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(71)====== T22 to T8
+CALLEDCNT: 65
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:18c4 sp:18c4
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 71 (time: 71)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(71)====== T8 to T22
+CALLEDCNT: 66
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1890 sp:1890
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 73 (time: 71)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(72)====== T22 to T8
+CALLEDCNT: 66
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1890 sp:1890
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 72 (time: 72)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(72)====== T8 to T22
+CALLEDCNT: 67
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:185c sp:185c
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 74 (time: 72)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(73)====== T22 to T8
+CALLEDCNT: 67
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:185c sp:185c
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 73 (time: 73)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(73)====== T8 to T22
+CALLEDCNT: 68
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1828 sp:1828
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 75 (time: 73)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(73)====== T22 to T8
+CALLEDCNT: 68
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1828 sp:1828
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 73 (time: 74)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(74)====== T8 to T22
+CALLEDCNT: 69
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:17f4 sp:17f4
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 76 (time: 74)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(74)====== T22 to T8
+CALLEDCNT: 69
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:17f4 sp:17f4
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 74 (time: 75)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(75)====== T8 to T22
+CALLEDCNT: 70
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:17c0 sp:17c0
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 77 (time: 75)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(75)====== T22 to T8
+CALLEDCNT: 70
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:17c0 sp:17c0
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 75 (time: 76)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(76)====== T8 to T22
+CALLEDCNT: 71
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:178c sp:178c
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 78 (time: 76)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(76)====== T22 to T8
+CALLEDCNT: 71
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:178c sp:178c
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 76 (time: 77)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(77)====== T8 to T22
+CALLEDCNT: 72
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1758 sp:1758
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 79 (time: 77)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(77)====== T22 to T8
+CALLEDCNT: 72
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1758 sp:1758
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 77 (time: 78)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(78)====== T8 to T22
+CALLEDCNT: 73
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1724 sp:1724
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 80 (time: 78)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(78)====== T22 to T8
+CALLEDCNT: 73
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1724 sp:1724
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 78 (time: 79)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(79)====== T8 to T22
+CALLEDCNT: 74
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:16f0 sp:16f0
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 81 (time: 79)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(79)====== T22 to T8
+CALLEDCNT: 74
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:16f0 sp:16f0
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 79 (time: 80)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(80)====== T8 to T22
+CALLEDCNT: 75
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:16bc sp:16bc
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 82 (time: 80)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(80)====== T22 to T8
+CALLEDCNT: 75
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:16bc sp:16bc
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 80 (time: 81)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(81)====== T8 to T22
+CALLEDCNT: 76
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1688 sp:1688
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 83 (time: 81)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(81)====== T22 to T8
+CALLEDCNT: 76
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1688 sp:1688
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 81 (time: 81)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(82)====== T8 to T22
+CALLEDCNT: 77
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1654 sp:1654
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 84 (time: 82)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(82)====== T22 to T8
+CALLEDCNT: 77
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1654 sp:1654
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 82 (time: 82)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(82)====== T8 to T22
+CALLEDCNT: 78
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1620 sp:1620
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 84 (time: 83)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(83)====== T22 to T8
+CALLEDCNT: 78
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1620 sp:1620
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 83 (time: 83)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(83)====== T8 to T22
+CALLEDCNT: 79
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:15ec sp:15ec
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 85 (time: 84)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(84)====== T22 to T8
+CALLEDCNT: 79
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:15ec sp:15ec
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 84 (time: 84)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(84)====== T8 to T22
+CALLEDCNT: 80
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:15b8 sp:15b8
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 86 (time: 85)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(85)====== T22 to T8
+CALLEDCNT: 80
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:15b8 sp:15b8
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 85 (time: 85)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(85)====== T8 to T22
+CALLEDCNT: 81
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1584 sp:1584
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 87 (time: 86)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(86)====== T22 to T8
+CALLEDCNT: 81
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1584 sp:1584
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 86 (time: 86)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(86)====== T8 to T22
+CALLEDCNT: 82
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1550 sp:1550
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 88 (time: 87)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(87)====== T22 to T8
+CALLEDCNT: 82
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1550 sp:1550
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 87 (time: 87)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(87)====== T8 to T22
+CALLEDCNT: 83
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:151c sp:151c
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 89 (time: 88)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(88)====== T22 to T8
+CALLEDCNT: 83
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:151c sp:151c
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 88 (time: 88)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(88)====== T8 to T22
+CALLEDCNT: 84
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:14e8 sp:14e8
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 90 (time: 88)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(89)====== T22 to T8
+CALLEDCNT: 84
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:14e8 sp:14e8
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 89 (time: 89)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(89)====== T8 to T22
+CALLEDCNT: 85
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:14b4 sp:14b4
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 91 (time: 89)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(89)====== T22 to T8
+CALLEDCNT: 85
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:14b4 sp:14b4
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 89 (time: 90)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(90)====== T8 to T22
+CALLEDCNT: 86
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1480 sp:1480
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 92 (time: 90)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(90)====== T22 to T8
+CALLEDCNT: 86
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1480 sp:1480
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 90 (time: 91)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(91)====== T8 to T22
+CALLEDCNT: 87
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:144c sp:144c
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 93 (time: 91)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(91)====== T22 to T8
+CALLEDCNT: 87
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 49 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:144c sp:144c
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 91 (time: 92)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(92)====== T8 to T22
+CALLEDCNT: 88
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1418 sp:1418
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7046
+bp:1f82 sp:1f82
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: running until 94 (time: 92)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(92)====== T22 to T8
+CALLEDCNT: 88
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<22>===================
+run:   15ec<<4 + 021b
+stack: 4b3f<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7246
+bp:1f7e sp:1f7e
+cs:0d82 ss:4b3f ds:178a es:182d
+
+quant: 2
+state: blocked
+blocked on: 5 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:1418 sp:1418
+cs:0ad7 ss:29e3 ds:16a7 es:182d
+
+quant: 0
+state: running until 92 (time: 93)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+
+
+
+=====================================context(93)====== T8 to I
+CALLEDCNT: 88
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<8>===================
+run:   15ec<<4 + 021b
+stack: 29e3<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7246
+bp:1f82 sp:1f82
+cs:0d82 ss:29e3 ds:178a es:182d
+
+quant: 0
+state: blocked
+blocked on: 5 lockcnt: 1
+----------------------------------
+
+Sledeci kontekst:
+======Thread<I>===================
+run:   1486<<4 + 0019
+stack: 1b0b<<4 + 0004 [100]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0019 sw:7006
+bp:00a8 sp:00a8
+cs:1486 ss:1b0b ds:17ae es:0000
+
+quant: 1
+state: running until 94 (time: 93)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+IDLE# 0
+IDLE# 1
+
+
+
+=====================================context(94)====== I  to I
+CALLEDCNT: 88
+CALLEDOLDCNT: 0
+Sledeci kontekst:
+======Thread<I>===================
+run:   1486<<4 + 0019
+stack: 1b0b<<4 + 0004 [100]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0019 sw:7006
+bp:00a8 sp:00a8
+cs:1486 ss:1b0b ds:17ae es:0000
+
+quant: 1
+state: running until 95 (time: 94)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+IDLE# 2
+
+
+
+=====================================context(95)====== I  to I
+CALLEDCNT: 88
+CALLEDOLDCNT: 0
+Sledeci kontekst:
+======Thread<I>===================
+run:   1486<<4 + 0019
+stack: 1b0b<<4 + 0004 [100]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0019 sw:7006
+bp:00a8 sp:00a8
+cs:1486 ss:1b0b ds:17ae es:0000
+
+quant: 1
+state: running until 96 (time: 95)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+IDLE# 3
+
+
+
+=====================================context(96)====== I  to I
+CALLEDCNT: 88
+CALLEDOLDCNT: 0
+Sledeci kontekst:
+======Thread<I>===================
+run:   1486<<4 + 0019
+stack: 1b0b<<4 + 0004 [100]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0019 sw:7006
+bp:00a8 sp:00a8
+cs:1486 ss:1b0b ds:17ae es:0000
+
+quant: 1
+state: running until 97 (time: 96)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+IDLE# 4
+
+
+
+=====================================context(97)====== I  to I
+CALLEDCNT: 88
+CALLEDOLDCNT: 0
+Sledeci kontekst:
+======Thread<I>===================
+run:   1486<<4 + 0019
+stack: 1b0b<<4 + 0004 [100]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0019 sw:7006
+bp:00a8 sp:00a8
+cs:1486 ss:1b0b ds:17ae es:0000
+
+quant: 1
+state: running until 98 (time: 97)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+IDLE# 5
+
+
+
+=====================================context(98)====== I  to I
+CALLEDCNT: 88
+CALLEDOLDCNT: 0
+Sledeci kontekst:
+======Thread<I>===================
+run:   1486<<4 + 0019
+stack: 1b0b<<4 + 0004 [100]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0019 sw:7006
+bp:00a8 sp:00a8
+cs:1486 ss:1b0b ds:17ae es:0000
+
+quant: 1
+state: running until 99 (time: 98)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+IDLE# 6
+
+
+
+=====================================context(99)====== I  to I
+CALLEDCNT: 88
+CALLEDOLDCNT: 0
+Sledeci kontekst:
+======Thread<I>===================
+run:   1486<<4 + 0019
+stack: 1b0b<<4 + 0004 [100]
+
+ax:0000 bx:0000 cx:0000 dx:0000 si:0000 di:0000
+pc:0019 sw:7006
+bp:00a8 sp:00a8
+cs:1486 ss:1b0b ds:17ae es:0000
+
+quant: 1
+state: running until 100 (time: 99)
+----------------------------------
+
+globally blocked: 21 20 19 18 17 16 15 14 13 12 11 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+IDLE# 7
+
+
+
+=====================================context(100)====== I  to T11
+CALLEDCNT: 88
+CALLEDOLDCNT: 0
+Trenutni kontekst:
+======Thread<I>===================
+run:   1486<<4 + 0019
+stack: 1b0b<<4 + 0004 [100]
+
+ax:0000 bx:0004 cx:18c0 dx:0000 si:0000 di:0000
+pc:0177 sw:7046
+bp:0084 sp:0084
+cs:0ad7 ss:1b0b ds:16a7 es:182d
+
+quant: 1
+state: ready
+----------------------------------
+
+Sledeci kontekst:
+======Thread<11>===================
+run:   15ec<<4 + 021b
+stack: 3109<<4 + 0004 [4096]
+
+ax:0001 bx:0004 cx:000c dx:0000 si:0000 di:0000
+pc:02ff sw:7202
+bp:1f90 sp:1f90
+cs:0d82 ss:3109 ds:178a es:182d
+
+quant: 0
+state: running until 100 (time: 100)
+> max block time expired
+----------------------------------
+
+globally blocked: 10 9 3 4 5 6 7 2
+activecnt: 23
+-------------------------------------------------------
+Assertion failed: 1 != sleep.wait(100), file ..\test\user.cpp, line 84
+Abnormal program termination
+
+C:\Users\OS1\WORKSP~1\Projekat\BCC>
+C:\Users\OS1\WORKSP~1\Projekat\BCC>
+C:\Users\OS1\WORKSP~1\Projekat\BCC>
+C:\Users\OS1\WORKSP~1\Projekat\BCC>asdf
+'asdf' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\OS1\WORKSP~1\Projekat\BCC>
+C:\Users\OS1\WORKSP~1\Projekat\BCC>
+C:\Users\OS1\WORKSP~1\Projekat\BCC>
+C:\Users\OS1\WORKSP~1\Projekat\BCC>afsd
+'afsd' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\OS1\WORKSP~1\Projekat\BCC>
+C:\Users\OS1\WORKSP~1\Projekat\BCC>
+C:\Users\OS1\WORKSP~1\Projekat\BCC>
+C:\Users\OS1\WORKSP~1\Projekat\BCC>asdf
+'asdf' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\OS1\WORKSP~1\Projekat\BCC>
+C:\Users\OS1\WORKSP~1\Projekat\BCC>sadf
+'sadf' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\OS1\WORKSP~1\Projekat\BCC>
+C:\Users\OS1\WORKSP~1\Projekat\BCC>
+C:\Users\OS1\WORKSP~1\Projekat\BCC>
+C:\Users\OS1\WORKSP~1\Projekat\BCC>
+C:\Users\OS1\WORKSP~1\Projekat\BCC>asdf
+'asdf' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\OS1\WORKSP~1\Projekat\BCC>
+C:\Users\OS1\WORKSP~1\Projekat\BCC>
+C:\Users\OS1\WORKSP~1\Projekat\BCC>
+C:\Users\OS1\WORKSP~1\Projekat\BCC>
+C:\Users\OS1\WORKSP~1\Projekat\BCC>asdf
+'asdf' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\OS1\WORKSP~1\Projekat\BCC>
+C:\Users\OS1\WORKSP~1\Projekat\BCC>

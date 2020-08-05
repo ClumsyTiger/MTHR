@@ -21,7 +21,7 @@ void interrupt eventintroutine##idx(...)                                        
    if( SystemInitialized() ) KEvent::signalevent(idx);                              \
    if( callold             ) KEvent::calloldintr(idx);                              \
 }                                                                                   \
-bool eventintroutine##idx_sentry = KEvent::regnewintr(idx, eventintroutine##idx);
+bool eventintroutine##idx##_sentry = KEvent::regnewintr(idx, eventintroutine##idx);
 
 
 
